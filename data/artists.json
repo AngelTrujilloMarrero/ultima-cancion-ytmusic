@@ -1,0 +1,8801 @@
+[
+  {
+    "name": "Armonía Show",
+    "normalized": "armonia show",
+    "temas": 161,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "ARMONIA SHOW",
+      "Armonia Show",
+      "Armonia show",
+      "Armonía Show"
+    ]
+  },
+  {
+    "name": "El Combo Dominicano",
+    "normalized": "el combo dominicano",
+    "temas": 158,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "EL Combo Dominicano",
+      "El  Combo Dominicano",
+      "El COMBO DOMINICANO",
+      "El Combo Dominicano"
+    ]
+  },
+  {
+    "name": "Marc Anthony",
+    "normalized": "marc anthony",
+    "temas": 81,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Marc Anthony",
+      "Marc anthony"
+    ]
+  },
+  {
+    "name": "Wamampy",
+    "normalized": "wamampy",
+    "temas": 81,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Wamampy"
+    ]
+  },
+  {
+    "name": "Grupo Bomba",
+    "normalized": "grupo bomba",
+    "temas": 74,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Bomba",
+      "Grupo bomba"
+    ]
+  },
+  {
+    "name": "Rafaga",
+    "normalized": "rafaga",
+    "temas": 58,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "RAFAGA",
+      "Rafaga",
+      "Ráfaga"
+    ]
+  },
+  {
+    "name": "Tropin",
+    "normalized": "tropin",
+    "temas": 42,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "TROPIN",
+      "Tropin"
+    ]
+  },
+  {
+    "name": "Tenerife",
+    "normalized": "tenerife",
+    "temas": 41,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tenerife"
+    ]
+  },
+  {
+    "name": "Manny Manuel",
+    "normalized": "manny manuel",
+    "temas": 39,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "MANNY MANUEL",
+      "Manny Manuel"
+    ]
+  },
+  {
+    "name": "Nuevo Klan",
+    "normalized": "nuevo klan",
+    "temas": 38,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "NUEVO KLAN",
+      "Nuevo KLan",
+      "Nuevo Klan"
+    ]
+  },
+  {
+    "name": "Sin Fronteras",
+    "normalized": "sin fronteras",
+    "temas": 37,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sin Fronteras"
+    ]
+  },
+  {
+    "name": "Sabrosos De Anaga",
+    "normalized": "sabrosos de anaga",
+    "temas": 33,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sabrosos De Anaga",
+      "Sabrosos de Anaga"
+    ]
+  },
+  {
+    "name": "Sonora Olympia",
+    "normalized": "sonora olympia",
+    "temas": 33,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sonora Olympia"
+    ]
+  },
+  {
+    "name": "Sabrosa",
+    "normalized": "sabrosa",
+    "temas": 32,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sabrosa"
+    ]
+  },
+  {
+    "name": "Tamarindos",
+    "normalized": "tamarindos",
+    "temas": 31,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tamarindos"
+    ]
+  },
+  {
+    "name": "Mermelada",
+    "normalized": "mermelada",
+    "temas": 30,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mermelada"
+    ]
+  },
+  {
+    "name": "Dinacord",
+    "normalized": "dinacord",
+    "temas": 29,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "DINACORD",
+      "Dinacord"
+    ]
+  },
+  {
+    "name": "Grupo Arena",
+    "normalized": "grupo arena",
+    "temas": 29,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Arena"
+    ]
+  },
+  {
+    "name": "Acapulco",
+    "normalized": "acapulco",
+    "temas": 28,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "ACAPULCO",
+      "Acapulco"
+    ]
+  },
+  {
+    "name": "Joseph Fonseca",
+    "normalized": "joseph fonseca",
+    "temas": 28,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Joseph Fonseca"
+    ]
+  },
+  {
+    "name": "Rubby Perez",
+    "normalized": "rubby perez",
+    "temas": 28,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "RUBBY PEREZ",
+      "Rubby Perez",
+      "Rubby Pérez"
+    ]
+  },
+  {
+    "name": "Furia Joven",
+    "normalized": "furia joven",
+    "temas": 27,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Furia Joven",
+      "Furia joven"
+    ]
+  },
+  {
+    "name": "Elvis Crespo",
+    "normalized": "elvis crespo",
+    "temas": 26,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "ELVIS CRESPO",
+      "Elvis Crespo"
+    ]
+  },
+  {
+    "name": "Eddy Herrera",
+    "normalized": "eddy herrera",
+    "temas": 24,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Eddy Herrera",
+      "Eddy herrera"
+    ]
+  },
+  {
+    "name": "El Jeffrey",
+    "normalized": "el jeffrey",
+    "temas": 24,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "EL JEFFREY",
+      "El Jeffrey",
+      "El jeffrey",
+      "el Jeffrey"
+    ]
+  },
+  {
+    "name": "Frankie Ruiz",
+    "normalized": "frankie ruiz",
+    "temas": 23,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "FRANKIE RUIZ",
+      "Frankie Ruiz",
+      "Frankie Ruíz"
+    ]
+  },
+  {
+    "name": "Melodía Show",
+    "normalized": "melodia show",
+    "temas": 23,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Melodia Show",
+      "Melodía Show"
+    ]
+  },
+  {
+    "name": "Corinto Band",
+    "normalized": "corinto band",
+    "temas": 21,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Corinto Band"
+    ]
+  },
+  {
+    "name": "Grupo Mania",
+    "normalized": "grupo mania",
+    "temas": 21,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Mania",
+      "Grupo Manía"
+    ]
+  },
+  {
+    "name": "Nueva Linea",
+    "normalized": "nueva linea",
+    "temas": 21,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Nueva Linea"
+    ]
+  },
+  {
+    "name": "Güira Latina",
+    "normalized": "guira latina",
+    "temas": 20,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "GÜIRA LATINA",
+      "GüIra Latina",
+      "Güira Latina",
+      "Güíra Latina"
+    ]
+  },
+  {
+    "name": "Maquinaria Band",
+    "normalized": "maquinaria band",
+    "temas": 19,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Maquinaria Band"
+    ]
+  },
+  {
+    "name": "Romeo Santos",
+    "normalized": "romeo santos",
+    "temas": 19,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Romeo Santos"
+    ]
+  },
+  {
+    "name": "Tonny Tun Tun",
+    "normalized": "tonny tun tun",
+    "temas": 19,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tonny Tun Tun"
+    ]
+  },
+  {
+    "name": "Vibraciones",
+    "normalized": "vibraciones",
+    "temas": 19,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "VIBRACIONES",
+      "Vibraciones"
+    ]
+  },
+  {
+    "name": "Grupo 5",
+    "normalized": "grupo 5",
+    "temas": 18,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo 5"
+    ]
+  },
+  {
+    "name": "La Calle",
+    "normalized": "la calle",
+    "temas": 18,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Calle"
+    ]
+  },
+  {
+    "name": "Malibu Band",
+    "normalized": "malibu band",
+    "temas": 18,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Malibu Band",
+      "Malibú  Band",
+      "Malibú Band"
+    ]
+  },
+  {
+    "name": "Víctor Manuelle",
+    "normalized": "victor manuelle",
+    "temas": 18,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "VICTOR MANUELLE",
+      "Victor Manuelle",
+      "Víctor Manuelle"
+    ]
+  },
+  {
+    "name": "Juan Luis Guerra",
+    "normalized": "juan luis guerra",
+    "temas": 17,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Juan Luis Guerra"
+    ]
+  },
+  {
+    "name": "Kdts",
+    "normalized": "kdts",
+    "temas": 17,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Kdts"
+    ]
+  },
+  {
+    "name": "Gilberto Santa Rosa",
+    "normalized": "gilberto santa rosa",
+    "temas": 16,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Gilberto Santa Rosa"
+    ]
+  },
+  {
+    "name": "Hermanos Yaipen",
+    "normalized": "hermanos yaipen",
+    "temas": 16,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Hermanos Yaipen",
+      "Hermanos Yaipén"
+    ]
+  },
+  {
+    "name": "Primera Linea",
+    "normalized": "primera linea",
+    "temas": 16,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Primera Linea"
+    ]
+  },
+  {
+    "name": "Banda Gorda",
+    "normalized": "banda gorda",
+    "temas": 15,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Banda Gorda"
+    ]
+  },
+  {
+    "name": "Clase Aparte",
+    "normalized": "clase aparte",
+    "temas": 15,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Clase Aparte",
+      "Clase aparte"
+    ]
+  },
+  {
+    "name": "Gomera",
+    "normalized": "gomera",
+    "temas": 15,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Gomera"
+    ]
+  },
+  {
+    "name": "The Boys Machine",
+    "normalized": "the boys machine",
+    "temas": 15,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "The Boys Machine"
+    ]
+  },
+  {
+    "name": "Hermanos Rosario",
+    "normalized": "hermanos rosario",
+    "temas": 14,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Hermanos  Rosario",
+      "Hermanos Rosario"
+    ]
+  },
+  {
+    "name": "Junior Klan",
+    "normalized": "junior klan",
+    "temas": 14,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "JUNIOR KLAN",
+      "Junior Klan"
+    ]
+  },
+  {
+    "name": "Rey Ruiz",
+    "normalized": "rey ruiz",
+    "temas": 14,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "REY RUIZ",
+      "Rey Ruiz",
+      "Rey Ruíz"
+    ]
+  },
+  {
+    "name": "Acuarela",
+    "normalized": "acuarela",
+    "temas": 13,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Acuarela"
+    ]
+  },
+  {
+    "name": "Chiquito Team Band",
+    "normalized": "chiquito team band",
+    "temas": 13,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Chiquito Team Band"
+    ]
+  },
+  {
+    "name": "Grupo Niche",
+    "normalized": "grupo niche",
+    "temas": 13,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "GRUPO NICHE",
+      "Grupo Niche"
+    ]
+  },
+  {
+    "name": "Los Concejales",
+    "normalized": "los concejales",
+    "temas": 13,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Concejales"
+    ]
+  },
+  {
+    "name": "Raffy Matias",
+    "normalized": "raffy matias",
+    "temas": 13,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "RAFFY MATIAS",
+      "Raffy Matias"
+    ]
+  },
+  {
+    "name": "Yiyo Sarante",
+    "normalized": "yiyo sarante",
+    "temas": 13,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "YIYO SARANTE",
+      "Yiyo Sarante"
+    ]
+  },
+  {
+    "name": "Celia Cruz",
+    "normalized": "celia cruz",
+    "temas": 12,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "CELIA CRUZ",
+      "Celia  Cruz",
+      "Celia Cruz"
+    ]
+  },
+  {
+    "name": "Escuela del amor",
+    "normalized": "escuela del amor",
+    "temas": 12,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Escuela Del Amor",
+      "Escuela del amor"
+    ]
+  },
+  {
+    "name": "Los Hermanos Rosario",
+    "normalized": "los hermanos rosario",
+    "temas": 12,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Hermanos Rosario"
+    ]
+  },
+  {
+    "name": "Miriam Cruz",
+    "normalized": "miriam cruz",
+    "temas": 12,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Miriam Cruz"
+    ]
+  },
+  {
+    "name": "Oro Latino",
+    "normalized": "oro latino",
+    "temas": 12,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Oro Latino"
+    ]
+  },
+  {
+    "name": "Toros Band",
+    "normalized": "toros band",
+    "temas": 12,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Toros Band"
+    ]
+  },
+  {
+    "name": "Zona Roja",
+    "normalized": "zona roja",
+    "temas": 12,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "ZONA ROJA",
+      "Zona Roja"
+    ]
+  },
+  {
+    "name": "Atlantic",
+    "normalized": "atlantic",
+    "temas": 11,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "ATLANTIC",
+      "Atlantic"
+    ]
+  },
+  {
+    "name": "Guaydil",
+    "normalized": "guaydil",
+    "temas": 11,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Guaydil"
+    ]
+  },
+  {
+    "name": "Leyenda Joven",
+    "normalized": "leyenda joven",
+    "temas": 11,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Leyenda Joven"
+    ]
+  },
+  {
+    "name": "Maracaibo",
+    "normalized": "maracaibo",
+    "temas": 11,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Maracaibo"
+    ]
+  },
+  {
+    "name": "Melao Boricua",
+    "normalized": "melao boricua",
+    "temas": 11,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Melao Boricua"
+    ]
+  },
+  {
+    "name": "Prince Royce",
+    "normalized": "prince royce",
+    "temas": 11,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "PRINCE ROYCE",
+      "Prince Royce"
+    ]
+  },
+  {
+    "name": "Teymar",
+    "normalized": "teymar",
+    "temas": 11,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Teymar"
+    ]
+  },
+  {
+    "name": "Acordes",
+    "normalized": "acordes",
+    "temas": 10,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Acordes"
+    ]
+  },
+  {
+    "name": "Alto Voltage",
+    "normalized": "alto voltage",
+    "temas": 10,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Alto Voltage"
+    ]
+  },
+  {
+    "name": "Domenic Marte",
+    "normalized": "domenic marte",
+    "temas": 10,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Domenic Marte"
+    ]
+  },
+  {
+    "name": "Luis Miguel del Amargue",
+    "normalized": "luis miguel del amargue",
+    "temas": 10,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "LUIS MIGUEL DEL AMARGUE",
+      "Luis Miguel Del Amargue",
+      "Luis Miguel del Amargue"
+    ]
+  },
+  {
+    "name": "Sabrosos Del Merengue",
+    "normalized": "sabrosos del merengue",
+    "temas": 10,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "SABROSOS DEL MERENGUE",
+      "Sabrosos Del Merengue",
+      "Sabrosos del Merengue",
+      "Sabrosos del merengue"
+    ]
+  },
+  {
+    "name": "Suso y Familia",
+    "normalized": "suso y familia",
+    "temas": 10,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Suso y Familia",
+      "Suso y familia",
+      "suso y Familia"
+    ]
+  },
+  {
+    "name": "Alex Bueno",
+    "normalized": "alex bueno",
+    "temas": 9,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Alex Bueno"
+    ]
+  },
+  {
+    "name": "Alojeray",
+    "normalized": "alojeray",
+    "temas": 9,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Alojeray"
+    ]
+  },
+  {
+    "name": "Grupo LD",
+    "normalized": "grupo ld",
+    "temas": 9,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "GRUPO LD",
+      "Grupo LD",
+      "Grupo Ld"
+    ]
+  },
+  {
+    "name": "Mambo Latino",
+    "normalized": "mambo latino",
+    "temas": 9,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mambo Latino"
+    ]
+  },
+  {
+    "name": "Sonora Olimpia",
+    "normalized": "sonora olimpia",
+    "temas": 9,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "SONORA OLIMPIA",
+      "Sonora Olimpia",
+      "sonora olimpia"
+    ]
+  },
+  {
+    "name": "Tentación",
+    "normalized": "tentacion",
+    "temas": 9,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tentacion",
+      "Tentación"
+    ]
+  },
+  {
+    "name": "Tito Nieves",
+    "normalized": "tito nieves",
+    "temas": 9,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "TITO NIEVES",
+      "Tito Nieves"
+    ]
+  },
+  {
+    "name": "Daniela Darcourt",
+    "normalized": "daniela darcourt",
+    "temas": 8,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "DANIELA DARCOURT",
+      "Daniela Darcourt"
+    ]
+  },
+  {
+    "name": "Deliciosa",
+    "normalized": "deliciosa",
+    "temas": 8,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Deliciosa"
+    ]
+  },
+  {
+    "name": "Dorada Band",
+    "normalized": "dorada band",
+    "temas": 8,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Dorada Band"
+    ]
+  },
+  {
+    "name": "Edwin Rivera",
+    "normalized": "edwin rivera",
+    "temas": 8,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Edwin Rivera"
+    ]
+  },
+  {
+    "name": "El Morocho",
+    "normalized": "el morocho",
+    "temas": 8,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Morocho"
+    ]
+  },
+  {
+    "name": "Guajavi",
+    "normalized": "guajavi",
+    "temas": 8,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Guajavi"
+    ]
+  },
+  {
+    "name": "Hector Acosta",
+    "normalized": "hector acosta",
+    "temas": 8,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "HECTOR  ACOSTA",
+      "HECTOR ACOSTA",
+      "Hector Acosta"
+    ]
+  },
+  {
+    "name": "Jose Alberto El Canario",
+    "normalized": "jose alberto el canario",
+    "temas": 8,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jose Alberto El Canario",
+      "Jose Alberto el Canario"
+    ]
+  },
+  {
+    "name": "Jossie Esteban",
+    "normalized": "jossie esteban",
+    "temas": 8,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jossie Esteban"
+    ]
+  },
+  {
+    "name": "Relieve",
+    "normalized": "relieve",
+    "temas": 8,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Relieve"
+    ]
+  },
+  {
+    "name": "Sensación Gomera",
+    "normalized": "sensacion gomera",
+    "temas": 8,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sensación Gomera"
+    ]
+  },
+  {
+    "name": "Swing Divino",
+    "normalized": "swing divino",
+    "temas": 8,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Swing Divino"
+    ]
+  },
+  {
+    "name": "Banda XXI",
+    "normalized": "banda xxi",
+    "temas": 7,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Banda XXI"
+    ]
+  },
+  {
+    "name": "Caña Brava",
+    "normalized": "cana brava",
+    "temas": 7,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Caña Brava"
+    ]
+  },
+  {
+    "name": "Caracas Latin Brothers",
+    "normalized": "caracas latin brothers",
+    "temas": 7,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Caracas Latin Brothers"
+    ]
+  },
+  {
+    "name": "Cristalina",
+    "normalized": "cristalina",
+    "temas": 7,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Cristalina"
+    ]
+  },
+  {
+    "name": "Haché Tamarindos",
+    "normalized": "hache tamarindos",
+    "temas": 7,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Haché Tamarindos"
+    ]
+  },
+  {
+    "name": "Jerry Rivera",
+    "normalized": "jerry rivera",
+    "temas": 7,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jerry Rivera"
+    ]
+  },
+  {
+    "name": "La Linea",
+    "normalized": "la linea",
+    "temas": 7,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Linea"
+    ]
+  },
+  {
+    "name": "La Makina",
+    "normalized": "la makina",
+    "temas": 7,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Makina"
+    ]
+  },
+  {
+    "name": "La Organizacion",
+    "normalized": "la organizacion",
+    "temas": 7,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Organizacion",
+      "La Organización"
+    ]
+  },
+  {
+    "name": "Ladys Del Swing",
+    "normalized": "ladys del swing",
+    "temas": 7,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ladys Del Swing",
+      "Ladys del Swing"
+    ]
+  },
+  {
+    "name": "Miguel Moly",
+    "normalized": "miguel moly",
+    "temas": 7,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Miguel Moly"
+    ]
+  },
+  {
+    "name": "Music Show",
+    "normalized": "music show",
+    "temas": 7,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Music Show"
+    ]
+  },
+  {
+    "name": "Revelación",
+    "normalized": "revelacion",
+    "temas": 7,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Revelacion",
+      "Revelación"
+    ]
+  },
+  {
+    "name": "Rikarena",
+    "normalized": "rikarena",
+    "temas": 7,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "RIKARENA",
+      "Rikarena"
+    ]
+  },
+  {
+    "name": "Sabroso",
+    "normalized": "sabroso",
+    "temas": 7,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sabroso"
+    ]
+  },
+  {
+    "name": "Saoco",
+    "normalized": "saoco",
+    "temas": 7,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "SAOCO",
+      "Saoco"
+    ]
+  },
+  {
+    "name": "ALEX MATOS",
+    "normalized": "alex matos",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "ALEX MATOS",
+      "Alex Matos"
+    ]
+  },
+  {
+    "name": "Arguayo Band",
+    "normalized": "arguayo band",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Arguayo Band"
+    ]
+  },
+  {
+    "name": "Bolero",
+    "normalized": "bolero",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Bolero"
+    ]
+  },
+  {
+    "name": "Eddy manuel",
+    "normalized": "eddy manuel",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Eddy Manuel",
+      "Eddy manuel"
+    ]
+  },
+  {
+    "name": "Fernando Villalona",
+    "normalized": "fernando villalona",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "FERNANDO VILLALONA",
+      "Fernando Villalona"
+    ]
+  },
+  {
+    "name": "Guanches",
+    "normalized": "guanches",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Guanches"
+    ]
+  },
+  {
+    "name": "Kaos",
+    "normalized": "kaos",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Kaos"
+    ]
+  },
+  {
+    "name": "La Konga",
+    "normalized": "la konga",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Konga"
+    ]
+  },
+  {
+    "name": "Luis Enrique",
+    "normalized": "luis enrique",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Luis Enrique"
+    ]
+  },
+  {
+    "name": "Michel El Buenon",
+    "normalized": "michel el buenon",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Michel El Buenon"
+    ]
+  },
+  {
+    "name": "Miguel Ángel",
+    "normalized": "miguel angel",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Miguel Angel",
+      "Miguel Ángel"
+    ]
+  },
+  {
+    "name": "Olga Tañon",
+    "normalized": "olga tanon",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Olga Tanon",
+      "Olga Tañon"
+    ]
+  },
+  {
+    "name": "Rikabanda",
+    "normalized": "rikabanda",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "RikaBanda",
+      "Rikabanda"
+    ]
+  },
+  {
+    "name": "Rokecan",
+    "normalized": "rokecan",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Rokecan"
+    ]
+  },
+  {
+    "name": "Sabor Latino",
+    "normalized": "sabor latino",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sabor Latino"
+    ]
+  },
+  {
+    "name": "Star Music",
+    "normalized": "star music",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Star Music"
+    ]
+  },
+  {
+    "name": "The boss",
+    "normalized": "the boss",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "The Boss",
+      "The boss"
+    ]
+  },
+  {
+    "name": "Yerac Band",
+    "normalized": "yerac band",
+    "temas": 6,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Yerac Band"
+    ]
+  },
+  {
+    "name": "Adolescentes",
+    "normalized": "adolescentes",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Adolescentes"
+    ]
+  },
+  {
+    "name": "Alessander",
+    "normalized": "alessander",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Alessander"
+    ]
+  },
+  {
+    "name": "Chayanne",
+    "normalized": "chayanne",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Chayanne"
+    ]
+  },
+  {
+    "name": "Delbes",
+    "normalized": "delbes",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Delbes"
+    ]
+  },
+  {
+    "name": "España De Arafo",
+    "normalized": "espana de arafo",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "España De Arafo"
+    ]
+  },
+  {
+    "name": "Fortaleza",
+    "normalized": "fortaleza",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Fortaleza"
+    ]
+  },
+  {
+    "name": "Fuera de liga",
+    "normalized": "fuera de liga",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Fuera De Liga",
+      "Fuera de Liga",
+      "Fuera de liga"
+    ]
+  },
+  {
+    "name": "Generasión",
+    "normalized": "generasion",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "GENERASION",
+      "Generasion",
+      "Generasión"
+    ]
+  },
+  {
+    "name": "Gerson Galván",
+    "normalized": "gerson galvan",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Gerson Galvan",
+      "Gerson Galván"
+    ]
+  },
+  {
+    "name": "Jeffrey",
+    "normalized": "jeffrey",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jeffrey"
+    ]
+  },
+  {
+    "name": "La Rosa",
+    "normalized": "la rosa",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La  Rosa",
+      "La Rosa"
+    ]
+  },
+  {
+    "name": "Latin Sound",
+    "normalized": "latin sound",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Latin Sound"
+    ]
+  },
+  {
+    "name": "Maelo Ruiz",
+    "normalized": "maelo ruiz",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "MAELO RUIZ",
+      "Maelo Ruiz",
+      "Maelo ruiz"
+    ]
+  },
+  {
+    "name": "Manavy Band",
+    "normalized": "manavy band",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Manavy Band"
+    ]
+  },
+  {
+    "name": "OSMAN BROODY",
+    "normalized": "osman broody",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "OSMAN BROODY",
+      "Osman Broody"
+    ]
+  },
+  {
+    "name": "Rafely Rosario",
+    "normalized": "rafely rosario",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Rafely Rosario"
+    ]
+  },
+  {
+    "name": "Ronny Soler",
+    "normalized": "ronny soler",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "RONNY SOLER",
+      "Ronny Soler"
+    ]
+  },
+  {
+    "name": "Timisay",
+    "normalized": "timisay",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Timisay"
+    ]
+  },
+  {
+    "name": "Toño Rosario",
+    "normalized": "tono rosario",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "TOÑO ROSARIO",
+      "Toño Rosario"
+    ]
+  },
+  {
+    "name": "Zona 7",
+    "normalized": "zona 7",
+    "temas": 5,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Zona 7"
+    ]
+  },
+  {
+    "name": "Acorde",
+    "normalized": "acorde",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Acorde"
+    ]
+  },
+  {
+    "name": "Alexis",
+    "normalized": "alexis",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Alexis"
+    ]
+  },
+  {
+    "name": "Arrecife",
+    "normalized": "arrecife",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Arrecife"
+    ]
+  },
+  {
+    "name": "Banda Loca",
+    "normalized": "banda loca",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Banda Loca"
+    ]
+  },
+  {
+    "name": "Billos Caracas Boys",
+    "normalized": "billos caracas boys",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Billos Caracas Boys"
+    ]
+  },
+  {
+    "name": "Charros Merengueros",
+    "normalized": "charros merengueros",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Charros Merengueros"
+    ]
+  },
+  {
+    "name": "Código Cero",
+    "normalized": "codigo cero",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Codigo Cero",
+      "Código Cero"
+    ]
+  },
+  {
+    "name": "Darlyn",
+    "normalized": "darlyn",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Darlyn"
+    ]
+  },
+  {
+    "name": "Eddie Santiago",
+    "normalized": "eddie santiago",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "EDDIE SANTIAGO",
+      "Eddie Santiago",
+      "Eddie santiago"
+    ]
+  },
+  {
+    "name": "Flan De Crema",
+    "normalized": "flan de crema",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Flan De Crema"
+    ]
+  },
+  {
+    "name": "Grupo Relieve",
+    "normalized": "grupo relieve",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Relieve"
+    ]
+  },
+  {
+    "name": "Guayacan",
+    "normalized": "guayacan",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Guayacan",
+      "Guayacán"
+    ]
+  },
+  {
+    "name": "Herreños Boys",
+    "normalized": "herrenos boys",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Herreños Boys"
+    ]
+  },
+  {
+    "name": "Huey Dunbar",
+    "normalized": "huey dunbar",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Huey Dunbar"
+    ]
+  },
+  {
+    "name": "Jco",
+    "normalized": "jco",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "JCO",
+      "Jco"
+    ]
+  },
+  {
+    "name": "Jean Carlos",
+    "normalized": "jean carlos",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jean Carlos"
+    ]
+  },
+  {
+    "name": "Karis",
+    "normalized": "karis",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Karis"
+    ]
+  },
+  {
+    "name": "KONGA",
+    "normalized": "konga",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "KONGA",
+      "Konga"
+    ]
+  },
+  {
+    "name": "La Cristalina",
+    "normalized": "la cristalina",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Cristalina"
+    ]
+  },
+  {
+    "name": "La India",
+    "normalized": "la india",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La India"
+    ]
+  },
+  {
+    "name": "La Rhumba",
+    "normalized": "la rhumba",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Rhumba"
+    ]
+  },
+  {
+    "name": "Los Cantantes",
+    "normalized": "los cantantes",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "LOS CANTANTES",
+      "Los Cantantes"
+    ]
+  },
+  {
+    "name": "Los Coleguitas",
+    "normalized": "los coleguitas",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Coleguitas"
+    ]
+  },
+  {
+    "name": "LOS TOTORA",
+    "normalized": "los totora",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "LOS TOTORA",
+      "Los Totora"
+    ]
+  },
+  {
+    "name": "Los villacorta",
+    "normalized": "los villacorta",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los  Villacorta",
+      "Los Villacorta",
+      "Los villacorta"
+    ]
+  },
+  {
+    "name": "Luis Deseda",
+    "normalized": "luis deseda",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Luis Deseda"
+    ]
+  },
+  {
+    "name": "Melao Criollo",
+    "normalized": "melao criollo",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Melao Criollo"
+    ]
+  },
+  {
+    "name": "Milly Quezada",
+    "normalized": "milly quezada",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Milly Quezada"
+    ]
+  },
+  {
+    "name": "Proyecto Joven",
+    "normalized": "proyecto joven",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Proyecto Joven"
+    ]
+  },
+  {
+    "name": "Ricky Martin",
+    "normalized": "ricky martin",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ricky Martin"
+    ]
+  },
+  {
+    "name": "Septeto Acarey",
+    "normalized": "septeto acarey",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Septeto Acarey"
+    ]
+  },
+  {
+    "name": "Servando y Florentino",
+    "normalized": "servando y florentino",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Servando y Florentino"
+    ]
+  },
+  {
+    "name": "Tierra Seca",
+    "normalized": "tierra seca",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tierra Seca",
+      "Tierra seca"
+    ]
+  },
+  {
+    "name": "Tony Vega",
+    "normalized": "tony vega",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tony Vega"
+    ]
+  },
+  {
+    "name": "Zafra Negra",
+    "normalized": "zafra negra",
+    "temas": 4,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "ZAFRA NEGRA",
+      "Zafra Negra"
+    ]
+  },
+  {
+    "name": "Aguacate",
+    "normalized": "aguacate",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Aguacate"
+    ]
+  },
+  {
+    "name": "Amarfis",
+    "normalized": "amarfis",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Amarfis"
+    ]
+  },
+  {
+    "name": "Angela Leiva",
+    "normalized": "angela leiva",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Angela Leiva"
+    ]
+  },
+  {
+    "name": "Aventura",
+    "normalized": "aventura",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Aventura"
+    ]
+  },
+  {
+    "name": "Axel",
+    "normalized": "axel",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Axel"
+    ]
+  },
+  {
+    "name": "Banot",
+    "normalized": "banot",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Banot"
+    ]
+  },
+  {
+    "name": "Big Swing",
+    "normalized": "big swing",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Big Swing"
+    ]
+  },
+  {
+    "name": "Brigada",
+    "normalized": "brigada",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Brigada"
+    ]
+  },
+  {
+    "name": "Castillo",
+    "normalized": "castillo",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Castillo"
+    ]
+  },
+  {
+    "name": "Cherito",
+    "normalized": "cherito",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Cherito"
+    ]
+  },
+  {
+    "name": "Corazon Norteño",
+    "normalized": "corazon norteno",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Corazon Norteño"
+    ]
+  },
+  {
+    "name": "Dahian El Apechao",
+    "normalized": "dahian el apechao",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Dahian El Apechao"
+    ]
+  },
+  {
+    "name": "DIVAS BY JIMENEZ",
+    "normalized": "divas by jimenez",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "DIVAS BY JIMENEZ",
+      "DIVAS by Jiménez",
+      "Divas By Jimenez"
+    ]
+  },
+  {
+    "name": "Erick Franchesky",
+    "normalized": "erick franchesky",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Erick Franchesky"
+    ]
+  },
+  {
+    "name": "GRUPO EXTRA",
+    "normalized": "grupo extra",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "GRUPO EXTRA",
+      "Grupo Extra"
+    ]
+  },
+  {
+    "name": "Grupo Kandela",
+    "normalized": "grupo kandela",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "GRUPO KANDELA",
+      "Grupo Kandela"
+    ]
+  },
+  {
+    "name": "Hector Tricoche",
+    "normalized": "hector tricoche",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Hector Tricoche"
+    ]
+  },
+  {
+    "name": "Ideales",
+    "normalized": "ideales",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ideales"
+    ]
+  },
+  {
+    "name": "Kinito Mendez",
+    "normalized": "kinito mendez",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Kinito Mendez"
+    ]
+  },
+  {
+    "name": "KLASE APARTE",
+    "normalized": "klase aparte",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "KLASE APARTE"
+    ]
+  },
+  {
+    "name": "La Candela",
+    "normalized": "la candela",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Candela"
+    ]
+  },
+  {
+    "name": "La Fuerza",
+    "normalized": "la fuerza",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Fuerza",
+      "La fuerza"
+    ]
+  },
+  {
+    "name": "Limite 21",
+    "normalized": "limite 21",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Limite 21"
+    ]
+  },
+  {
+    "name": "Los Conejeros",
+    "normalized": "los conejeros",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Conejeros"
+    ]
+  },
+  {
+    "name": "Manaba",
+    "normalized": "manaba",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Manaba"
+    ]
+  },
+  {
+    "name": "Marlon",
+    "normalized": "marlon",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Marlon"
+    ]
+  },
+  {
+    "name": "Melina Leon",
+    "normalized": "melina leon",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Melina Leon"
+    ]
+  },
+  {
+    "name": "Nueva Fuerza",
+    "normalized": "nueva fuerza",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Nueva Fuerza"
+    ]
+  },
+  {
+    "name": "Oscar De Leon",
+    "normalized": "oscar de leon",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Oscar De Leon",
+      "Oscar de Leon"
+    ]
+  },
+  {
+    "name": "Oscarito",
+    "normalized": "oscarito",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "OSCARITO",
+      "Oscarito"
+    ]
+  },
+  {
+    "name": "Pablo Martinez",
+    "normalized": "pablo martinez",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Pablo Martinez"
+    ]
+  },
+  {
+    "name": "Parada Joven",
+    "normalized": "parada joven",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Parada Joven"
+    ]
+  },
+  {
+    "name": "Pepe Benavente",
+    "normalized": "pepe benavente",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Pepe Benavente"
+    ]
+  },
+  {
+    "name": "Ray De La Paz",
+    "normalized": "ray de la paz",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ray De La Paz"
+    ]
+  },
+  {
+    "name": "Revolución Salsera",
+    "normalized": "revolucion salsera",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Revolucion Salsera",
+      "Revolución Salsera"
+    ]
+  },
+  {
+    "name": "Romen Rodriguez",
+    "normalized": "romen rodriguez",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Romen Rodriguez"
+    ]
+  },
+  {
+    "name": "RUBEN BLADES",
+    "normalized": "ruben blades",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "RUBEN BLADES",
+      "Ruben Blades",
+      "Rubén Blades"
+    ]
+  },
+  {
+    "name": "Sergio Vargas",
+    "normalized": "sergio vargas",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sergio Vargas"
+    ]
+  },
+  {
+    "name": "Sobre Marcha y Familia",
+    "normalized": "sobre marcha y familia",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sobre Marcha y Familia"
+    ]
+  },
+  {
+    "name": "Son del Valle",
+    "normalized": "son del valle",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Son del Valle"
+    ]
+  },
+  {
+    "name": "Son Sin Limite",
+    "normalized": "son sin limite",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Son Sin Limite"
+    ]
+  },
+  {
+    "name": "Toke Latino",
+    "normalized": "toke latino",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Toke Latino"
+    ]
+  },
+  {
+    "name": "Vera",
+    "normalized": "vera",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Vera"
+    ]
+  },
+  {
+    "name": "Vieja Escuela",
+    "normalized": "vieja escuela",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Vieja Escuela"
+    ]
+  },
+  {
+    "name": "Willy Chirino",
+    "normalized": "willy chirino",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Willy Chirino"
+    ]
+  },
+  {
+    "name": "You Salsa",
+    "normalized": "you salsa",
+    "temas": 3,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "You Salsa"
+    ]
+  },
+  {
+    "name": "Amanecer Latino",
+    "normalized": "amanecer latino",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Amanecer Latino"
+    ]
+  },
+  {
+    "name": "Americo",
+    "normalized": "americo",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Americo",
+      "Américo"
+    ]
+  },
+  {
+    "name": "Anae & Sabrosa",
+    "normalized": "anae & sabrosa",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "ANAÉ & Sabrosa",
+      "Anae & Sabrosa"
+    ]
+  },
+  {
+    "name": "Andy",
+    "normalized": "andy",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Andy"
+    ]
+  },
+  {
+    "name": "Angelito Villalona",
+    "normalized": "angelito villalona",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Angelito Villalona"
+    ]
+  },
+  {
+    "name": "Anthony La Makina",
+    "normalized": "anthony la makina",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Anthony La Makina"
+    ]
+  },
+  {
+    "name": "Aroma",
+    "normalized": "aroma",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Aroma"
+    ]
+  },
+  {
+    "name": "ASHLEY",
+    "normalized": "ashley",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "ASHLEY",
+      "Ashley"
+    ]
+  },
+  {
+    "name": "Autentico",
+    "normalized": "autentico",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Autentico"
+    ]
+  },
+  {
+    "name": "Banda Larga",
+    "normalized": "banda larga",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Banda Larga"
+    ]
+  },
+  {
+    "name": "Banda X",
+    "normalized": "banda x",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Banda X"
+    ]
+  },
+  {
+    "name": "Benny Sadel",
+    "normalized": "benny sadel",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Benny Sadel"
+    ]
+  },
+  {
+    "name": "Camilo",
+    "normalized": "camilo",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Camilo"
+    ]
+  },
+  {
+    "name": "Caribe",
+    "normalized": "caribe",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Caribe"
+    ]
+  },
+  {
+    "name": "Caribe Band",
+    "normalized": "caribe band",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Caribe Band"
+    ]
+  },
+  {
+    "name": "Casablanca",
+    "normalized": "casablanca",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Casablanca"
+    ]
+  },
+  {
+    "name": "CESAR FLORES",
+    "normalized": "cesar flores",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "CESAR FLORES"
+    ]
+  },
+  {
+    "name": "Charlie Cruz",
+    "normalized": "charlie cruz",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "CHARLIE CRUZ",
+      "Charlie Cruz"
+    ]
+  },
+  {
+    "name": "Chinguarime Band",
+    "normalized": "chinguarime band",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Chinguarime Band"
+    ]
+  },
+  {
+    "name": "Choco Orta",
+    "normalized": "choco orta",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Choco Orta"
+    ]
+  },
+  {
+    "name": "Cielo Torres",
+    "normalized": "cielo torres",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Cielo Torres"
+    ]
+  },
+  {
+    "name": "CLAN DEL MAMBO",
+    "normalized": "clan del mambo",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "CLAN DEL MAMBO"
+    ]
+  },
+  {
+    "name": "Clave de Son",
+    "normalized": "clave de son",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Clave de Son"
+    ]
+  },
+  {
+    "name": "Combinacion Perfecta",
+    "normalized": "combinacion perfecta",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Combinacion Perfecta"
+    ]
+  },
+  {
+    "name": "Cristian Castro",
+    "normalized": "cristian castro",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Cristian Castro"
+    ]
+  },
+  {
+    "name": "Cuatro",
+    "normalized": "cuatro",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Cuatro"
+    ]
+  },
+  {
+    "name": "D' Kalle",
+    "normalized": "d' kalle",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "D' Kalle"
+    ]
+  },
+  {
+    "name": "Dama",
+    "normalized": "dama",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Dama"
+    ]
+  },
+  {
+    "name": "David Kada",
+    "normalized": "david kada",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "David Kada"
+    ]
+  },
+  {
+    "name": "Destellos De Luna",
+    "normalized": "destellos de luna",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Destellos De Luna"
+    ]
+  },
+  {
+    "name": "Dinamicos",
+    "normalized": "dinamicos",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Dinamicos"
+    ]
+  },
+  {
+    "name": "Doble filo",
+    "normalized": "doble filo",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Doble Filo",
+      "Doble filo"
+    ]
+  },
+  {
+    "name": "El Bonche",
+    "normalized": "el bonche",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Bonche"
+    ]
+  },
+  {
+    "name": "El Equipito Del Merengue",
+    "normalized": "el equipito del merengue",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Equipito Del Merengue"
+    ]
+  },
+  {
+    "name": "Farik Grippa",
+    "normalized": "farik grippa",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Farik Grippa"
+    ]
+  },
+  {
+    "name": "Frankie Negron",
+    "normalized": "frankie negron",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Frankie Negron"
+    ]
+  },
+  {
+    "name": "Gabriel Pagan",
+    "normalized": "gabriel pagan",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Gabriel Pagan"
+    ]
+  },
+  {
+    "name": "Giselle Y Sergio Vargas",
+    "normalized": "giselle y sergio vargas",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Giselle Y Sergio Vargas"
+    ]
+  },
+  {
+    "name": "Gloria Estefan",
+    "normalized": "gloria estefan",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Gloria Estefan"
+    ]
+  },
+  {
+    "name": "Grupo La Red",
+    "normalized": "grupo la red",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo La Red"
+    ]
+  },
+  {
+    "name": "Grupo Saoco",
+    "normalized": "grupo saoco",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Saoco"
+    ]
+  },
+  {
+    "name": "GRUPO SWING",
+    "normalized": "grupo swing",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "GRUPO SWING",
+      "Grupo Swing"
+    ]
+  },
+  {
+    "name": "Grupo Wao",
+    "normalized": "grupo wao",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Wao"
+    ]
+  },
+  {
+    "name": "Hermanos silva",
+    "normalized": "hermanos silva",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Hermanos Silva",
+      "Hermanos silva"
+    ]
+  },
+  {
+    "name": "Hijos de puerto rico",
+    "normalized": "hijos de puerto rico",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Hijos de puerto rico"
+    ]
+  },
+  {
+    "name": "JALAOR SHOW",
+    "normalized": "jalaor show",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "JALAOR SHOW"
+    ]
+  },
+  {
+    "name": "Jandy Feliz",
+    "normalized": "jandy feliz",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jandy Feliz"
+    ]
+  },
+  {
+    "name": "Joe Arroyo",
+    "normalized": "joe arroyo",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Joe Arroyo"
+    ]
+  },
+  {
+    "name": "Jossie Esteban Y La Patrulla 15",
+    "normalized": "jossie esteban y la patrulla 15",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jossie Esteban Y La Patrulla 15",
+      "Jossie Esteban y la Patrulla 15"
+    ]
+  },
+  {
+    "name": "Juliana Oneal",
+    "normalized": "juliana oneal",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Juliana Oneal"
+    ]
+  },
+  {
+    "name": "K",
+    "normalized": "k",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "K"
+    ]
+  },
+  {
+    "name": "Kandela",
+    "normalized": "kandela",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Kandela"
+    ]
+  },
+  {
+    "name": "King Banda",
+    "normalized": "king banda",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "King Banda"
+    ]
+  },
+  {
+    "name": "La Contra",
+    "normalized": "la contra",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Contra"
+    ]
+  },
+  {
+    "name": "La Plena",
+    "normalized": "la plena",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Plena"
+    ]
+  },
+  {
+    "name": "Libertad",
+    "normalized": "libertad",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Libertad"
+    ]
+  },
+  {
+    "name": "Los Hermanos Rosarios",
+    "normalized": "los hermanos rosarios",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Hermanos Rosarios"
+    ]
+  },
+  {
+    "name": "Los Karkiks",
+    "normalized": "los karkiks",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Karkiks"
+    ]
+  },
+  {
+    "name": "Los Palmeras",
+    "normalized": "los palmeras",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Palmeras"
+    ]
+  },
+  {
+    "name": "Mambo",
+    "normalized": "mambo",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mambo"
+    ]
+  },
+  {
+    "name": "Master Kumbia",
+    "normalized": "master kumbia",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Master Kumbia"
+    ]
+  },
+  {
+    "name": "Mauro Castillo",
+    "normalized": "mauro castillo",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mauro Castillo"
+    ]
+  },
+  {
+    "name": "Mayobanex",
+    "normalized": "mayobanex",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mayobanex"
+    ]
+  },
+  {
+    "name": "Melosa",
+    "normalized": "melosa",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Melosa"
+    ]
+  },
+  {
+    "name": "NEW ACUARIO",
+    "normalized": "new acuario",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "NEW ACUARIO"
+    ]
+  },
+  {
+    "name": "NG2",
+    "normalized": "ng2",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "NG2"
+    ]
+  },
+  {
+    "name": "Noche De Brujas",
+    "normalized": "noche de brujas",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Noche De Brujas"
+    ]
+  },
+  {
+    "name": "Oro  Solido",
+    "normalized": "oro solido",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Oro  Solido",
+      "Oro Solido"
+    ]
+  },
+  {
+    "name": "Orquesta del Sabor",
+    "normalized": "orquesta del sabor",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Orquesta Del Sabor",
+      "Orquesta del Sabor"
+    ]
+  },
+  {
+    "name": "Proyecto Uno",
+    "normalized": "proyecto uno",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Proyecto Uno"
+    ]
+  },
+  {
+    "name": "Reynaldo Rey",
+    "normalized": "reynaldo rey",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Reynaldo Rey"
+    ]
+  },
+  {
+    "name": "RitmoSon",
+    "normalized": "ritmoson",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "RitmoSon"
+    ]
+  },
+  {
+    "name": "Rodrigo Tapari",
+    "normalized": "rodrigo tapari",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Rodrigo Tapari"
+    ]
+  },
+  {
+    "name": "Ronny Moreno",
+    "normalized": "ronny moreno",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ronny Moreno"
+    ]
+  },
+  {
+    "name": "Sarao Latino",
+    "normalized": "sarao latino",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sarao Latino",
+      "Sarao latino"
+    ]
+  },
+  {
+    "name": "Selena",
+    "normalized": "selena",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Selena"
+    ]
+  },
+  {
+    "name": "Sexappeal",
+    "normalized": "sexappeal",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sexappeal"
+    ]
+  },
+  {
+    "name": "Sintonia Show",
+    "normalized": "sintonia show",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sintonia Show",
+      "Sintonía Show"
+    ]
+  },
+  {
+    "name": "Son Sabor",
+    "normalized": "son sabor",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Son Sabor"
+    ]
+  },
+  {
+    "name": "Sonora Carruseles",
+    "normalized": "sonora carruseles",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sonora Carruseles"
+    ]
+  },
+  {
+    "name": "st. Pedro",
+    "normalized": "st. pedro",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "St. Pedro",
+      "st. Pedro"
+    ]
+  },
+  {
+    "name": "Tejina",
+    "normalized": "tejina",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tejina"
+    ]
+  },
+  {
+    "name": "Tito Rojas",
+    "normalized": "tito rojas",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tito Rojas"
+    ]
+  },
+  {
+    "name": "Tormenta Band",
+    "normalized": "tormenta band",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tormenta Band"
+    ]
+  },
+  {
+    "name": "Touchant",
+    "normalized": "touchant",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Touchant"
+    ]
+  },
+  {
+    "name": "Trebol",
+    "normalized": "trebol",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Trebol"
+    ]
+  },
+  {
+    "name": "VICTOR WAILL",
+    "normalized": "victor waill",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "VICTOR WAILL",
+      "Victor Waill"
+    ]
+  },
+  {
+    "name": "Wailin Swagger",
+    "normalized": "wailin swagger",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Wailin Swagger"
+    ]
+  },
+  {
+    "name": "Wilfrido Vargas",
+    "normalized": "wilfrido vargas",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Wilfrido Vargas"
+    ]
+  },
+  {
+    "name": "XANDRO Y SU PUNTO",
+    "normalized": "xandro y su punto",
+    "temas": 2,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "XANDRO Y SU PUNTO",
+      "Xandro y Su Punto"
+    ]
+  },
+  {
+    "name": "18 Kilates Ft  Lucas Sugo",
+    "normalized": "18 kilates ft lucas sugo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "18 Kilates Ft  Lucas Sugo"
+    ]
+  },
+  {
+    "name": "3 Notas",
+    "normalized": "3 notas",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "3 Notas"
+    ]
+  },
+  {
+    "name": "8 colombia",
+    "normalized": "8 colombia",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "8 colombia"
+    ]
+  },
+  {
+    "name": "Ache",
+    "normalized": "ache",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ache"
+    ]
+  },
+  {
+    "name": "Acuarela feat Tropin",
+    "normalized": "acuarela feat tropin",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Acuarela feat Tropin"
+    ]
+  },
+  {
+    "name": "Acuatro",
+    "normalized": "acuatro",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Acuatro"
+    ]
+  },
+  {
+    "name": "Agapornis",
+    "normalized": "agapornis",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Agapornis"
+    ]
+  },
+  {
+    "name": "Agua Marina",
+    "normalized": "agua marina",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Agua Marina"
+    ]
+  },
+  {
+    "name": "Aguaje",
+    "normalized": "aguaje",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Aguaje"
+    ]
+  },
+  {
+    "name": "AGUILAR Y SU ORQUESTA",
+    "normalized": "aguilar y su orquesta",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "AGUILAR Y SU ORQUESTA"
+    ]
+  },
+  {
+    "name": "Ala Jaza",
+    "normalized": "ala jaza",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ala Jaza"
+    ]
+  },
+  {
+    "name": "Alberto barros",
+    "normalized": "alberto barros",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Alberto barros"
+    ]
+  },
+  {
+    "name": "Alejandro Sanz & Lena",
+    "normalized": "alejandro sanz & lena",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Alejandro Sanz & Lena"
+    ]
+  },
+  {
+    "name": "Alejandro Sanz Feat Luis Enrique",
+    "normalized": "alejandro sanz feat luis enrique",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Alejandro Sanz Feat Luis Enrique"
+    ]
+  },
+  {
+    "name": "Alexis Manuel",
+    "normalized": "alexis manuel",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Alexis Manuel"
+    ]
+  },
+  {
+    "name": "Alina Vargas",
+    "normalized": "alina vargas",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Alina Vargas"
+    ]
+  },
+  {
+    "name": "Alsikiatra La Banda",
+    "normalized": "alsikiatra la banda",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Alsikiatra La Banda"
+    ]
+  },
+  {
+    "name": "Alvaro Guedez",
+    "normalized": "alvaro guedez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Alvaro Guedez"
+    ]
+  },
+  {
+    "name": "Alviz",
+    "normalized": "alviz",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Alviz"
+    ]
+  },
+  {
+    "name": "Amy Gutiérrez",
+    "normalized": "amy gutierrez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Amy Gutiérrez"
+    ]
+  },
+  {
+    "name": "Andrée Gii feat Yordanis",
+    "normalized": "andree gii feat yordanis",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Andrée Gii feat Yordanis"
+    ]
+  },
+  {
+    "name": "ANDY MONTAÑEZ",
+    "normalized": "andy montanez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "ANDY MONTAÑEZ"
+    ]
+  },
+  {
+    "name": "ANDY MONTAÑEZ  & DADDY YANKEE",
+    "normalized": "andy montanez & daddy yankee",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "ANDY MONTAÑEZ  & DADDY YANKEE"
+    ]
+  },
+  {
+    "name": "Angela Leiva & Irving Manuel",
+    "normalized": "angela leiva & irving manuel",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Angela Leiva & Irving Manuel"
+    ]
+  },
+  {
+    "name": "Angela Leiva & Rodrigo Tapari",
+    "normalized": "angela leiva & rodrigo tapari",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Angela Leiva & Rodrigo Tapari"
+    ]
+  },
+  {
+    "name": "Angie",
+    "normalized": "angie",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Angie"
+    ]
+  },
+  {
+    "name": "Anthony Maldonado",
+    "normalized": "anthony maldonado",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Anthony Maldonado"
+    ]
+  },
+  {
+    "name": "Anthony Santos & Prince Royce",
+    "normalized": "anthony santos & prince royce",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Anthony Santos & Prince Royce"
+    ]
+  },
+  {
+    "name": "Antonio  Cartagena",
+    "normalized": "antonio cartagena",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Antonio  Cartagena"
+    ]
+  },
+  {
+    "name": "Arena Caliente",
+    "normalized": "arena caliente",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Arena Caliente"
+    ]
+  },
+  {
+    "name": "Ariel Pucheta",
+    "normalized": "ariel pucheta",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ariel Pucheta"
+    ]
+  },
+  {
+    "name": "Armando Hernandez",
+    "normalized": "armando hernandez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Armando Hernandez"
+    ]
+  },
+  {
+    "name": "Armonía Show & Grupo Mambo",
+    "normalized": "armonia show & grupo mambo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Armonía Show & Grupo Mambo"
+    ]
+  },
+  {
+    "name": "Bad Bunny  & Victor Manuelle",
+    "normalized": "bad bunny & victor manuelle",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Bad Bunny  & Victor Manuelle"
+    ]
+  },
+  {
+    "name": "BAILANTERA",
+    "normalized": "bailantera",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "BAILANTERA"
+    ]
+  },
+  {
+    "name": "Bailoteo",
+    "normalized": "bailoteo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Bailoteo"
+    ]
+  },
+  {
+    "name": "Banda Del Swing",
+    "normalized": "banda del swing",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Banda Del Swing"
+    ]
+  },
+  {
+    "name": "Banda DS",
+    "normalized": "banda ds",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Banda DS"
+    ]
+  },
+  {
+    "name": "Beet Acosta",
+    "normalized": "beet acosta",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Beet Acosta"
+    ]
+  },
+  {
+    "name": "Benavides",
+    "normalized": "benavides",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Benavides"
+    ]
+  },
+  {
+    "name": "Billo's Caracas Boys",
+    "normalized": "billo's caracas boys",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Billo's Caracas Boys"
+    ]
+  },
+  {
+    "name": "Braily",
+    "normalized": "braily",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Braily"
+    ]
+  },
+  {
+    "name": "BRASSA ARDIENTE",
+    "normalized": "brassa ardiente",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "BRASSA ARDIENTE"
+    ]
+  },
+  {
+    "name": "Brenda K Starr",
+    "normalized": "brenda k starr",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Brenda K Starr"
+    ]
+  },
+  {
+    "name": "Caco Senante",
+    "normalized": "caco senante",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Caco Senante"
+    ]
+  },
+  {
+    "name": "Camilo, El Alfa",
+    "normalized": "camilo, el alfa",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Camilo, El Alfa"
+    ]
+  },
+  {
+    "name": "Canarias Salsa all Stars",
+    "normalized": "canarias salsa all stars",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Canarias Salsa all Stars"
+    ]
+  },
+  {
+    "name": "Cañaveral y Alexander Acha",
+    "normalized": "canaveral y alexander acha",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Cañaveral y Alexander Acha"
+    ]
+  },
+  {
+    "name": "Cano Estremera",
+    "normalized": "cano estremera",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Cano Estremera"
+    ]
+  },
+  {
+    "name": "Cañon",
+    "normalized": "canon",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Cañon"
+    ]
+  },
+  {
+    "name": "Carlo Supo",
+    "normalized": "carlo supo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Carlo Supo"
+    ]
+  },
+  {
+    "name": "Carlos",
+    "normalized": "carlos",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Carlos"
+    ]
+  },
+  {
+    "name": "CARLOS NUÑO",
+    "normalized": "carlos nuno",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "CARLOS NUÑO"
+    ]
+  },
+  {
+    "name": "Carlos Vives & Marc Anthony",
+    "normalized": "carlos vives & marc anthony",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Carlos Vives & Marc Anthony"
+    ]
+  },
+  {
+    "name": "Carolina La O",
+    "normalized": "carolina la o",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Carolina La O"
+    ]
+  },
+  {
+    "name": "CELIA CRUZ & FRIENDS",
+    "normalized": "celia cruz & friends",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "CELIA CRUZ & FRIENDS"
+    ]
+  },
+  {
+    "name": "Celia Cruz & Oscar de leon",
+    "normalized": "celia cruz & oscar de leon",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Celia Cruz & Oscar de leon"
+    ]
+  },
+  {
+    "name": "CÉSAR MANCILLA",
+    "normalized": "cesar mancilla",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "CÉSAR MANCILLA"
+    ]
+  },
+  {
+    "name": "Chael Espinal",
+    "normalized": "chael espinal",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Chael Espinal"
+    ]
+  },
+  {
+    "name": "Channel & Euromambo",
+    "normalized": "channel & euromambo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Channel & Euromambo"
+    ]
+  },
+  {
+    "name": "CHARANGA HABANERA",
+    "normalized": "charanga habanera",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "CHARANGA HABANERA"
+    ]
+  },
+  {
+    "name": "Charlie Aponte",
+    "normalized": "charlie aponte",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Charlie Aponte"
+    ]
+  },
+  {
+    "name": "Chicanos Del Sur",
+    "normalized": "chicanos del sur",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Chicanos Del Sur"
+    ]
+  },
+  {
+    "name": "Chicos de Barrio",
+    "normalized": "chicos de barrio",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Chicos de Barrio"
+    ]
+  },
+  {
+    "name": "Chino",
+    "normalized": "chino",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Chino"
+    ]
+  },
+  {
+    "name": "Chino  & Nacho",
+    "normalized": "chino & nacho",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Chino  & Nacho"
+    ]
+  },
+  {
+    "name": "Chiquito Team Band Feat Miriam Cruz",
+    "normalized": "chiquito team band feat miriam cruz",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Chiquito Team Band Feat Miriam Cruz"
+    ]
+  },
+  {
+    "name": "ChocQuibTown",
+    "normalized": "chocquibtown",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "ChocQuibTown"
+    ]
+  },
+  {
+    "name": "Christian Nodal",
+    "normalized": "christian nodal",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Christian Nodal"
+    ]
+  },
+  {
+    "name": "Cielo Torres ft. Bryan Arambulo",
+    "normalized": "cielo torres ft. bryan arambulo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Cielo Torres ft. Bryan Arambulo"
+    ]
+  },
+  {
+    "name": "Columbia",
+    "normalized": "columbia",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Columbia"
+    ]
+  },
+  {
+    "name": "Combo 5",
+    "normalized": "combo 5",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Combo 5"
+    ]
+  },
+  {
+    "name": "Combo PuertoRico",
+    "normalized": "combo puertorico",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Combo PuertoRico"
+    ]
+  },
+  {
+    "name": "Daddy Yankee & Marc Anthony",
+    "normalized": "daddy yankee & marc anthony",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Daddy Yankee & Marc Anthony"
+    ]
+  },
+  {
+    "name": "Daniel",
+    "normalized": "daniel",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Daniel"
+    ]
+  },
+  {
+    "name": "Daniel Santacruz",
+    "normalized": "daniel santacruz",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Daniel Santacruz"
+    ]
+  },
+  {
+    "name": "Daniel Santacruz & Eddy Herrera",
+    "normalized": "daniel santacruz & eddy herrera",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Daniel Santacruz & Eddy Herrera"
+    ]
+  },
+  {
+    "name": "Danny Daniel",
+    "normalized": "danny daniel",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Danny Daniel"
+    ]
+  },
+  {
+    "name": "Danny Frank",
+    "normalized": "danny frank",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Danny Frank"
+    ]
+  },
+  {
+    "name": "Darlyn & Hector Acosta",
+    "normalized": "darlyn & hector acosta",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Darlyn & Hector Acosta"
+    ]
+  },
+  {
+    "name": "David Cazorla",
+    "normalized": "david cazorla",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "David Cazorla"
+    ]
+  },
+  {
+    "name": "David Pabon",
+    "normalized": "david pabon",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "David Pabon"
+    ]
+  },
+  {
+    "name": "David Perdomo",
+    "normalized": "david perdomo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "David Perdomo"
+    ]
+  },
+  {
+    "name": "Deivys & Amy & Cielo",
+    "normalized": "deivys & amy & cielo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Deivys & Amy & Cielo"
+    ]
+  },
+  {
+    "name": "Deyvis Orosco",
+    "normalized": "deyvis orosco",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Deyvis Orosco"
+    ]
+  },
+  {
+    "name": "Dimension Latina",
+    "normalized": "dimension latina",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Dimension Latina"
+    ]
+  },
+  {
+    "name": "Diomedes & El Grupo Mio",
+    "normalized": "diomedes & el grupo mio",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Diomedes & El Grupo Mio"
+    ]
+  },
+  {
+    "name": "Diveana",
+    "normalized": "diveana",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Diveana"
+    ]
+  },
+  {
+    "name": "DLG",
+    "normalized": "dlg",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "DLG"
+    ]
+  },
+  {
+    "name": "Doble 5",
+    "normalized": "doble 5",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Doble 5"
+    ]
+  },
+  {
+    "name": "DoMiNGo QuiÑoNes",
+    "normalized": "domingo quinones",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "DoMiNGo QuiÑoNes"
+    ]
+  },
+  {
+    "name": "Dominicanada",
+    "normalized": "dominicanada",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Dominicanada"
+    ]
+  },
+  {
+    "name": "DONNIE YAIPÉN",
+    "normalized": "donnie yaipen",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "DONNIE YAIPÉN"
+    ]
+  },
+  {
+    "name": "Dorada Band Feat Grupo Arena",
+    "normalized": "dorada band feat grupo arena",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Dorada Band Feat Grupo Arena"
+    ]
+  },
+  {
+    "name": "Dorada Band feat Romy",
+    "normalized": "dorada band feat romy",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Dorada Band feat Romy"
+    ]
+  },
+  {
+    "name": "Dulce Banda",
+    "normalized": "dulce banda",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Dulce Banda"
+    ]
+  },
+  {
+    "name": "DUNKAN",
+    "normalized": "dunkan",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "DUNKAN"
+    ]
+  },
+  {
+    "name": "Dustin Richie",
+    "normalized": "dustin richie",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Dustin Richie"
+    ]
+  },
+  {
+    "name": "Eddy Herrera & Manny Cruz",
+    "normalized": "eddy herrera & manny cruz",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Eddy Herrera & Manny Cruz"
+    ]
+  },
+  {
+    "name": "Edwin",
+    "normalized": "edwin",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Edwin"
+    ]
+  },
+  {
+    "name": "Edwin el Futuro de la Salsa",
+    "normalized": "edwin el futuro de la salsa",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Edwin el Futuro de la Salsa"
+    ]
+  },
+  {
+    "name": "Edwinzon",
+    "normalized": "edwinzon",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Edwinzon"
+    ]
+  },
+  {
+    "name": "El Blachy",
+    "normalized": "el blachy",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Blachy"
+    ]
+  },
+  {
+    "name": "El Clan",
+    "normalized": "el clan",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Clan"
+    ]
+  },
+  {
+    "name": "El Clan  Imparable",
+    "normalized": "el clan imparable",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Clan  Imparable"
+    ]
+  },
+  {
+    "name": "El Combo 10",
+    "normalized": "el combo 10",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Combo 10"
+    ]
+  },
+  {
+    "name": "El Equipo Del Merengue",
+    "normalized": "el equipo del merengue",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Equipo Del Merengue"
+    ]
+  },
+  {
+    "name": "El Gran Combo",
+    "normalized": "el gran combo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Gran Combo"
+    ]
+  },
+  {
+    "name": "El Gucci",
+    "normalized": "el gucci",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Gucci"
+    ]
+  },
+  {
+    "name": "El Micha Feat Gilberto Santa Rosa",
+    "normalized": "el micha feat gilberto santa rosa",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Micha Feat Gilberto Santa Rosa"
+    ]
+  },
+  {
+    "name": "El Natural",
+    "normalized": "el natural",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Natural"
+    ]
+  },
+  {
+    "name": "El Norte",
+    "normalized": "el norte",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Norte"
+    ]
+  },
+  {
+    "name": "El Pelao",
+    "normalized": "el pelao",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Pelao"
+    ]
+  },
+  {
+    "name": "El Pita",
+    "normalized": "el pita",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Pita"
+    ]
+  },
+  {
+    "name": "EL POLY DEL MAMBO FEAT YIYO SARANTE",
+    "normalized": "el poly del mambo feat yiyo sarante",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "EL POLY DEL MAMBO FEAT YIYO SARANTE"
+    ]
+  },
+  {
+    "name": "El Reto",
+    "normalized": "el reto",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Reto"
+    ]
+  },
+  {
+    "name": "El Rubio Loco",
+    "normalized": "el rubio loco",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Rubio Loco"
+    ]
+  },
+  {
+    "name": "EL SUPER BIMBO",
+    "normalized": "el super bimbo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "EL SUPER BIMBO"
+    ]
+  },
+  {
+    "name": "El Vega",
+    "normalized": "el vega",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "El Vega"
+    ]
+  },
+  {
+    "name": "ELias",
+    "normalized": "elias",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "ELias"
+    ]
+  },
+  {
+    "name": "Elvis Crespo & Gilberto Santa Rosa & Alex Bueno",
+    "normalized": "elvis crespo & gilberto santa rosa & alex bueno",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Elvis Crespo & Gilberto Santa Rosa & Alex Bueno"
+    ]
+  },
+  {
+    "name": "Elvis Crespo & GrupoManía",
+    "normalized": "elvis crespo & grupomania",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Elvis Crespo & GrupoManía"
+    ]
+  },
+  {
+    "name": "Elvis Crespo & Manny Cruz",
+    "normalized": "elvis crespo & manny cruz",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Elvis Crespo & Manny Cruz"
+    ]
+  },
+  {
+    "name": "Elvis Crespo & Manny Manuel",
+    "normalized": "elvis crespo & manny manuel",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Elvis Crespo & Manny Manuel"
+    ]
+  },
+  {
+    "name": "Elvis Crespo & Miriam Cruz",
+    "normalized": "elvis crespo & miriam cruz",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Elvis Crespo & Miriam Cruz"
+    ]
+  },
+  {
+    "name": "Elvis Crespo ft JCO",
+    "normalized": "elvis crespo ft jco",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Elvis Crespo ft JCO"
+    ]
+  },
+  {
+    "name": "Elvis Crespo, Limi-T 21",
+    "normalized": "elvis crespo, limi-t 21",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Elvis Crespo, Limi-T 21"
+    ]
+  },
+  {
+    "name": "Emanero, La Konga, Antonio Rios",
+    "normalized": "emanero, la konga, antonio rios",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Emanero, La Konga, Antonio Rios"
+    ]
+  },
+  {
+    "name": "Equipito Del Merengue",
+    "normalized": "equipito del merengue",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Equipito Del Merengue"
+    ]
+  },
+  {
+    "name": "Erick Sánchez",
+    "normalized": "erick sanchez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Erick Sánchez"
+    ]
+  },
+  {
+    "name": "ESAUD SUÁREZ & ESAYKA SUÁREZ",
+    "normalized": "esaud suarez & esayka suarez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "ESAUD SUÁREZ & ESAYKA SUÁREZ"
+    ]
+  },
+  {
+    "name": "Estefania",
+    "normalized": "estefania",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Estefania"
+    ]
+  },
+  {
+    "name": "Felipe Muñíz ft Marc Anthony",
+    "normalized": "felipe muniz ft marc anthony",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Felipe Muñíz ft Marc Anthony"
+    ]
+  },
+  {
+    "name": "Fernando Martin",
+    "normalized": "fernando martin",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Fernando Martin"
+    ]
+  },
+  {
+    "name": "Fherramy",
+    "normalized": "fherramy",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Fherramy"
+    ]
+  },
+  {
+    "name": "Fito Olivares",
+    "normalized": "fito olivares",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Fito Olivares"
+    ]
+  },
+  {
+    "name": "Fonseca",
+    "normalized": "fonseca",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Fonseca"
+    ]
+  },
+  {
+    "name": "Francis Santana",
+    "normalized": "francis santana",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Francis Santana"
+    ]
+  },
+  {
+    "name": "Franco Arroyo",
+    "normalized": "franco arroyo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Franco Arroyo"
+    ]
+  },
+  {
+    "name": "Frank Reyes",
+    "normalized": "frank reyes",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Frank Reyes"
+    ]
+  },
+  {
+    "name": "Freder & Wladi",
+    "normalized": "freder & wladi",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Freder & Wladi"
+    ]
+  },
+  {
+    "name": "Freder y Wladi",
+    "normalized": "freder y wladi",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Freder y Wladi"
+    ]
+  },
+  {
+    "name": "Free Cover & Rubby Perez",
+    "normalized": "free cover & rubby perez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Free Cover & Rubby Perez"
+    ]
+  },
+  {
+    "name": "Free Cover Venezuela",
+    "normalized": "free cover venezuela",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Free Cover Venezuela"
+    ]
+  },
+  {
+    "name": "Fruko y Sus Tesos",
+    "normalized": "fruko y sus tesos",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Fruko y Sus Tesos"
+    ]
+  },
+  {
+    "name": "Fuerza Band",
+    "normalized": "fuerza band",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Fuerza Band"
+    ]
+  },
+  {
+    "name": "Fuerza Banda",
+    "normalized": "fuerza banda",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Fuerza Banda"
+    ]
+  },
+  {
+    "name": "Gabriel Pagan feat Olga Tañon",
+    "normalized": "gabriel pagan feat olga tanon",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Gabriel Pagan feat Olga Tañon"
+    ]
+  },
+  {
+    "name": "Galy Galiano",
+    "normalized": "galy galiano",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Galy Galiano"
+    ]
+  },
+  {
+    "name": "Garras de Amor",
+    "normalized": "garras de amor",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Garras de Amor"
+    ]
+  },
+  {
+    "name": "Gen T Joven",
+    "normalized": "gen t joven",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Gen T Joven"
+    ]
+  },
+  {
+    "name": "Generación 0",
+    "normalized": "generacion 0",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Generación 0"
+    ]
+  },
+  {
+    "name": "Generación Zero",
+    "normalized": "generacion zero",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Generación Zero"
+    ]
+  },
+  {
+    "name": "Genración Zero",
+    "normalized": "genracion zero",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Genración Zero"
+    ]
+  },
+  {
+    "name": "Gerson & Sin Fronteras",
+    "normalized": "gerson & sin fronteras",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Gerson & Sin Fronteras"
+    ]
+  },
+  {
+    "name": "Gilberto Santa Rosa & Maelo Ruiz",
+    "normalized": "gilberto santa rosa & maelo ruiz",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Gilberto Santa Rosa & Maelo Ruiz"
+    ]
+  },
+  {
+    "name": "Gilberto Santa Rosa & Porfi Baloa",
+    "normalized": "gilberto santa rosa & porfi baloa",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Gilberto Santa Rosa & Porfi Baloa"
+    ]
+  },
+  {
+    "name": "Gilberto Santa Rosa & Victor Manuelle",
+    "normalized": "gilberto santa rosa & victor manuelle",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Gilberto Santa Rosa & Victor Manuelle"
+    ]
+  },
+  {
+    "name": "Giselle",
+    "normalized": "giselle",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Giselle"
+    ]
+  },
+  {
+    "name": "Gloria Estefan & Marc Anthony",
+    "normalized": "gloria estefan & marc anthony",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Gloria Estefan & Marc Anthony"
+    ]
+  },
+  {
+    "name": "Gozadera",
+    "normalized": "gozadera",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Gozadera"
+    ]
+  },
+  {
+    "name": "Gran Banda",
+    "normalized": "gran banda",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Gran Banda"
+    ]
+  },
+  {
+    "name": "Gran Parada",
+    "normalized": "gran parada",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Gran Parada"
+    ]
+  },
+  {
+    "name": "Greeicy & Mike Bahia",
+    "normalized": "greeicy & mike bahia",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Greeicy & Mike Bahia"
+    ]
+  },
+  {
+    "name": "Greeicy Salsa",
+    "normalized": "greeicy salsa",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Greeicy Salsa"
+    ]
+  },
+  {
+    "name": "Grupo 5, Fonseca",
+    "normalized": "grupo 5, fonseca",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo 5, Fonseca"
+    ]
+  },
+  {
+    "name": "Grupo 747",
+    "normalized": "grupo 747",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo 747"
+    ]
+  },
+  {
+    "name": "Grupo Amanecer",
+    "normalized": "grupo amanecer",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Amanecer"
+    ]
+  },
+  {
+    "name": "Grupo Arena Feat Guille",
+    "normalized": "grupo arena feat guille",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Arena Feat Guille"
+    ]
+  },
+  {
+    "name": "Grupo Bomba & Nuevo Klan",
+    "normalized": "grupo bomba & nuevo klan",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Bomba & Nuevo Klan"
+    ]
+  },
+  {
+    "name": "Grupo Bomba feat Arena",
+    "normalized": "grupo bomba feat arena",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Bomba feat Arena"
+    ]
+  },
+  {
+    "name": "Grupo Bomba Feat Paris De Noia",
+    "normalized": "grupo bomba feat paris de noia",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Bomba Feat Paris De Noia"
+    ]
+  },
+  {
+    "name": "Grupo Caribe",
+    "normalized": "grupo caribe",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Caribe"
+    ]
+  },
+  {
+    "name": "Grupo Chicapala",
+    "normalized": "grupo chicapala",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Chicapala"
+    ]
+  },
+  {
+    "name": "Grupo Cuatro",
+    "normalized": "grupo cuatro",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Cuatro"
+    ]
+  },
+  {
+    "name": "Grupo Gale",
+    "normalized": "grupo gale",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Gale"
+    ]
+  },
+  {
+    "name": "Grupo Kimbara",
+    "normalized": "grupo kimbara",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Kimbara"
+    ]
+  },
+  {
+    "name": "Grupo La Bomba",
+    "normalized": "grupo la bomba",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo La Bomba"
+    ]
+  },
+  {
+    "name": "Grupo Manía Ft Elvis Crespo",
+    "normalized": "grupo mania ft elvis crespo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Manía Ft Elvis Crespo"
+    ]
+  },
+  {
+    "name": "Grupo Melao",
+    "normalized": "grupo melao",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Melao"
+    ]
+  },
+  {
+    "name": "Grupo Riyko",
+    "normalized": "grupo riyko",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Riyko"
+    ]
+  },
+  {
+    "name": "Grupo Ryiko",
+    "normalized": "grupo ryiko",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Grupo Ryiko"
+    ]
+  },
+  {
+    "name": "Guaco",
+    "normalized": "guaco",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Guaco"
+    ]
+  },
+  {
+    "name": "Guaco & Gilberto Santa Rosa",
+    "normalized": "guaco & gilberto santa rosa",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Guaco & Gilberto Santa Rosa"
+    ]
+  },
+  {
+    "name": "GUAYACÁN & GILBERTO SANTA ROSA",
+    "normalized": "guayacan & gilberto santa rosa",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "GUAYACÁN & GILBERTO SANTA ROSA"
+    ]
+  },
+  {
+    "name": "HAMLET",
+    "normalized": "hamlet",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "HAMLET"
+    ]
+  },
+  {
+    "name": "Harveys",
+    "normalized": "harveys",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Harveys"
+    ]
+  },
+  {
+    "name": "Hector Acosta & Romeo Santos",
+    "normalized": "hector acosta & romeo santos",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Hector Acosta & Romeo Santos"
+    ]
+  },
+  {
+    "name": "Hermanos Yaipén ft Agapornis",
+    "normalized": "hermanos yaipen ft agapornis",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Hermanos Yaipén ft Agapornis"
+    ]
+  },
+  {
+    "name": "Heudy Tinao",
+    "normalized": "heudy tinao",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Heudy Tinao"
+    ]
+  },
+  {
+    "name": "Hildemaro",
+    "normalized": "hildemaro",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Hildemaro"
+    ]
+  },
+  {
+    "name": "Hnos Yaipén",
+    "normalized": "hnos yaipen",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Hnos Yaipén"
+    ]
+  },
+  {
+    "name": "Horizonte",
+    "normalized": "horizonte",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Horizonte"
+    ]
+  },
+  {
+    "name": "Humilde",
+    "normalized": "humilde",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Humilde"
+    ]
+  },
+  {
+    "name": "Icarus",
+    "normalized": "icarus",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Icarus"
+    ]
+  },
+  {
+    "name": "Imperial",
+    "normalized": "imperial",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Imperial"
+    ]
+  },
+  {
+    "name": "India",
+    "normalized": "india",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "India"
+    ]
+  },
+  {
+    "name": "India & Juan Gabriel",
+    "normalized": "india & juan gabriel",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "India & Juan Gabriel"
+    ]
+  },
+  {
+    "name": "Iris y Franklin",
+    "normalized": "iris y franklin",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Iris y Franklin"
+    ]
+  },
+  {
+    "name": "Isaú y Sus Reclusos de La Cumbia",
+    "normalized": "isau y sus reclusos de la cumbia",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Isaú y Sus Reclusos de La Cumbia"
+    ]
+  },
+  {
+    "name": "Ivy Queen Ft Tito Rojas",
+    "normalized": "ivy queen ft tito rojas",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ivy Queen Ft Tito Rojas"
+    ]
+  },
+  {
+    "name": "J Alvarez",
+    "normalized": "j alvarez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "J Alvarez"
+    ]
+  },
+  {
+    "name": "Japhet Albert",
+    "normalized": "japhet albert",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Japhet Albert"
+    ]
+  },
+  {
+    "name": "Javier Vásquez",
+    "normalized": "javier vasquez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Javier Vásquez"
+    ]
+  },
+  {
+    "name": "Jco ft lenox",
+    "normalized": "jco ft lenox",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jco ft lenox"
+    ]
+  },
+  {
+    "name": "Jeinson Manuel",
+    "normalized": "jeinson manuel",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jeinson Manuel"
+    ]
+  },
+  {
+    "name": "Jennifer Lopez & Marc Anthony",
+    "normalized": "jennifer lopez & marc anthony",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jennifer Lopez & Marc Anthony"
+    ]
+  },
+  {
+    "name": "Jeremias",
+    "normalized": "jeremias",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jeremias"
+    ]
+  },
+  {
+    "name": "Jerry Rivera & Erika Ender",
+    "normalized": "jerry rivera & erika ender",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jerry Rivera & Erika Ender"
+    ]
+  },
+  {
+    "name": "Jerry Rivera & Yandel",
+    "normalized": "jerry rivera & yandel",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jerry Rivera & Yandel"
+    ]
+  },
+  {
+    "name": "Jhoselyn",
+    "normalized": "jhoselyn",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jhoselyn"
+    ]
+  },
+  {
+    "name": "Jhoselyn y las mamberas",
+    "normalized": "jhoselyn y las mamberas",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jhoselyn y las mamberas"
+    ]
+  },
+  {
+    "name": "Jimmy Bauer",
+    "normalized": "jimmy bauer",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jimmy Bauer"
+    ]
+  },
+  {
+    "name": "Jiory",
+    "normalized": "jiory",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jiory"
+    ]
+  },
+  {
+    "name": "Johnny Jouseph",
+    "normalized": "johnny jouseph",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Johnny Jouseph"
+    ]
+  },
+  {
+    "name": "Jonathan El Latino",
+    "normalized": "jonathan el latino",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jonathan El Latino"
+    ]
+  },
+  {
+    "name": "Jonathan Moly Ft  Jerry Rivera",
+    "normalized": "jonathan moly ft jerry rivera",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jonathan Moly Ft  Jerry Rivera"
+    ]
+  },
+  {
+    "name": "Jorge Gadala",
+    "normalized": "jorge gadala",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jorge Gadala"
+    ]
+  },
+  {
+    "name": "Jorge Laún",
+    "normalized": "jorge laun",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jorge Laún"
+    ]
+  },
+  {
+    "name": "Jorge Luis Chacin",
+    "normalized": "jorge luis chacin",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jorge Luis Chacin"
+    ]
+  },
+  {
+    "name": "Jorge ​ Chacin",
+    "normalized": "jorge ​ chacin",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jorge ​ Chacin"
+    ]
+  },
+  {
+    "name": "Jose El Cantante",
+    "normalized": "jose el cantante",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jose El Cantante"
+    ]
+  },
+  {
+    "name": "Jose Gomez",
+    "normalized": "jose gomez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jose Gomez"
+    ]
+  },
+  {
+    "name": "Jose Vera",
+    "normalized": "jose vera",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jose Vera"
+    ]
+  },
+  {
+    "name": "Jose Zalba",
+    "normalized": "jose zalba",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jose Zalba"
+    ]
+  },
+  {
+    "name": "Joseph",
+    "normalized": "joseph",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Joseph"
+    ]
+  },
+  {
+    "name": "JOSEPH BANDA SWING",
+    "normalized": "joseph banda swing",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "JOSEPH BANDA SWING"
+    ]
+  },
+  {
+    "name": "Josimar",
+    "normalized": "josimar",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Josimar"
+    ]
+  },
+  {
+    "name": "Jossie Esteban Patrulla 15",
+    "normalized": "jossie esteban patrulla 15",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Jossie Esteban Patrulla 15"
+    ]
+  },
+  {
+    "name": "Juan Gabriel ft Marc Anthony",
+    "normalized": "juan gabriel ft marc anthony",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Juan Gabriel ft Marc Anthony"
+    ]
+  },
+  {
+    "name": "Juan Luis Guerra 440",
+    "normalized": "juan luis guerra 440",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Juan Luis Guerra 440"
+    ]
+  },
+  {
+    "name": "Juan Luis Juancho",
+    "normalized": "juan luis juancho",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Juan Luis Juancho"
+    ]
+  },
+  {
+    "name": "Juan Luis Juancho, Manny Manuel, Joseph Fonseca",
+    "normalized": "juan luis juancho, manny manuel, joseph fonseca",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Juan Luis Juancho, Manny Manuel, Joseph Fonseca"
+    ]
+  },
+  {
+    "name": "Juan Manuel",
+    "normalized": "juan manuel",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Juan Manuel"
+    ]
+  },
+  {
+    "name": "Juan Miguel Ft Micro",
+    "normalized": "juan miguel ft micro",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Juan Miguel Ft Micro"
+    ]
+  },
+  {
+    "name": "Juliana",
+    "normalized": "juliana",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Juliana"
+    ]
+  },
+  {
+    "name": "Juliana Ft Milly Quezada",
+    "normalized": "juliana ft milly quezada",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Juliana Ft Milly Quezada"
+    ]
+  },
+  {
+    "name": "Julio Cesar",
+    "normalized": "julio cesar",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Julio Cesar"
+    ]
+  },
+  {
+    "name": "Julio Iglesias",
+    "normalized": "julio iglesias",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Julio Iglesias"
+    ]
+  },
+  {
+    "name": "Junin",
+    "normalized": "junin",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Junin"
+    ]
+  },
+  {
+    "name": "Junior Klan & Mariana Seoane",
+    "normalized": "junior klan & mariana seoane",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Junior Klan & Mariana Seoane"
+    ]
+  },
+  {
+    "name": "Justin Quiles Ft J Balvin",
+    "normalized": "justin quiles ft j balvin",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Justin Quiles Ft J Balvin"
+    ]
+  },
+  {
+    "name": "Kalibre",
+    "normalized": "kalibre",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Kalibre"
+    ]
+  },
+  {
+    "name": "Kandente",
+    "normalized": "kandente",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Kandente"
+    ]
+  },
+  {
+    "name": "Kany García",
+    "normalized": "kany garcia",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Kany García"
+    ]
+  },
+  {
+    "name": "Kche Bandazz",
+    "normalized": "kche bandazz",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Kche Bandazz"
+    ]
+  },
+  {
+    "name": "Ken Y ft Jerry Rivera",
+    "normalized": "ken y ft jerry rivera",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ken Y ft Jerry Rivera"
+    ]
+  },
+  {
+    "name": "Kevin Ceballo",
+    "normalized": "kevin ceballo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Kevin Ceballo"
+    ]
+  },
+  {
+    "name": "Kike Rosario",
+    "normalized": "kike rosario",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Kike Rosario"
+    ]
+  },
+  {
+    "name": "KMIEL",
+    "normalized": "kmiel",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "KMIEL"
+    ]
+  },
+  {
+    "name": "Kódigo 10",
+    "normalized": "kodigo 10",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Kódigo 10"
+    ]
+  },
+  {
+    "name": "Konga Ft Banda XXI",
+    "normalized": "konga ft banda xxi",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Konga Ft Banda XXI"
+    ]
+  },
+  {
+    "name": "KONGA ft DAMIAN",
+    "normalized": "konga ft damian",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "KONGA ft DAMIAN"
+    ]
+  },
+  {
+    "name": "Konga ft  Q' Lokura",
+    "normalized": "konga ft q' lokura",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Konga ft  Q' Lokura"
+    ]
+  },
+  {
+    "name": "Krisspy",
+    "normalized": "krisspy",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Krisspy"
+    ]
+  },
+  {
+    "name": "La 33",
+    "normalized": "la 33",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La 33"
+    ]
+  },
+  {
+    "name": "LA BURRA URBANA",
+    "normalized": "la burra urbana",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "LA BURRA URBANA"
+    ]
+  },
+  {
+    "name": "La Calle  & David Pérez",
+    "normalized": "la calle & david perez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Calle  & David Pérez"
+    ]
+  },
+  {
+    "name": "La Calle Feat Delbes",
+    "normalized": "la calle feat delbes",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Calle Feat Delbes"
+    ]
+  },
+  {
+    "name": "La Combo Tortuga",
+    "normalized": "la combo tortuga",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Combo Tortuga"
+    ]
+  },
+  {
+    "name": "La Delio Valdez",
+    "normalized": "la delio valdez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Delio Valdez"
+    ]
+  },
+  {
+    "name": "LA DESCARGA",
+    "normalized": "la descarga",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "LA DESCARGA"
+    ]
+  },
+  {
+    "name": "La Fory",
+    "normalized": "la fory",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Fory"
+    ]
+  },
+  {
+    "name": "La Fuga Ft Eddie Saa",
+    "normalized": "la fuga ft eddie saa",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Fuga Ft Eddie Saa"
+    ]
+  },
+  {
+    "name": "La India & Oscar D' Leon",
+    "normalized": "la india & oscar d' leon",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La India & Oscar D' Leon"
+    ]
+  },
+  {
+    "name": "La K'onga",
+    "normalized": "la k'onga",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La K'onga"
+    ]
+  },
+  {
+    "name": "La Konga ft La Kuppe",
+    "normalized": "la konga ft la kuppe",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Konga ft La Kuppe"
+    ]
+  },
+  {
+    "name": "La Konga FT Ta Wueno",
+    "normalized": "la konga ft ta wueno",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Konga FT Ta Wueno"
+    ]
+  },
+  {
+    "name": "La Konga ft Tyago Griffo",
+    "normalized": "la konga ft tyago griffo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Konga ft Tyago Griffo"
+    ]
+  },
+  {
+    "name": "La Maquina",
+    "normalized": "la maquina",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Maquina"
+    ]
+  },
+  {
+    "name": "La Mekánica",
+    "normalized": "la mekanica",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Mekánica"
+    ]
+  },
+  {
+    "name": "La Migra",
+    "normalized": "la migra",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Migra"
+    ]
+  },
+  {
+    "name": "LA MIGRA NY",
+    "normalized": "la migra ny",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "LA MIGRA NY"
+    ]
+  },
+  {
+    "name": "La Misma Gente",
+    "normalized": "la misma gente",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Misma Gente"
+    ]
+  },
+  {
+    "name": "La Patrulla 15",
+    "normalized": "la patrulla 15",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Patrulla 15"
+    ]
+  },
+  {
+    "name": "LA REVANCHA",
+    "normalized": "la revancha",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "LA REVANCHA"
+    ]
+  },
+  {
+    "name": "La Tropical De Edgar Narvaez",
+    "normalized": "la tropical de edgar narvaez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "La Tropical De Edgar Narvaez"
+    ]
+  },
+  {
+    "name": "LA VANIDOSA",
+    "normalized": "la vanidosa",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "LA VANIDOSA"
+    ]
+  },
+  {
+    "name": "Lalo Rodriguez",
+    "normalized": "lalo rodriguez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Lalo Rodriguez"
+    ]
+  },
+  {
+    "name": "Las Nenas Ft Mia Correa",
+    "normalized": "las nenas ft mia correa",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Las Nenas Ft Mia Correa"
+    ]
+  },
+  {
+    "name": "Leo Díaz",
+    "normalized": "leo diaz",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Leo Díaz"
+    ]
+  },
+  {
+    "name": "Leo Rey",
+    "normalized": "leo rey",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Leo Rey"
+    ]
+  },
+  {
+    "name": "Leslie Rous",
+    "normalized": "leslie rous",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Leslie Rous"
+    ]
+  },
+  {
+    "name": "LimiT21",
+    "normalized": "limit21",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "LimiT21"
+    ]
+  },
+  {
+    "name": "Locura Viva",
+    "normalized": "locura viva",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Locura Viva"
+    ]
+  },
+  {
+    "name": "Lokkera",
+    "normalized": "lokkera",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Lokkera"
+    ]
+  },
+  {
+    "name": "Los 4",
+    "normalized": "los 4",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los 4"
+    ]
+  },
+  {
+    "name": "Los 4 Fantastikos   Hablando de mi",
+    "normalized": "los 4 fantastikos hablando de mi",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los 4 Fantastikos   Hablando de mi"
+    ]
+  },
+  {
+    "name": "Los 8 de Colombia",
+    "normalized": "los 8 de colombia",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los 8 de Colombia"
+    ]
+  },
+  {
+    "name": "Los Ángeles Azules & Miguel Bose",
+    "normalized": "los angeles azules & miguel bose",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Ángeles Azules & Miguel Bose"
+    ]
+  },
+  {
+    "name": "Los Brumas",
+    "normalized": "los brumas",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Brumas"
+    ]
+  },
+  {
+    "name": "Los Clones De La Salsa",
+    "normalized": "los clones de la salsa",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Clones De La Salsa"
+    ]
+  },
+  {
+    "name": "Los Del Swing",
+    "normalized": "los del swing",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Del Swing"
+    ]
+  },
+  {
+    "name": "Los Gorilas",
+    "normalized": "los gorilas",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Gorilas"
+    ]
+  },
+  {
+    "name": "Los Hermanos Yaipen",
+    "normalized": "los hermanos yaipen",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Hermanos Yaipen"
+    ]
+  },
+  {
+    "name": "Los hijos del toro",
+    "normalized": "los hijos del toro",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los hijos del toro"
+    ]
+  },
+  {
+    "name": "Los Homeboys   Arrancame la Vida",
+    "normalized": "los homeboys arrancame la vida",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Homeboys   Arrancame la Vida"
+    ]
+  },
+  {
+    "name": "Los Ideales",
+    "normalized": "los ideales",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Ideales"
+    ]
+  },
+  {
+    "name": "LOS MOLY",
+    "normalized": "los moly",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "LOS MOLY"
+    ]
+  },
+  {
+    "name": "Los Ocho De Colombia",
+    "normalized": "los ocho de colombia",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Ocho De Colombia"
+    ]
+  },
+  {
+    "name": "Los Palmeras & Rodrigo Tapari",
+    "normalized": "los palmeras & rodrigo tapari",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Palmeras & Rodrigo Tapari"
+    ]
+  },
+  {
+    "name": "Los Palmeras ft Marcela Morelo",
+    "normalized": "los palmeras ft marcela morelo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Palmeras ft Marcela Morelo"
+    ]
+  },
+  {
+    "name": "Los PLAYERS",
+    "normalized": "los players",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los PLAYERS"
+    ]
+  },
+  {
+    "name": "Los Potros",
+    "normalized": "los potros",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Potros"
+    ]
+  },
+  {
+    "name": "Los Rebujitos",
+    "normalized": "los rebujitos",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Rebujitos"
+    ]
+  },
+  {
+    "name": "Los Rokers",
+    "normalized": "los rokers",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Rokers"
+    ]
+  },
+  {
+    "name": "Los Satélites",
+    "normalized": "los satelites",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Satélites"
+    ]
+  },
+  {
+    "name": "Los Súper Caracoles & Hugo Fernández",
+    "normalized": "los super caracoles & hugo fernandez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Súper Caracoles & Hugo Fernández"
+    ]
+  },
+  {
+    "name": "Los Titanes",
+    "normalized": "los titanes",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Titanes"
+    ]
+  },
+  {
+    "name": "LOS TOTORA  FT ROSANA",
+    "normalized": "los totora ft rosana",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "LOS TOTORA  FT ROSANA"
+    ]
+  },
+  {
+    "name": "LOS VAN VAN DE CUBA",
+    "normalized": "los van van de cuba",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "LOS VAN VAN DE CUBA"
+    ]
+  },
+  {
+    "name": "Los Villacorta Ft Hermanos Yaipén",
+    "normalized": "los villacorta ft hermanos yaipen",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Los Villacorta Ft Hermanos Yaipén"
+    ]
+  },
+  {
+    "name": "Luis Enrique ft Prince Royce",
+    "normalized": "luis enrique ft prince royce",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Luis Enrique ft Prince Royce"
+    ]
+  },
+  {
+    "name": "Luis Fonsi",
+    "normalized": "luis fonsi",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Luis Fonsi"
+    ]
+  },
+  {
+    "name": "Luis Miguel del Amargue x Yiyo Sarante",
+    "normalized": "luis miguel del amargue x yiyo sarante",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Luis Miguel del Amargue x Yiyo Sarante"
+    ]
+  },
+  {
+    "name": "Luis Moncada",
+    "normalized": "luis moncada",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Luis Moncada"
+    ]
+  },
+  {
+    "name": "Luna Llena",
+    "normalized": "luna llena",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Luna Llena"
+    ]
+  },
+  {
+    "name": "Luz De Luna",
+    "normalized": "luz de luna",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Luz De Luna"
+    ]
+  },
+  {
+    "name": "Maite Perroni",
+    "normalized": "maite perroni",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Maite Perroni"
+    ]
+  },
+  {
+    "name": "Maite Perroni & Alex Ubago",
+    "normalized": "maite perroni & alex ubago",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Maite Perroni & Alex Ubago"
+    ]
+  },
+  {
+    "name": "Mala Fe",
+    "normalized": "mala fe",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mala Fe"
+    ]
+  },
+  {
+    "name": "Maluma",
+    "normalized": "maluma",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Maluma"
+    ]
+  },
+  {
+    "name": "Maluma & Marc Anthony",
+    "normalized": "maluma & marc anthony",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Maluma & Marc Anthony"
+    ]
+  },
+  {
+    "name": "Manny Cruz",
+    "normalized": "manny cruz",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Manny Cruz"
+    ]
+  },
+  {
+    "name": "Manole",
+    "normalized": "manole",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Manole"
+    ]
+  },
+  {
+    "name": "Manolito Simonet",
+    "normalized": "manolito simonet",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Manolito Simonet"
+    ]
+  },
+  {
+    "name": "Manuel Dorta",
+    "normalized": "manuel dorta",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Manuel Dorta"
+    ]
+  },
+  {
+    "name": "Manuel Turizo",
+    "normalized": "manuel turizo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Manuel Turizo"
+    ]
+  },
+  {
+    "name": "Manuel Turizo x Marshmello",
+    "normalized": "manuel turizo x marshmello",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Manuel Turizo x Marshmello"
+    ]
+  },
+  {
+    "name": "Maquinaria",
+    "normalized": "maquinaria",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Maquinaria"
+    ]
+  },
+  {
+    "name": "Maquinaria Del Merengue",
+    "normalized": "maquinaria del merengue",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Maquinaria Del Merengue"
+    ]
+  },
+  {
+    "name": "Marc Anthony & India Martinez",
+    "normalized": "marc anthony & india martinez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Marc Anthony & India Martinez"
+    ]
+  },
+  {
+    "name": "Marcela Morelo y Rodrigo Tapari",
+    "normalized": "marcela morelo y rodrigo tapari",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Marcela Morelo y Rodrigo Tapari"
+    ]
+  },
+  {
+    "name": "Marco Ortiz",
+    "normalized": "marco ortiz",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Marco Ortiz"
+    ]
+  },
+  {
+    "name": "Marcos Castelló Kaniche",
+    "normalized": "marcos castello kaniche",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Marcos Castelló Kaniche"
+    ]
+  },
+  {
+    "name": "Margarita",
+    "normalized": "margarita",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Margarita"
+    ]
+  },
+  {
+    "name": "Maria José",
+    "normalized": "maria jose",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Maria José"
+    ]
+  },
+  {
+    "name": "Maria Seoane & Sonora Dinamita",
+    "normalized": "maria seoane & sonora dinamita",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Maria Seoane & Sonora Dinamita"
+    ]
+  },
+  {
+    "name": "Mariana Seoane",
+    "normalized": "mariana seoane",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mariana Seoane"
+    ]
+  },
+  {
+    "name": "Marimba",
+    "normalized": "marimba",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Marimba"
+    ]
+  },
+  {
+    "name": "Mario",
+    "normalized": "mario",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mario"
+    ]
+  },
+  {
+    "name": "Mario  Los Del Palmar",
+    "normalized": "mario los del palmar",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mario  Los Del Palmar"
+    ]
+  },
+  {
+    "name": "Mario Pereyra",
+    "normalized": "mario pereyra",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mario Pereyra"
+    ]
+  },
+  {
+    "name": "Mario Rodriguez",
+    "normalized": "mario rodriguez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mario Rodriguez"
+    ]
+  },
+  {
+    "name": "Martin Fornero Ft QLokura",
+    "normalized": "martin fornero ft qlokura",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Martin Fornero Ft QLokura"
+    ]
+  },
+  {
+    "name": "MARVIN SANTIAGO",
+    "normalized": "marvin santiago",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "MARVIN SANTIAGO"
+    ]
+  },
+  {
+    "name": "Matecaña",
+    "normalized": "matecana",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Matecaña"
+    ]
+  },
+  {
+    "name": "Maurizzio",
+    "normalized": "maurizzio",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Maurizzio"
+    ]
+  },
+  {
+    "name": "Maykel Flores",
+    "normalized": "maykel flores",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Maykel Flores"
+    ]
+  },
+  {
+    "name": "Mayombe",
+    "normalized": "mayombe",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mayombe"
+    ]
+  },
+  {
+    "name": "Melao",
+    "normalized": "melao",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Melao"
+    ]
+  },
+  {
+    "name": "Melodia Band",
+    "normalized": "melodia band",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Melodia Band"
+    ]
+  },
+  {
+    "name": "Merenglass",
+    "normalized": "merenglass",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Merenglass"
+    ]
+  },
+  {
+    "name": "Mermemalda",
+    "normalized": "mermemalda",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mermemalda"
+    ]
+  },
+  {
+    "name": "Michael Stuart   & Tony Succar",
+    "normalized": "michael stuart & tony succar",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Michael Stuart   & Tony Succar"
+    ]
+  },
+  {
+    "name": "Michel el Bueno",
+    "normalized": "michel el bueno",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Michel el Bueno"
+    ]
+  },
+  {
+    "name": "Michelle Brava",
+    "normalized": "michelle brava",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Michelle Brava"
+    ]
+  },
+  {
+    "name": "Miguel Enriquez",
+    "normalized": "miguel enriquez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Miguel Enriquez"
+    ]
+  },
+  {
+    "name": "MIGUEL MARTIN",
+    "normalized": "miguel martin",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "MIGUEL MARTIN"
+    ]
+  },
+  {
+    "name": "Mike Vera",
+    "normalized": "mike vera",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mike Vera"
+    ]
+  },
+  {
+    "name": "Milly Quesada",
+    "normalized": "milly quesada",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Milly Quesada"
+    ]
+  },
+  {
+    "name": "Milly Quezada Ft. Juan Luis Guerra",
+    "normalized": "milly quezada ft. juan luis guerra",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Milly Quezada Ft. Juan Luis Guerra"
+    ]
+  },
+  {
+    "name": "Mimi Ibarra",
+    "normalized": "mimi ibarra",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mimi Ibarra"
+    ]
+  },
+  {
+    "name": "Miriam Cruz ft Manny Manuel",
+    "normalized": "miriam cruz ft manny manuel",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Miriam Cruz ft Manny Manuel"
+    ]
+  },
+  {
+    "name": "Mix Merengueros",
+    "normalized": "mix merengueros",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mix Merengueros"
+    ]
+  },
+  {
+    "name": "Mix orquestas",
+    "normalized": "mix orquestas",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Mix orquestas"
+    ]
+  },
+  {
+    "name": "MK",
+    "normalized": "mk",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "MK"
+    ]
+  },
+  {
+    "name": "Moise Gonzalez",
+    "normalized": "moise gonzalez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Moise Gonzalez"
+    ]
+  },
+  {
+    "name": "Monchy Capricho",
+    "normalized": "monchy capricho",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Monchy Capricho"
+    ]
+  },
+  {
+    "name": "Morocho",
+    "normalized": "morocho",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Morocho"
+    ]
+  },
+  {
+    "name": "N' Klabe &  Julio Voltio",
+    "normalized": "n' klabe & julio voltio",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "N' Klabe &  Julio Voltio"
+    ]
+  },
+  {
+    "name": "N' Klabe ft Papo Lucca & Sonora Ponceña",
+    "normalized": "n' klabe ft papo lucca & sonora poncena",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "N' Klabe ft Papo Lucca & Sonora Ponceña"
+    ]
+  },
+  {
+    "name": "N'Klabe",
+    "normalized": "n'klabe",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "N'Klabe"
+    ]
+  },
+  {
+    "name": "N'Klabe & Andy Montañez",
+    "normalized": "n'klabe & andy montanez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "N'Klabe & Andy Montañez"
+    ]
+  },
+  {
+    "name": "Nacho & Jorge Luis Chacin",
+    "normalized": "nacho & jorge luis chacin",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Nacho & Jorge Luis Chacin"
+    ]
+  },
+  {
+    "name": "Nativo Show",
+    "normalized": "nativo show",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Nativo Show"
+    ]
+  },
+  {
+    "name": "Natti Natasha & Kany Garcia",
+    "normalized": "natti natasha & kany garcia",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Natti Natasha & Kany Garcia"
+    ]
+  },
+  {
+    "name": "Natti Natasha X Romeo Santos",
+    "normalized": "natti natasha x romeo santos",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Natti Natasha X Romeo Santos"
+    ]
+  },
+  {
+    "name": "Nayibe La Gitana",
+    "normalized": "nayibe la gitana",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Nayibe La Gitana"
+    ]
+  },
+  {
+    "name": "Negros",
+    "normalized": "negros",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Negros"
+    ]
+  },
+  {
+    "name": "Nelson Arrieta",
+    "normalized": "nelson arrieta",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Nelson Arrieta"
+    ]
+  },
+  {
+    "name": "Nelson Arrieta & Guaco",
+    "normalized": "nelson arrieta & guaco",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Nelson Arrieta & Guaco"
+    ]
+  },
+  {
+    "name": "Neri Mambo",
+    "normalized": "neri mambo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Neri Mambo"
+    ]
+  },
+  {
+    "name": "Néstor Peña",
+    "normalized": "nestor pena",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Néstor Peña"
+    ]
+  },
+  {
+    "name": "New Mambo",
+    "normalized": "new mambo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "New Mambo"
+    ]
+  },
+  {
+    "name": "New Sabrosa Band",
+    "normalized": "new sabrosa band",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "New Sabrosa Band"
+    ]
+  },
+  {
+    "name": "NG2 & Elvis Crespo",
+    "normalized": "ng2 & elvis crespo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "NG2 & Elvis Crespo"
+    ]
+  },
+  {
+    "name": "NG2 Feat Julio Voltio",
+    "normalized": "ng2 feat julio voltio",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "NG2 Feat Julio Voltio"
+    ]
+  },
+  {
+    "name": "NG2 Ft  Maelo Ruiz",
+    "normalized": "ng2 ft maelo ruiz",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "NG2 Ft  Maelo Ruiz"
+    ]
+  },
+  {
+    "name": "Nikki Alva Ft Diego Galé",
+    "normalized": "nikki alva ft diego gale",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Nikki Alva Ft Diego Galé"
+    ]
+  },
+  {
+    "name": "Nueva Generación",
+    "normalized": "nueva generacion",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Nueva Generación"
+    ]
+  },
+  {
+    "name": "Nueva Ilusion",
+    "normalized": "nueva ilusion",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Nueva Ilusion"
+    ]
+  },
+  {
+    "name": "Nuevo Klan & Pepe Benavente",
+    "normalized": "nuevo klan & pepe benavente",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Nuevo Klan & Pepe Benavente"
+    ]
+  },
+  {
+    "name": "Nuevo Klan Feat Franklin The Boss",
+    "normalized": "nuevo klan feat franklin the boss",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Nuevo Klan Feat Franklin The Boss"
+    ]
+  },
+  {
+    "name": "Nuevo Klan feat Grupo LD",
+    "normalized": "nuevo klan feat grupo ld",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Nuevo Klan feat Grupo LD"
+    ]
+  },
+  {
+    "name": "Nuevo Klan feat Kandela",
+    "normalized": "nuevo klan feat kandela",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Nuevo Klan feat Kandela"
+    ]
+  },
+  {
+    "name": "Obie Bermudez",
+    "normalized": "obie bermudez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Obie Bermudez"
+    ]
+  },
+  {
+    "name": "Ola Cumbia",
+    "normalized": "ola cumbia",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ola Cumbia"
+    ]
+  },
+  {
+    "name": "Olga Tañón & Manny Manuel",
+    "normalized": "olga tanon & manny manuel",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Olga Tañón & Manny Manuel"
+    ]
+  },
+  {
+    "name": "Olga Tañón ft  Jay Wheeler",
+    "normalized": "olga tanon ft jay wheeler",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Olga Tañón ft  Jay Wheeler"
+    ]
+  },
+  {
+    "name": "OMAR ALFANO",
+    "normalized": "omar alfano",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "OMAR ALFANO"
+    ]
+  },
+  {
+    "name": "Omar Enrique",
+    "normalized": "omar enrique",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Omar Enrique"
+    ]
+  },
+  {
+    "name": "Orlando Conga",
+    "normalized": "orlando conga",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Orlando Conga"
+    ]
+  },
+  {
+    "name": "Orq. El Clan",
+    "normalized": "orq. el clan",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Orq. El Clan"
+    ]
+  },
+  {
+    "name": "Orquesta Atraccion",
+    "normalized": "orquesta atraccion",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Orquesta Atraccion"
+    ]
+  },
+  {
+    "name": "Orquesta Gomera",
+    "normalized": "orquesta gomera",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Orquesta Gomera"
+    ]
+  },
+  {
+    "name": "Orquesta Matecaña",
+    "normalized": "orquesta matecana",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Orquesta Matecaña"
+    ]
+  },
+  {
+    "name": "Oscar d' Leon",
+    "normalized": "oscar d' leon",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Oscar d' Leon"
+    ]
+  },
+  {
+    "name": "Oscar D'León",
+    "normalized": "oscar d'leon",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Oscar D'León"
+    ]
+  },
+  {
+    "name": "Oscar D´León",
+    "normalized": "oscar d´leon",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Oscar D´León"
+    ]
+  },
+  {
+    "name": "Pablo Lopez",
+    "normalized": "pablo lopez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Pablo Lopez"
+    ]
+  },
+  {
+    "name": "Paquito Guzman",
+    "normalized": "paquito guzman",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Paquito Guzman"
+    ]
+  },
+  {
+    "name": "Pastor Lopez",
+    "normalized": "pastor lopez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Pastor Lopez"
+    ]
+  },
+  {
+    "name": "Patrick shannon",
+    "normalized": "patrick shannon",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Patrick shannon"
+    ]
+  },
+  {
+    "name": "Patrulla 15",
+    "normalized": "patrulla 15",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Patrulla 15"
+    ]
+  },
+  {
+    "name": "PAULA ZULETA",
+    "normalized": "paula zuleta",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "PAULA ZULETA"
+    ]
+  },
+  {
+    "name": "Paulina Rubio",
+    "normalized": "paulina rubio",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Paulina Rubio"
+    ]
+  },
+  {
+    "name": "Pedro Conga",
+    "normalized": "pedro conga",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Pedro Conga"
+    ]
+  },
+  {
+    "name": "Peña Suazo",
+    "normalized": "pena suazo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Peña Suazo"
+    ]
+  },
+  {
+    "name": "Pepe benavente & Morocho & Arturo",
+    "normalized": "pepe benavente & morocho & arturo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Pepe benavente & Morocho & Arturo"
+    ]
+  },
+  {
+    "name": "Pepe Benavente  feat Clase Aparte",
+    "normalized": "pepe benavente feat clase aparte",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Pepe Benavente  feat Clase Aparte"
+    ]
+  },
+  {
+    "name": "Pepe y Trio Diamantes",
+    "normalized": "pepe y trio diamantes",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Pepe y Trio Diamantes"
+    ]
+  },
+  {
+    "name": "Peter",
+    "normalized": "peter",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Peter"
+    ]
+  },
+  {
+    "name": "Pito Manía & Tributo Bomba",
+    "normalized": "pito mania & tributo bomba",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Pito Manía & Tributo Bomba"
+    ]
+  },
+  {
+    "name": "Pochy",
+    "normalized": "pochy",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Pochy"
+    ]
+  },
+  {
+    "name": "Policia  Peruana",
+    "normalized": "policia peruana",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Policia  Peruana"
+    ]
+  },
+  {
+    "name": "PORFI BALOA",
+    "normalized": "porfi baloa",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "PORFI BALOA"
+    ]
+  },
+  {
+    "name": "Prince Royce & Shakira",
+    "normalized": "prince royce & shakira",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Prince Royce & Shakira"
+    ]
+  },
+  {
+    "name": "Prince Royce Feat Marc Anthony",
+    "normalized": "prince royce feat marc anthony",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Prince Royce Feat Marc Anthony"
+    ]
+  },
+  {
+    "name": "Prince Royce, Nicky Jam, Jay Wheeler",
+    "normalized": "prince royce, nicky jam, jay wheeler",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Prince Royce, Nicky Jam, Jay Wheeler"
+    ]
+  },
+  {
+    "name": "Proyecto Caribe",
+    "normalized": "proyecto caribe",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Proyecto Caribe"
+    ]
+  },
+  {
+    "name": "Puerto Rican Power",
+    "normalized": "puerto rican power",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Puerto Rican Power"
+    ]
+  },
+  {
+    "name": "Q' Lokura, Angela Leiva",
+    "normalized": "q' lokura, angela leiva",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Q' Lokura, Angela Leiva"
+    ]
+  },
+  {
+    "name": "Rafa Pabön",
+    "normalized": "rafa pabon",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Rafa Pabön"
+    ]
+  },
+  {
+    "name": "Ráfaga & Mauro",
+    "normalized": "rafaga & mauro",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ráfaga & Mauro"
+    ]
+  },
+  {
+    "name": "Ráfaga ft Grupo Beatriz",
+    "normalized": "rafaga ft grupo beatriz",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ráfaga ft Grupo Beatriz"
+    ]
+  },
+  {
+    "name": "Raulin Rodriguez",
+    "normalized": "raulin rodriguez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Raulin Rodriguez"
+    ]
+  },
+  {
+    "name": "Raulin Rosendo",
+    "normalized": "raulin rosendo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Raulin Rosendo"
+    ]
+  },
+  {
+    "name": "Ray Sepulveda",
+    "normalized": "ray sepulveda",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ray Sepulveda"
+    ]
+  },
+  {
+    "name": "Reyes del caribe",
+    "normalized": "reyes del caribe",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Reyes del caribe"
+    ]
+  },
+  {
+    "name": "Ricardo Arjona",
+    "normalized": "ricardo arjona",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ricardo Arjona"
+    ]
+  },
+  {
+    "name": "RICARDO ARJONA & MARC  ANTHONY",
+    "normalized": "ricardo arjona & marc anthony",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "RICARDO ARJONA & MARC  ANTHONY"
+    ]
+  },
+  {
+    "name": "Ricardo Montaner",
+    "normalized": "ricardo montaner",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ricardo Montaner"
+    ]
+  },
+  {
+    "name": "Ricky G",
+    "normalized": "ricky g",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ricky G"
+    ]
+  },
+  {
+    "name": "Ricky G & El Poly Del Mambo",
+    "normalized": "ricky g & el poly del mambo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ricky G & El Poly Del Mambo"
+    ]
+  },
+  {
+    "name": "Ricky Grasa",
+    "normalized": "ricky grasa",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ricky Grasa"
+    ]
+  },
+  {
+    "name": "Rikabanda X El Nhoa",
+    "normalized": "rikabanda x el nhoa",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Rikabanda X El Nhoa"
+    ]
+  },
+  {
+    "name": "Ritmo Latino",
+    "normalized": "ritmo latino",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ritmo Latino"
+    ]
+  },
+  {
+    "name": "Roberto Roena",
+    "normalized": "roberto roena",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Roberto Roena"
+    ]
+  },
+  {
+    "name": "Roberto Torres",
+    "normalized": "roberto torres",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Roberto Torres"
+    ]
+  },
+  {
+    "name": "Rockers",
+    "normalized": "rockers",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Rockers"
+    ]
+  },
+  {
+    "name": "RoJiTaS y Su oRQueSTa",
+    "normalized": "rojitas y su orquesta",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "RoJiTaS y Su oRQueSTa"
+    ]
+  },
+  {
+    "name": "Rokabanda",
+    "normalized": "rokabanda",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Rokabanda"
+    ]
+  },
+  {
+    "name": "Romen",
+    "normalized": "romen",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Romen"
+    ]
+  },
+  {
+    "name": "Romeo Santos  & Alex Bueno",
+    "normalized": "romeo santos & alex bueno",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Romeo Santos  & Alex Bueno"
+    ]
+  },
+  {
+    "name": "Romeo Santos & Christian Nodal",
+    "normalized": "romeo santos & christian nodal",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Romeo Santos & Christian Nodal"
+    ]
+  },
+  {
+    "name": "Romeo Santos ft Juan Luis Guerra",
+    "normalized": "romeo santos ft juan luis guerra",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Romeo Santos ft Juan Luis Guerra"
+    ]
+  },
+  {
+    "name": "Romeo Santos, ROSALÍA",
+    "normalized": "romeo santos, rosalia",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Romeo Santos, ROSALÍA"
+    ]
+  },
+  {
+    "name": "RONALD BORJAS",
+    "normalized": "ronald borjas",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "RONALD BORJAS"
+    ]
+  },
+  {
+    "name": "Rozalén & La Sonora Santanera",
+    "normalized": "rozalen & la sonora santanera",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Rozalén & La Sonora Santanera"
+    ]
+  },
+  {
+    "name": "Rubby Haddock",
+    "normalized": "rubby haddock",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Rubby Haddock"
+    ]
+  },
+  {
+    "name": "Rubby Pérez ft Mabel Yeah",
+    "normalized": "rubby perez ft mabel yeah",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Rubby Pérez ft Mabel Yeah"
+    ]
+  },
+  {
+    "name": "Rudy Santana",
+    "normalized": "rudy santana",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Rudy Santana"
+    ]
+  },
+  {
+    "name": "S & C",
+    "normalized": "s & c",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "S & C"
+    ]
+  },
+  {
+    "name": "Sabor Azul",
+    "normalized": "sabor azul",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sabor Azul"
+    ]
+  },
+  {
+    "name": "Sabroso & Milly Quezada",
+    "normalized": "sabroso & milly quezada",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sabroso & Milly Quezada"
+    ]
+  },
+  {
+    "name": "Sabrosos De Anaga & Chago Melian",
+    "normalized": "sabrosos de anaga & chago melian",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sabrosos De Anaga & Chago Melian"
+    ]
+  },
+  {
+    "name": "Salomé",
+    "normalized": "salome",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Salomé"
+    ]
+  },
+  {
+    "name": "Salsa Libre",
+    "normalized": "salsa libre",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Salsa Libre"
+    ]
+  },
+  {
+    "name": "Samady Band",
+    "normalized": "samady band",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Samady Band"
+    ]
+  },
+  {
+    "name": "Santy Perez",
+    "normalized": "santy perez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Santy Perez"
+    ]
+  },
+  {
+    "name": "Sara Latino",
+    "normalized": "sara latino",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sara Latino"
+    ]
+  },
+  {
+    "name": "Septeto Acarey & MAIA",
+    "normalized": "septeto acarey & maia",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Septeto Acarey & MAIA"
+    ]
+  },
+  {
+    "name": "Septeto Acarey ft Daniela Darcourt",
+    "normalized": "septeto acarey ft daniela darcourt",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Septeto Acarey ft Daniela Darcourt"
+    ]
+  },
+  {
+    "name": "Septeto Acarey  ft Jose Alberto EL Canario",
+    "normalized": "septeto acarey ft jose alberto el canario",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Septeto Acarey  ft Jose Alberto EL Canario"
+    ]
+  },
+  {
+    "name": "Sexappeal & El canario",
+    "normalized": "sexappeal & el canario",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sexappeal & El canario"
+    ]
+  },
+  {
+    "name": "Shakira & Ozuna",
+    "normalized": "shakira & ozuna",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Shakira & Ozuna"
+    ]
+  },
+  {
+    "name": "Sin Kontrol",
+    "normalized": "sin kontrol",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sin Kontrol"
+    ]
+  },
+  {
+    "name": "Sin Limite",
+    "normalized": "sin limite",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sin Limite"
+    ]
+  },
+  {
+    "name": "Sintonia De Vigo",
+    "normalized": "sintonia de vigo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sintonia De Vigo"
+    ]
+  },
+  {
+    "name": "Solara",
+    "normalized": "solara",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Solara"
+    ]
+  },
+  {
+    "name": "Son Caribe",
+    "normalized": "son caribe",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Son Caribe"
+    ]
+  },
+  {
+    "name": "Son de Aquí y Allá",
+    "normalized": "son de aqui y alla",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Son de Aquí y Allá"
+    ]
+  },
+  {
+    "name": "Sonora Aganada",
+    "normalized": "sonora aganada",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sonora Aganada"
+    ]
+  },
+  {
+    "name": "Sonora Bien Bañada",
+    "normalized": "sonora bien banada",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sonora Bien Bañada"
+    ]
+  },
+  {
+    "name": "Sonora Dinamita",
+    "normalized": "sonora dinamita",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sonora Dinamita"
+    ]
+  },
+  {
+    "name": "Sonora Maracaibo Internacional",
+    "normalized": "sonora maracaibo internacional",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sonora Maracaibo Internacional"
+    ]
+  },
+  {
+    "name": "Sonora Ponceña",
+    "normalized": "sonora poncena",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Sonora Ponceña"
+    ]
+  },
+  {
+    "name": "Stop The Group",
+    "normalized": "stop the group",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Stop The Group"
+    ]
+  },
+  {
+    "name": "Super Lamas  & Juan Solo",
+    "normalized": "super lamas & juan solo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Super Lamas  & Juan Solo"
+    ]
+  },
+  {
+    "name": "Super Lamas & Mariana Seoane",
+    "normalized": "super lamas & mariana seoane",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Super Lamas & Mariana Seoane"
+    ]
+  },
+  {
+    "name": "SuperCombo",
+    "normalized": "supercombo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "SuperCombo"
+    ]
+  },
+  {
+    "name": "Susan Prieto",
+    "normalized": "susan prieto",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Susan Prieto"
+    ]
+  },
+  {
+    "name": "Swing Na Ma",
+    "normalized": "swing na ma",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Swing Na Ma"
+    ]
+  },
+  {
+    "name": "Tamarindos Feat Cherito",
+    "normalized": "tamarindos feat cherito",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tamarindos Feat Cherito"
+    ]
+  },
+  {
+    "name": "Tamarindos feat Grupo Arena",
+    "normalized": "tamarindos feat grupo arena",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tamarindos feat Grupo Arena"
+    ]
+  },
+  {
+    "name": "Teideswing",
+    "normalized": "teideswing",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Teideswing"
+    ]
+  },
+  {
+    "name": "Telez",
+    "normalized": "telez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Telez"
+    ]
+  },
+  {
+    "name": "Tentación & Romen",
+    "normalized": "tentacion & romen",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tentación & Romen"
+    ]
+  },
+  {
+    "name": "Thony Romero",
+    "normalized": "thony romero",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Thony Romero"
+    ]
+  },
+  {
+    "name": "Tito El Bambino",
+    "normalized": "tito el bambino",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tito El Bambino"
+    ]
+  },
+  {
+    "name": "Tito El Bambino  ft Tito Nieves",
+    "normalized": "tito el bambino ft tito nieves",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tito El Bambino  ft Tito Nieves"
+    ]
+  },
+  {
+    "name": "Tito Nieves & Domingo Quinoness",
+    "normalized": "tito nieves & domingo quinoness",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tito Nieves & Domingo Quinoness"
+    ]
+  },
+  {
+    "name": "Tito Nieves ft Daniela Darcourt",
+    "normalized": "tito nieves ft daniela darcourt",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tito Nieves ft Daniela Darcourt"
+    ]
+  },
+  {
+    "name": "Tito Nieves ft India",
+    "normalized": "tito nieves ft india",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tito Nieves ft India"
+    ]
+  },
+  {
+    "name": "Toby Love",
+    "normalized": "toby love",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Toby Love"
+    ]
+  },
+  {
+    "name": "Tonny Tun Tun  Ft  Frankie Negrón",
+    "normalized": "tonny tun tun ft frankie negron",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tonny Tun Tun  Ft  Frankie Negrón"
+    ]
+  },
+  {
+    "name": "Tony Swing",
+    "normalized": "tony swing",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tony Swing"
+    ]
+  },
+  {
+    "name": "Toque de queda",
+    "normalized": "toque de queda",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Toque de queda"
+    ]
+  },
+  {
+    "name": "Traficantes Del Merengue",
+    "normalized": "traficantes del merengue",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Traficantes Del Merengue"
+    ]
+  },
+  {
+    "name": "Travesia",
+    "normalized": "travesia",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Travesia"
+    ]
+  },
+  {
+    "name": "Tromboranga",
+    "normalized": "tromboranga",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tromboranga"
+    ]
+  },
+  {
+    "name": "Tropicalisimo",
+    "normalized": "tropicalisimo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tropicalisimo"
+    ]
+  },
+  {
+    "name": "Tropicalisimo Apache",
+    "normalized": "tropicalisimo apache",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tropicalisimo Apache"
+    ]
+  },
+  {
+    "name": "Tropicana Band",
+    "normalized": "tropicana band",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tropicana Band"
+    ]
+  },
+  {
+    "name": "Trulala",
+    "normalized": "trulala",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Trulala"
+    ]
+  },
+  {
+    "name": "Tueska",
+    "normalized": "tueska",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tueska"
+    ]
+  },
+  {
+    "name": "Tumaparos",
+    "normalized": "tumaparos",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tumaparos"
+    ]
+  },
+  {
+    "name": "Tupamaros",
+    "normalized": "tupamaros",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tupamaros"
+    ]
+  },
+  {
+    "name": "Ultra Banda",
+    "normalized": "ultra banda",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Ultra Banda"
+    ]
+  },
+  {
+    "name": "Van Lester",
+    "normalized": "van lester",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Van Lester"
+    ]
+  },
+  {
+    "name": "Vicente Garcia ft Kumary Sawyers",
+    "normalized": "vicente garcia ft kumary sawyers",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Vicente Garcia ft Kumary Sawyers"
+    ]
+  },
+  {
+    "name": "Vicky",
+    "normalized": "vicky",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Vicky"
+    ]
+  },
+  {
+    "name": "Victor Manuelle & Frankie Ruiz",
+    "normalized": "victor manuelle & frankie ruiz",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Victor Manuelle & Frankie Ruiz"
+    ]
+  },
+  {
+    "name": "Victor Manuelle  &  Jorge Celedon",
+    "normalized": "victor manuelle & jorge celedon",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Victor Manuelle  &  Jorge Celedon"
+    ]
+  },
+  {
+    "name": "Victor Manuelle & Juan Luis Guerra",
+    "normalized": "victor manuelle & juan luis guerra",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Victor Manuelle & Juan Luis Guerra"
+    ]
+  },
+  {
+    "name": "Víctor Manuelle & La India",
+    "normalized": "victor manuelle & la india",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Víctor Manuelle & La India"
+    ]
+  },
+  {
+    "name": "Volcánicos",
+    "normalized": "volcanicos",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Volcánicos"
+    ]
+  },
+  {
+    "name": "Wason Brazoban Ft Tommy Jiménez",
+    "normalized": "wason brazoban ft tommy jimenez",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Wason Brazoban Ft Tommy Jiménez"
+    ]
+  },
+  {
+    "name": "Wilfredo Vargas   El Diskjoeckey Dijo",
+    "normalized": "wilfredo vargas el diskjoeckey dijo",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Wilfredo Vargas   El Diskjoeckey Dijo"
+    ]
+  },
+  {
+    "name": "Willie Colon",
+    "normalized": "willie colon",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Willie Colon"
+    ]
+  },
+  {
+    "name": "Wilson Manyoma",
+    "normalized": "wilson manyoma",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Wilson Manyoma"
+    ]
+  },
+  {
+    "name": "Xtreme",
+    "normalized": "xtreme",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Xtreme"
+    ]
+  },
+  {
+    "name": "Yahaira Plasencia & Sergio George",
+    "normalized": "yahaira plasencia & sergio george",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Yahaira Plasencia & Sergio George"
+    ]
+  },
+  {
+    "name": "Yambao",
+    "normalized": "yambao",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Yambao"
+    ]
+  },
+  {
+    "name": "Yandel Ft Victor Manuelle",
+    "normalized": "yandel ft victor manuelle",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Yandel Ft Victor Manuelle"
+    ]
+  },
+  {
+    "name": "Yiyo Sarante FT Miriam Cruz",
+    "normalized": "yiyo sarante ft miriam cruz",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Yiyo Sarante FT Miriam Cruz"
+    ]
+  },
+  {
+    "name": "YOJEIDY BROWN",
+    "normalized": "yojeidy brown",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "YOJEIDY BROWN"
+    ]
+  },
+  {
+    "name": "Yony y Aya",
+    "normalized": "yony y aya",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Yony y Aya"
+    ]
+  },
+  {
+    "name": "You Salsa  &  Jair Mendoza",
+    "normalized": "you salsa & jair mendoza",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "You Salsa  &  Jair Mendoza"
+    ]
+  },
+  {
+    "name": "Yuri Buenaventura",
+    "normalized": "yuri buenaventura",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Yuri Buenaventura"
+    ]
+  },
+  {
+    "name": "Zacarias Ferreira",
+    "normalized": "zacarias ferreira",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Zacarias Ferreira"
+    ]
+  },
+  {
+    "name": "Zafiro Estelar",
+    "normalized": "zafiro estelar",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Zafiro Estelar"
+    ]
+  },
+  {
+    "name": "Zion & Lennox",
+    "normalized": "zion & lennox",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Zion & Lennox"
+    ]
+  },
+  {
+    "name": "Zona Rika",
+    "normalized": "zona rika",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Zona Rika"
+    ]
+  },
+  {
+    "name": "ZONE 4OUR",
+    "normalized": "zone 4our",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "ZONE 4OUR"
+    ]
+  }
+]
