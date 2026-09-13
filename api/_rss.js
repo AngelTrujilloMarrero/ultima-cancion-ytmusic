@@ -11,6 +11,9 @@ export async function fetchChannelRSS(channelId, timeoutMs = 4000) {
     const res = await fetch(url, { headers: { 'User-Agent': UA }, signal: ctrl.signal })
     if (!res.ok) return { ok: false, reason: `http_${res.status}` }
     const xml = await res.text()
+    // Primer <title> del feed = nombre del canal (los de YouTube Music
+    // terminan en "- Topic"). Sirve para verificar que es el canal oficial.
+    const feedTitle = xml.match(/<title>(.*?)<\/title>/)?.[1] ?? null
     const entries = [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)].map((m) => m[1])
     const videos = entries
       .map((e) => {
@@ -21,7 +24,7 @@ export async function fetchChannelRSS(channelId, timeoutMs = 4000) {
       })
       .filter(Boolean)
       .slice(0, 15)
-    return { ok: true, videos }
+    return { ok: true, videos, feedTitle }
   } catch (err) {
     return { ok: false, reason: err?.name === 'AbortError' ? 'timeout' : 'network' }
   } finally {

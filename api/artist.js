@@ -41,26 +41,36 @@ async function fetchHtml(url, timeoutMs = 9000) {
   }
 }
 
-function pickTopic(cands, target) {
-  // cands: [{text, id}] — 1) match exacto del nombre, 2) lo contiene
+function pickTopic(cands, variants) {
+  // SOLO match exacto contra variantes del nombre oficial
+  // (nombre, "Orquesta X", "Grupo X"...): nada de terceros ni parecidos.
+  // Devuelve también con qué variante casó, para verificar el RSS después.
   const freq = new Map()
   for (const p of cands) freq.set(p.id + '|' + p.text, (freq.get(p.id + '|' + p.text) ?? 0) + 1)
   const ranked = [...freq.entries()].sort((a, b) => b[1] - a[1])
-  const exact = ranked.find(([k]) => norm(stripTopic(k.split('|')[1])) === target)
-  if (exact) {
-    const [id, text] = exact[0].split('|')
-    return { channelId: id, channelTitle: text }
-  }
-  const loose = ranked.find(([k]) => norm(k.split('|')[1]).includes(target))
-  if (loose) {
-    const [id, text] = loose[0].split('|')
-    return { channelId: id, channelTitle: text }
+  for (const v of variants) {
+    const exact = ranked.find(([k]) => norm(stripTopic(k.split('|')[1])) === v)
+    if (exact) {
+      const [id, text] = exact[0].split('|')
+      return { channelId: id, channelTitle: text, matched: v }
+    }
   }
   return null
 }
 
+// Variantes del nombre oficial: el Topic a veces añade el prefijo
+// ("Tropin" -> "Orquesta Tropin - Topic"). Solo prefijos de formación.
+function nameVariants(name) {
+  const base = norm(name)
+  const out = [base]
+  for (const pre of ['orquesta', 'grupo', 'sonora']) {
+    if (!base.startsWith(pre + ' ')) out.push(`${pre} ${base}`)
+  }
+  return out
+}
+
 async function findTopicChannel(name) {
-  const target = norm(name)
+  const variants = nameVariants(name)
   // A) pestaña "Canales": devuelve channelRenderer con el nombre visible
   // (en español YouTube muestra "- Tema" en vez de "- Topic": es el mismo canal).
   {
@@ -73,13 +83,13 @@ async function findTopicChannel(name) {
       ].map((m) => ({ id: m[1], text: m[2] }))
       const hit = pickTopic(
         pairs.filter((p) => isTopicTitle(p.text)),
-        target,
+        variants,
       )
       if (hit) return hit
     }
   }
   // B) fallback: dueños de los vídeos ("X - Topic / - Tema")
-  for (const q of [`${name} - Topic`, `${name} Topic`, `${name} - Tema`]) {
+  for (const q of [`${name} - Topic`, `${name} Topic`, `${name} - Tema`, `Orquesta ${name}`]) {
     const html = await fetchHtml(`https://www.youtube.com/results?search_query=${encodeURIComponent(q)}`)
     if (!html) continue
     const pairs = [
@@ -89,7 +99,7 @@ async function findTopicChannel(name) {
     ].map((m) => ({ text: m[1], id: m[2] }))
     const hit = pickTopic(
       pairs.filter((p) => isTopicTitle(p.text)),
-      target,
+      variants,
     )
     if (hit) return hit
   }
@@ -106,6 +116,7 @@ export default async function handler(req, res) {
 
   let channelId = entry?.channelId ?? null
   let channelTitle = entry ? `${entry.name} - Topic` : `${name} - Topic`
+  let matched = entry ? norm(entry.name) : norm(name)
 
   if (!channelId) {
     const found = await findTopicChannel(entry?.name ?? name)
@@ -114,15 +125,28 @@ export default async function handler(req, res) {
         name: entry?.name ?? name,
         temas: entry?.temas ?? 0,
         topic: null,
-        message: 'Este artista no tiene canal en YouTube Music (sin "- Topic"). Solo existen vídeos sueltos.',
+        message: 'Este artista no tiene canal oficial en YouTube Music (sin "- Topic"). Solo existen vídeos de terceros.',
       })
     }
     channelId = found.channelId
     channelTitle = found.channelTitle
+    matched = found.matched
   }
 
   const rss = await fetchChannelRSS(channelId)
   if (!rss.ok) return res.status(502).json({ error: `RSS falló: ${rss.reason}` })
+
+  // Verificación oficial: el feed debe ser "<Artista> - Topic/Tema" exacto
+  // (o su variante con prefijo de formación). Si no, es de terceros y se rechaza.
+  const allowed = new Set(nameVariants(entry?.name ?? name).concat([matched]))
+  if (!rss.feedTitle || !isTopicTitle(rss.feedTitle) || !allowed.has(norm(stripTopic(rss.feedTitle)))) {
+    return res.status(404).json({
+      name: entry?.name ?? name,
+      temas: entry?.temas ?? 0,
+      topic: null,
+      message: `Sin canal oficial en YouTube Music (el canal encontrado "${rss.feedTitle ?? 'desconocido'}" no es el Topic oficial de ${entry?.name ?? name}).`,
+    })
+  }
 
   const latest = rss.videos.slice(0, 2).map((v) => ({
     videoId: v.videoId,
