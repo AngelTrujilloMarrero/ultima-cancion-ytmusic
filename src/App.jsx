@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import QueuePlayer from './QueuePlayer.jsx'
 
-const SEL_KEY = 'ytm-selected-v1'
+const BOARD_KEY = 'ytm-board-v1'
 
 async function pool(items, n, fn) {
   let i = 0
@@ -12,6 +12,14 @@ async function pool(items, n, fn) {
     }
   })
   await Promise.all(workers)
+}
+
+function ageText(at) {
+  if (!at) return ''
+  const h = (Date.now() - at) / 3600000
+  if (h < 1) return 'hace unos minutos'
+  if (h < 24) return `hace ${Math.floor(h)} h`
+  return `hace ${Math.floor(h / 24)} d`
 }
 
 function SongLinks({ v }) {
@@ -27,18 +35,18 @@ export default function App() {
   const [artists, setArtists] = useState([])
   const [loading, setLoading] = useState(true)
   const [q, setQ] = useState('')
-  const [selected, setSelected] = useState(() => {
-    try {
-      return new Set(JSON.parse(localStorage.getItem(SEL_KEY) ?? '[]'))
-    } catch {
-      return new Set()
-    }
-  })
+  const [scope, setScope] = useState(50)
   const [single, setSingle] = useState(null) // { artist, data, syncing }
   const [playing, setPlaying] = useState(null)
-  const [board, setBoard] = useState({}) // normalized -> respuesta /api/artist
+  const [board, setBoard] = useState(() => {
+    try {
+      return JSON.parse(localStorage.getItem(BOARD_KEY) ?? '{}')
+    } catch {
+      return {}
+    }
+  })
   const [prog, setProg] = useState({ running: false, done: 0, total: 0 })
-  const [queue, setQueue] = useState([]) // [{videoId,title,artist,publishedAt,urlMusic,...}]
+  const [queue, setQueue] = useState([])
   const [qi, setQi] = useState(0)
 
   useEffect(() => {
@@ -50,23 +58,18 @@ export default function App() {
   }, [])
 
   useEffect(() => {
-    localStorage.setItem(SEL_KEY, JSON.stringify([...selected]))
-  }, [selected])
+    try {
+      localStorage.setItem(BOARD_KEY, JSON.stringify(board))
+    } catch {
+      // caché llena: se sigue en memoria
+    }
+  }, [board])
 
   const filtered = useMemo(() => {
     const needle = q.trim().toLowerCase()
     if (!needle) return artists
     return artists.filter((a) => a.name.toLowerCase().includes(needle))
   }, [artists, q])
-
-  function toggle(norm) {
-    setSelected((prev) => {
-      const next = new Set(prev)
-      if (next.has(norm)) next.delete(norm)
-      else next.add(norm)
-      return next
-    })
-  }
 
   async function fetchOne(a) {
     const r = await fetch(`/api/artist?name=${encodeURIComponent(a.name)}`)
@@ -77,51 +80,51 @@ export default function App() {
     setSingle({ artist: a, data: null, syncing: true })
     setPlaying(null)
     try {
-      setSingle({ artist: a, data: await fetchOne(a), syncing: false })
+      const data = await fetchOne(a)
+      setSingle({ artist: a, data, syncing: false })
+      setBoard((prev) => ({ ...prev, [a.normalized]: { data, at: Date.now() } }))
     } catch {
       setSingle({ artist: a, data: { error: 'Fallo de red' }, syncing: false })
     }
   }
 
-  async function syncBoard(force = false) {
-    const targets = artists.filter((a) => selected.has(a.normalized))
+  async function syncChart(force = false) {
+    const targets = artists.slice(0, scope)
     const pending = force ? targets : targets.filter((a) => !board[a.normalized])
     if (!pending.length) return
     setProg({ running: true, done: 0, total: pending.length })
     await pool(pending, 4, async (a) => {
       try {
         const data = await fetchOne(a)
-        setBoard((prev) => ({ ...prev, [a.normalized]: data }))
+        setBoard((prev) => ({ ...prev, [a.normalized]: { data, at: Date.now() } }))
       } catch {
-        setBoard((prev) => ({ ...prev, [a.normalized]: { name: a.name, error: 'Fallo de red' } }))
+        setBoard((prev) => ({ ...prev, [a.normalized]: { data: { name: a.name, error: 'Fallo de red' }, at: Date.now() } }))
       }
       setProg((p) => ({ ...p, done: p.done + 1 }))
     })
     setProg((p) => ({ ...p, running: false }))
   }
 
-  const { ranked, missing } = useMemo(() => {
+  // Chart: artistas ordenados por FECHA de su último single (reciente → antiguo)
+  const { chart, missing, syncedInScope } = useMemo(() => {
+    const inScope = artists.slice(0, scope)
     const ok = []
     const missing = []
-    for (const a of artists) {
-      if (!selected.has(a.normalized)) continue
-      const d = board[a.normalized]
-      if (!d) continue
-      if (d.latest?.length) ok.push({ artist: a, data: d })
-      else missing.push({ artist: a, data: d })
+    let synced = 0
+    for (const a of inScope) {
+      const hit = board[a.normalized]
+      if (!hit) continue
+      synced++
+      if (hit.data?.latest?.length) ok.push({ artist: a, data: hit.data, at: hit.at })
+      else missing.push({ artist: a, data: hit.data })
     }
     ok.sort((x, y) => new Date(y.data.latest[0].publishedAt) - new Date(x.data.latest[0].publishedAt))
-    return { ranked: ok, missing }
-  }, [artists, selected, board])
-
-  const syncedCount = useMemo(
-    () => artists.filter((a) => selected.has(a.normalized) && board[a.normalized]).length,
-    [artists, selected, board],
-  )
+    return { chart: ok, missing, syncedInScope: synced }
+  }, [artists, board, scope])
 
   function playAll() {
-    if (!ranked.length) return
-    setQueue(ranked.map(({ artist, data }) => ({ ...data.latest[0], artist: data.name, key: artist.normalized })))
+    if (!chart.length) return
+    setQueue(chart.map(({ artist, data }) => ({ ...data.latest[0], artist: data.name, key: artist.normalized })))
     setQi(0)
   }
 
@@ -130,10 +133,9 @@ export default function App() {
       <header className="border-b border-zinc-800 bg-zinc-900/60 sticky top-0 backdrop-blur z-10">
         <div className="max-w-5xl mx-auto px-4 py-4 flex flex-col sm:flex-row gap-3 sm:items-center">
           <div className="flex-1">
-            <h1 className="text-xl font-bold">Formaciones · de mayor a menor 🎶</h1>
+            <h1 className="text-xl font-bold">Últimos singles 🎶</h1>
             <p className="text-sm text-zinc-400">
-              {artists.length} formaciones · marca con ☑ tus favoritas y pulsa sincronizar
-              {selected.size > 0 && <> · <span className="text-emerald-400 font-semibold">{selected.size} elegidas</span></>}
+              {artists.length} formaciones · ordenadas por su último single en YouTube Music
             </p>
           </div>
           <input
@@ -146,85 +148,105 @@ export default function App() {
       </header>
 
       <main className={`max-w-5xl mx-auto px-4 py-6 space-y-6 ${queue.length ? 'pb-40' : ''}`}>
-        {selected.size > 0 && (
-          <section className="rounded-2xl border border-emerald-900 bg-emerald-950/20 p-4">
-            <div className="flex flex-wrap items-center gap-2 mb-3">
-              <h2 className="font-semibold flex-1">Mi selección ({selected.size}) → de lo más reciente a lo más antiguo</h2>
+        <section className="rounded-2xl border border-emerald-900 bg-emerald-950/20 p-4">
+          <div className="flex flex-wrap items-center gap-2 mb-3">
+            <h2 className="font-semibold flex-1">Chart por último single ({chart.length}/{artists.slice(0, scope).length})</h2>
+            <select
+              value={scope}
+              onChange={(e) => setScope(Number(e.target.value))}
+              className="rounded-lg bg-zinc-800 border border-zinc-700 px-2 py-1.5 text-sm"
+              title="Alcance"
+            >
+              <option value={50}>Top 50</option>
+              <option value={100}>Top 100</option>
+              <option value={200}>Top 200</option>
+              <option value={867}>Todos</option>
+            </select>
+            <button
+              onClick={() => syncChart(false)}
+              disabled={prog.running || loading}
+              className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-sm font-semibold disabled:opacity-50"
+            >
+              Sincronizar
+            </button>
+            {syncedInScope > 0 && (
+              <button
+                onClick={() => syncChart(true)}
+                disabled={prog.running}
+                className="px-3 py-1.5 rounded-lg bg-zinc-700 hover:bg-zinc-600 text-sm disabled:opacity-50"
+              >
+                ↻ Actualizar
+              </button>
+            )}
+            {chart.length > 0 && (
               <button
                 onClick={playAll}
-                disabled={prog.running || ranked.length === 0}
-                className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-sm font-semibold disabled:opacity-50"
+                className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-sm font-semibold"
               >
-                ▶ Reproducir todo
+                ▶ Reproducir
               </button>
-              <button
-                onClick={() => syncBoard(false)}
-                disabled={prog.running}
-                className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-sm font-semibold disabled:opacity-50"
-              >
-                {syncedCount ? 'Sincronizar pendientes' : 'Sincronizar selección'}
-              </button>
-              {syncedCount > 0 && (
-                <button
-                  onClick={() => syncBoard(true)}
-                  disabled={prog.running}
-                  className="px-3 py-1.5 rounded-lg bg-zinc-700 hover:bg-zinc-600 text-sm disabled:opacity-50"
-                >
-                  ↻ Actualizar todo
-                </button>
-              )}
-              <button onClick={() => setSelected(new Set())} className="px-3 py-1.5 rounded-lg text-sm text-zinc-400 hover:text-white">
-                Limpiar
-              </button>
-            </div>
-            {prog.running && <p className="text-sm text-zinc-400 mb-2">Sincronizando {prog.done}/{prog.total}…</p>}
-            {!prog.running && syncedCount === 0 && <p className="text-sm text-zinc-400">Dale a sincronizar para traer lo último de YouTube Music de tus elegidas.</p>}
-            {ranked.length > 0 && (
-              <ol className="space-y-2">
-                {ranked.map(({ artist, data }, i) => {
-                  const v = data.latest[0]
-                  const isCurrent = queue.length > 0 && queue[qi]?.videoId === v.videoId
-                  return (
-                    <li key={artist.normalized} className={`rounded-xl overflow-hidden border bg-zinc-900 ${isCurrent ? 'border-emerald-500 ring-1 ring-emerald-500' : 'border-zinc-800'}`}>
-                      <div className="flex gap-3 p-2">
-                        <span className="w-8 text-right text-zinc-500 tabular-nums shrink-0 pt-1">{i + 1}</span>
-                        <button onClick={() => setPlaying(playing === v.videoId ? null : v.videoId)} className="relative shrink-0">
-                          <img src={v.thumb} alt="" className="w-28 aspect-video object-cover rounded-lg" loading="lazy" />
-                          <span className="absolute inset-0 m-auto w-8 h-8 rounded-full bg-black/70 text-sm flex items-center justify-center">
-                            {playing === v.videoId ? '⏸' : '▶'}
-                          </span>
-                        </button>
-                        <div className="flex-1 text-sm min-w-0">
-                          <p className="text-xs text-emerald-400 font-semibold">{v.publishedAt?.slice(0, 10)}</p>
-                          <p className="font-bold truncate">{v.title}</p>
-                          <p className="text-zinc-400 truncate">{data.name}</p>
-                          <SongLinks v={v} />
-                        </div>
-                      </div>
-                      {playing === v.videoId && (
-                        <div className="aspect-video bg-black">
-                          <iframe
-                            className="w-full h-full"
-                            src={`https://www.youtube.com/embed/${v.videoId}?autoplay=1`}
-                            title={v.title}
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                          />
-                        </div>
-                      )}
-                    </li>
-                  )
-                })}
-              </ol>
             )}
-            {missing.length > 0 && (
-              <div className="mt-3 text-sm">
-                <p className="text-amber-300 font-semibold mb-1">Sin música en YouTube Music ({missing.length}):</p>
-                <p className="text-zinc-400">{missing.map((m) => m.artist.name).join(' · ')}</p>
+          </div>
+          {prog.running && (
+            <div className="mb-3">
+              <p className="text-sm text-zinc-400 mb-1">Sincronizando {prog.done}/{prog.total}…</p>
+              <div className="h-2 rounded-full bg-zinc-800 overflow-hidden">
+                <div className="h-full bg-emerald-500 transition-all" style={{ width: `${(prog.done / Math.max(prog.total, 1)) * 100}%` }} />
               </div>
-            )}
-          </section>
-        )}
+            </div>
+          )}
+          {!prog.running && chart.length === 0 && (
+            <p className="text-sm text-zinc-400">Elige alcance y dale a sincronizar: trae el último single de YouTube Music de cada formación y los ordena del más reciente al más antiguo.</p>
+          )}
+          {chart.length > 0 && (
+            <ol className="space-y-2">
+              {chart.map(({ artist, data, at }, i) => {
+                const v = data.latest[0]
+                const isCurrent = queue.length > 0 && queue[qi]?.videoId === v.videoId
+                return (
+                  <li key={artist.normalized} className={`rounded-xl overflow-hidden border bg-zinc-900 ${isCurrent ? 'border-emerald-500 ring-1 ring-emerald-500' : 'border-zinc-800'}`}>
+                    <div className="flex gap-3 p-2">
+                      <span className="w-8 text-right text-zinc-500 tabular-nums shrink-0 pt-1">{i + 1}</span>
+                      <button onClick={() => setPlaying(playing === v.videoId ? null : v.videoId)} className="relative shrink-0">
+                        <img src={v.thumb} alt="" className="w-28 aspect-video object-cover rounded-lg" loading="lazy" />
+                        <span className="absolute inset-0 m-auto w-8 h-8 rounded-full bg-black/70 text-sm flex items-center justify-center">
+                          {playing === v.videoId ? '⏸' : '▶'}
+                        </span>
+                      </button>
+                      <div className="flex-1 text-sm min-w-0">
+                        <p className="text-xs text-emerald-400 font-semibold">
+                          {v.publishedAt?.slice(0, 10)} · {ageText(at)}
+                        </p>
+                        <p className="font-bold truncate">{v.title}</p>
+                        <button onClick={() => syncSingle(artist)} className="text-zinc-400 truncate hover:text-emerald-300" title="Ver sus 2 últimas">
+                          {data.name}
+                        </button>
+                        <SongLinks v={v} />
+                      </div>
+                    </div>
+                    {playing === v.videoId && (
+                      <div className="aspect-video bg-black">
+                        <iframe
+                          className="w-full h-full"
+                          src={`https://www.youtube.com/embed/${v.videoId}?autoplay=1`}
+                          title={v.title}
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                        />
+                      </div>
+                    )}
+                  </li>
+                )
+              })}
+            </ol>
+          )}
+          {missing.length > 0 && (
+            <div className="mt-3 text-sm">
+              <p className="text-amber-300 font-semibold mb-1">Sin canal oficial en YouTube Music ({missing.length}):</p>
+              <p className="text-zinc-400">{missing.map((m) => m.artist.name).join(' · ')}</p>
+            </div>
+          )}
+        </section>
 
         {single && (
           <section className="rounded-2xl border border-zinc-700 bg-zinc-900 p-4">
@@ -258,7 +280,7 @@ export default function App() {
                       )}
                     </button>
                     <div className="p-3 text-sm space-y-1">
-                      <p className="text-xs text-emerald-400 font-semibold">{i === 0 ? 'ÚLTIMA' : 'ANTERIOR'} · {v.publishedAt?.slice(0, 10)}</p>
+                      <p className="text-xs text-emerald-400 font-semibold">{i === 0 ? 'ÚLTIMO SINGLE' : 'ANTERIOR'} · {v.publishedAt?.slice(0, 10)}</p>
                       <p className="font-bold">{v.title}</p>
                       <SongLinks v={v} />
                     </div>
@@ -274,27 +296,21 @@ export default function App() {
 
         <section className="rounded-2xl border border-zinc-800 bg-zinc-900 p-4">
           <h2 className="font-semibold mb-1">
-            Ranking ({loading ? '…' : filtered.length}) · de mayor a menor nº de canciones
+            Formaciones ({loading ? '…' : filtered.length}) · por nº de canciones en tu USB
           </h2>
-          <p className="text-xs text-zinc-500 mb-3">☑ marca tus favoritas · clic en el nombre para ver sus 2 últimas</p>
+          <p className="text-xs text-zinc-500 mb-3">Clic en el nombre para ver sus 2 últimos singles</p>
           {loading ? (
             <p className="text-sm text-zinc-400">Cargando…</p>
           ) : (
             <ol className="divide-y divide-zinc-800">
               {filtered.map((a, i) => (
-                <li key={a.normalized} className="flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-zinc-800/60">
-                  <input
-                    type="checkbox"
-                    checked={selected.has(a.normalized)}
-                    onChange={() => toggle(a.normalized)}
-                    title={`Elegir ${a.name}`}
-                    className="w-4 h-4 accent-emerald-500 shrink-0 cursor-pointer"
-                  />
-                  <button onClick={() => syncSingle(a)} className="flex flex-1 items-center gap-3 text-left text-sm min-w-0">
+                <li key={a.normalized}>
+                  <button onClick={() => syncSingle(a)} className="w-full flex items-center gap-3 px-2 py-2 text-left text-sm rounded-lg hover:bg-zinc-800/60 min-w-0">
                     <span className="w-10 text-right text-zinc-500 tabular-nums shrink-0">{i + 1}</span>
                     <span className="flex-1 truncate font-medium">{a.name}</span>
-                    {a.channelId && <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-900 text-emerald-300 shrink-0">sync ✓</span>}
-                    {board[a.normalized]?.latest && <span className="text-[10px] text-zinc-500 shrink-0">{board[a.normalized].latest[0]?.publishedAt?.slice(0, 10)}</span>}
+                    {board[a.normalized]?.data?.latest && (
+                      <span className="text-[10px] text-zinc-500 shrink-0">{board[a.normalized].data.latest[0]?.publishedAt?.slice(0, 10)}</span>
+                    )}
                     <span className="text-zinc-300 tabular-nums shrink-0">{a.temas} 🎵</span>
                   </button>
                 </li>
