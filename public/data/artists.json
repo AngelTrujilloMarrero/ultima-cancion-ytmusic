@@ -5,33 +5,33 @@
     "temas": 161,
     "channelId": "UC3q9VU6yEJ3-yibCLb4Ci3w",
     "status": "ok-topic",
+    "channelOfficial": "UCKFAl6RTLiZmv2Y3_7f2fJw",
     "variants": [
-      "ARMONIA SHOW",
+      "Armonía Show",
       "Armonia Show",
-      "Armonia show",
-      "Armonía Show"
-    ],
-    "channelOfficial": "UCKFAl6RTLiZmv2Y3_7f2fJw"
+      "ARMONIA SHOW",
+      "Armonia show"
+    ]
   },
   {
     "name": "El Combo Dominicano",
     "normalized": "el combo dominicano",
     "temas": 158,
-    "channelId": null,
-    "status": "pending",
+    "channelId": "UCkDGuuU7MjMFIb3avj4h8mQ",
+    "status": "ok",
     "variants": [
-      "EL Combo Dominicano",
-      "El  Combo Dominicano",
+      "El Combo Dominicano",
       "El COMBO DOMINICANO",
-      "El Combo Dominicano"
+      "EL Combo Dominicano",
+      "El  Combo Dominicano"
     ]
   },
   {
     "name": "Marc Anthony",
     "normalized": "marc anthony",
     "temas": 81,
-    "channelId": null,
-    "status": "pending",
+    "channelId": "UC22hscWzcVvD_CEPiuaOIbQ",
+    "status": "ok",
     "variants": [
       "Marc Anthony",
       "Marc anthony"
@@ -41,8 +41,8 @@
     "name": "Wamampy",
     "normalized": "wamampy",
     "temas": 81,
-    "channelId": null,
-    "status": "pending",
+    "channelId": "UCyBsVrVtdBx918k9wXhCWiQ",
+    "status": "ok",
     "variants": [
       "Wamampy"
     ]
@@ -51,8 +51,8 @@
     "name": "Grupo Bomba",
     "normalized": "grupo bomba",
     "temas": 74,
-    "channelId": null,
-    "status": "pending",
+    "channelId": "UCCCmIy9ptoQBp2Iv2l6sHgA",
+    "status": "ok",
     "variants": [
       "Grupo Bomba",
       "Grupo bomba"
@@ -62,33 +62,33 @@
     "name": "Rafaga",
     "normalized": "rafaga",
     "temas": 58,
-    "channelId": null,
-    "status": "pending",
+    "channelId": "UCK_rZ-TS85y_kosb4ZkHvng",
+    "status": "ok",
     "variants": [
-      "RAFAGA",
       "Rafaga",
-      "Ráfaga"
-    ]
-  },
-  {
-    "name": "Tropin",
-    "normalized": "tropin",
-    "temas": 42,
-    "channelId": null,
-    "status": "pending",
-    "variants": [
-      "TROPIN",
-      "Tropin"
+      "Ráfaga",
+      "RAFAGA"
     ]
   },
   {
     "name": "Tenerife",
     "normalized": "tenerife",
     "temas": 41,
-    "channelId": null,
-    "status": "pending",
+    "channelId": "UCGzuW3aazGnMDstPjwDTlfA",
+    "status": "ok",
     "variants": [
       "Tenerife"
+    ]
+  },
+  {
+    "name": "Tropin",
+    "normalized": "tropin",
+    "temas": 41,
+    "channelId": "UCL0sx7hli2BdL80y7BvedeA",
+    "status": "ok",
+    "variants": [
+      "Tropin",
+      "TROPIN"
     ]
   },
   {
@@ -98,8 +98,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "MANNY MANUEL",
-      "Manny Manuel"
+      "Manny Manuel",
+      "MANNY MANUEL"
     ]
   },
   {
@@ -109,9 +109,9 @@
     "channelId": null,
     "status": "pending",
     "variants": [
+      "Nuevo Klan",
       "NUEVO KLAN",
-      "Nuevo KLan",
-      "Nuevo Klan"
+      "Nuevo KLan"
     ]
   },
   {
@@ -182,8 +182,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "DINACORD",
-      "Dinacord"
+      "Dinacord",
+      "DINACORD"
     ]
   },
   {
@@ -203,8 +203,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "ACAPULCO",
-      "Acapulco"
+      "Acapulco",
+      "ACAPULCO"
     ]
   },
   {
@@ -224,9 +224,9 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "RUBBY PEREZ",
       "Rubby Perez",
-      "Rubby Pérez"
+      "Rubby Pérez",
+      "RUBBY PEREZ"
     ]
   },
   {
@@ -247,8 +247,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "ELVIS CRESPO",
-      "Elvis Crespo"
+      "Elvis Crespo",
+      "ELVIS CRESPO"
     ]
   },
   {
@@ -269,9 +269,9 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "EL JEFFREY",
       "El Jeffrey",
       "El jeffrey",
+      "EL JEFFREY",
       "el Jeffrey"
     ]
   },
@@ -282,8 +282,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "FRANKIE RUIZ",
       "Frankie Ruiz",
+      "FRANKIE RUIZ",
       "Frankie Ruíz"
     ]
   },
@@ -294,8 +294,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "Melodia Show",
-      "Melodía Show"
+      "Melodía Show",
+      "Melodia Show"
     ]
   },
   {
@@ -336,10 +336,10 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "GÜIRA LATINA",
-      "GüIra Latina",
       "Güira Latina",
-      "Güíra Latina"
+      "GÜIRA LATINA",
+      "Güíra Latina",
+      "GüIra Latina"
     ]
   },
   {
@@ -379,8 +379,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "VIBRACIONES",
-      "Vibraciones"
+      "Vibraciones",
+      "VIBRACIONES"
     ]
   },
   {
@@ -411,8 +411,8 @@
     "status": "pending",
     "variants": [
       "Malibu Band",
-      "Malibú  Band",
-      "Malibú Band"
+      "Malibú Band",
+      "Malibú  Band"
     ]
   },
   {
@@ -422,9 +422,9 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "VICTOR MANUELLE",
+      "Víctor Manuelle",
       "Victor Manuelle",
-      "Víctor Manuelle"
+      "VICTOR MANUELLE"
     ]
   },
   {
@@ -526,8 +526,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "Hermanos  Rosario",
-      "Hermanos Rosario"
+      "Hermanos Rosario",
+      "Hermanos  Rosario"
     ]
   },
   {
@@ -537,8 +537,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "JUNIOR KLAN",
-      "Junior Klan"
+      "Junior Klan",
+      "JUNIOR KLAN"
     ]
   },
   {
@@ -548,8 +548,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "REY RUIZ",
       "Rey Ruiz",
+      "REY RUIZ",
       "Rey Ruíz"
     ]
   },
@@ -580,8 +580,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "GRUPO NICHE",
-      "Grupo Niche"
+      "Grupo Niche",
+      "GRUPO NICHE"
     ]
   },
   {
@@ -601,8 +601,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "RAFFY MATIAS",
-      "Raffy Matias"
+      "Raffy Matias",
+      "RAFFY MATIAS"
     ]
   },
   {
@@ -612,8 +612,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "YIYO SARANTE",
-      "Yiyo Sarante"
+      "Yiyo Sarante",
+      "YIYO SARANTE"
     ]
   },
   {
@@ -623,9 +623,9 @@
     "channelId": null,
     "status": "pending",
     "variants": [
+      "Celia Cruz",
       "CELIA CRUZ",
-      "Celia  Cruz",
-      "Celia Cruz"
+      "Celia  Cruz"
     ]
   },
   {
@@ -635,8 +635,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "Escuela Del Amor",
-      "Escuela del amor"
+      "Escuela del amor",
+      "Escuela Del Amor"
     ]
   },
   {
@@ -686,8 +686,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "ZONA ROJA",
-      "Zona Roja"
+      "Zona Roja",
+      "ZONA ROJA"
     ]
   },
   {
@@ -697,8 +697,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "ATLANTIC",
-      "Atlantic"
+      "Atlantic",
+      "ATLANTIC"
     ]
   },
   {
@@ -748,8 +748,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "PRINCE ROYCE",
-      "Prince Royce"
+      "Prince Royce",
+      "PRINCE ROYCE"
     ]
   },
   {
@@ -799,9 +799,9 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "LUIS MIGUEL DEL AMARGUE",
+      "Luis Miguel del Amargue",
       "Luis Miguel Del Amargue",
-      "Luis Miguel del Amargue"
+      "LUIS MIGUEL DEL AMARGUE"
     ]
   },
   {
@@ -811,9 +811,9 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "SABROSOS DEL MERENGUE",
       "Sabrosos Del Merengue",
       "Sabrosos del Merengue",
+      "SABROSOS DEL MERENGUE",
       "Sabrosos del merengue"
     ]
   },
@@ -825,8 +825,8 @@
     "status": "pending",
     "variants": [
       "Suso y Familia",
-      "Suso y familia",
-      "suso y Familia"
+      "suso y Familia",
+      "Suso y familia"
     ]
   },
   {
@@ -856,8 +856,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "GRUPO LD",
       "Grupo LD",
+      "GRUPO LD",
       "Grupo Ld"
     ]
   },
@@ -878,8 +878,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "SONORA OLIMPIA",
       "Sonora Olimpia",
+      "SONORA OLIMPIA",
       "sonora olimpia"
     ]
   },
@@ -890,8 +890,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "Tentacion",
-      "Tentación"
+      "Tentación",
+      "Tentacion"
     ]
   },
   {
@@ -901,8 +901,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "TITO NIEVES",
-      "Tito Nieves"
+      "Tito Nieves",
+      "TITO NIEVES"
     ]
   },
   {
@@ -912,8 +912,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "DANIELA DARCOURT",
-      "Daniela Darcourt"
+      "Daniela Darcourt",
+      "DANIELA DARCOURT"
     ]
   },
   {
@@ -973,9 +973,9 @@
     "channelId": null,
     "status": "pending",
     "variants": [
+      "Hector Acosta",
       "HECTOR  ACOSTA",
-      "HECTOR ACOSTA",
-      "Hector Acosta"
+      "HECTOR ACOSTA"
     ]
   },
   {
@@ -1158,8 +1158,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "Revelacion",
-      "Revelación"
+      "Revelación",
+      "Revelacion"
     ]
   },
   {
@@ -1169,8 +1169,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "RIKARENA",
-      "Rikarena"
+      "Rikarena",
+      "RIKARENA"
     ]
   },
   {
@@ -1190,8 +1190,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "SAOCO",
-      "Saoco"
+      "Saoco",
+      "SAOCO"
     ]
   },
   {
@@ -1226,7 +1226,7 @@
     ]
   },
   {
-    "name": "Eddy manuel",
+    "name": "Eddy Manuel",
     "normalized": "eddy manuel",
     "temas": 6,
     "channelId": null,
@@ -1243,8 +1243,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "FERNANDO VILLALONA",
-      "Fernando Villalona"
+      "Fernando Villalona",
+      "FERNANDO VILLALONA"
     ]
   },
   {
@@ -1304,8 +1304,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "Miguel Angel",
-      "Miguel Ángel"
+      "Miguel Ángel",
+      "Miguel Angel"
     ]
   },
   {
@@ -1315,8 +1315,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "Olga Tanon",
-      "Olga Tañon"
+      "Olga Tañon",
+      "Olga Tanon"
     ]
   },
   {
@@ -1326,8 +1326,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "RikaBanda",
-      "Rikabanda"
+      "Rikabanda",
+      "RikaBanda"
     ]
   },
   {
@@ -1367,8 +1367,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "The Boss",
-      "The boss"
+      "The boss",
+      "The Boss"
     ]
   },
   {
@@ -1442,15 +1442,15 @@
     ]
   },
   {
-    "name": "Fuera de liga",
+    "name": "Fuera De Liga",
     "normalized": "fuera de liga",
     "temas": 5,
     "channelId": null,
     "status": "pending",
     "variants": [
       "Fuera De Liga",
-      "Fuera de Liga",
-      "Fuera de liga"
+      "Fuera de liga",
+      "Fuera de Liga"
     ]
   },
   {
@@ -1460,9 +1460,9 @@
     "channelId": null,
     "status": "pending",
     "variants": [
+      "Generasión",
       "GENERASION",
-      "Generasion",
-      "Generasión"
+      "Generasion"
     ]
   },
   {
@@ -1472,8 +1472,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "Gerson Galvan",
-      "Gerson Galván"
+      "Gerson Galván",
+      "Gerson Galvan"
     ]
   },
   {
@@ -1493,8 +1493,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "La  Rosa",
-      "La Rosa"
+      "La Rosa",
+      "La  Rosa"
     ]
   },
   {
@@ -1514,8 +1514,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "MAELO RUIZ",
       "Maelo Ruiz",
+      "MAELO RUIZ",
       "Maelo ruiz"
     ]
   },
@@ -1557,8 +1557,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "RONNY SOLER",
-      "Ronny Soler"
+      "Ronny Soler",
+      "RONNY SOLER"
     ]
   },
   {
@@ -1578,8 +1578,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "TOÑO ROSARIO",
-      "Toño Rosario"
+      "Toño Rosario",
+      "TOÑO ROSARIO"
     ]
   },
   {
@@ -1659,8 +1659,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "Codigo Cero",
-      "Código Cero"
+      "Código Cero",
+      "Codigo Cero"
     ]
   },
   {
@@ -1680,8 +1680,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "EDDIE SANTIAGO",
       "Eddie Santiago",
+      "EDDIE SANTIAGO",
       "Eddie santiago"
     ]
   },
@@ -1743,8 +1743,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "JCO",
-      "Jco"
+      "Jco",
+      "JCO"
     ]
   },
   {
@@ -1815,8 +1815,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "LOS CANTANTES",
-      "Los Cantantes"
+      "Los Cantantes",
+      "LOS CANTANTES"
     ]
   },
   {
@@ -1847,9 +1847,9 @@
     "channelId": null,
     "status": "pending",
     "variants": [
+      "Los villacorta",
       "Los  Villacorta",
-      "Los Villacorta",
-      "Los villacorta"
+      "Los Villacorta"
     ]
   },
   {
@@ -1950,8 +1950,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "ZAFRA NEGRA",
-      "Zafra Negra"
+      "Zafra Negra",
+      "ZAFRA NEGRA"
     ]
   },
   {
@@ -2114,8 +2114,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "GRUPO KANDELA",
-      "Grupo Kandela"
+      "Grupo Kandela",
+      "GRUPO KANDELA"
     ]
   },
   {
@@ -2257,8 +2257,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "OSCARITO",
-      "Oscarito"
+      "Oscarito",
+      "OSCARITO"
     ]
   },
   {
@@ -2308,8 +2308,8 @@
     "channelId": null,
     "status": "pending",
     "variants": [
-      "Revolucion Salsera",
-      "Revolución Salsera"
+      "Revolución Salsera",
+      "Revolucion Salsera"
     ]
   },
   {
@@ -2446,7 +2446,7 @@
     ]
   },
   {
-    "name": "Anae & Sabrosa",
+    "name": "ANAÉ & Sabrosa",
     "normalized": "anae & sabrosa",
     "temas": 2,
     "channelId": null,
@@ -2598,7 +2598,7 @@
     ]
   },
   {
-    "name": "Charlie Cruz",
+    "name": "CHARLIE CRUZ",
     "normalized": "charlie cruz",
     "temas": 2,
     "channelId": null,
@@ -2739,7 +2739,7 @@
     ]
   },
   {
-    "name": "Doble filo",
+    "name": "Doble Filo",
     "normalized": "doble filo",
     "temas": 2,
     "channelId": null,
@@ -2861,7 +2861,7 @@
     ]
   },
   {
-    "name": "Hermanos silva",
+    "name": "Hermanos Silva",
     "normalized": "hermanos silva",
     "temas": 2,
     "channelId": null,
@@ -2933,13 +2933,13 @@
     ]
   },
   {
-    "name": "K",
-    "normalized": "k",
+    "name": "K - Libre",
+    "normalized": "k - libre",
     "temas": 2,
     "channelId": null,
     "status": "pending",
     "variants": [
-      "K"
+      "K - Libre"
     ]
   },
   {
@@ -3114,7 +3114,7 @@
     ]
   },
   {
-    "name": "Orquesta del Sabor",
+    "name": "Orquesta Del Sabor",
     "normalized": "orquesta del sabor",
     "temas": 2,
     "channelId": null,
@@ -3237,7 +3237,7 @@
     ]
   },
   {
-    "name": "st. Pedro",
+    "name": "St. Pedro",
     "normalized": "st. pedro",
     "temas": 2,
     "channelId": null,
@@ -8487,6 +8487,16 @@
     "status": "pending",
     "variants": [
       "Tropicana Band"
+    ]
+  },
+  {
+    "name": "Tropin - Tú abandono",
+    "normalized": "tropin - tu abandono",
+    "temas": 1,
+    "channelId": null,
+    "status": "pending",
+    "variants": [
+      "Tropin - Tú abandono"
     ]
   },
   {

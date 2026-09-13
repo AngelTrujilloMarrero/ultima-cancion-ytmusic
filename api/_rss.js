@@ -36,3 +36,46 @@ export async function loadArtists(rootDir) {
   const raw = await readFile(join(rootDir, 'data', 'artists.json'), 'utf8')
   return JSON.parse(raw)
 }
+
+let titlesCache = null
+export async function loadUsbTitles(rootDir) {
+  if (!titlesCache) {
+    try {
+      const raw = await readFile(join(rootDir, 'data', 'usb-titles.json'), 'utf8')
+      titlesCache = JSON.parse(raw)
+    } catch {
+      titlesCache = {}
+    }
+  }
+  return titlesCache
+}
+
+let overridesCache = null
+export async function loadOverrides(rootDir) {
+  if (!overridesCache) {
+    try {
+      const raw = await readFile(join(rootDir, 'data', 'overrides.json'), 'utf8')
+      overridesCache = JSON.parse(raw)
+    } catch {
+      overridesCache = {}
+    }
+  }
+  return overridesCache
+}
+
+const normT = (s = '') =>
+  s
+    .toLowerCase()
+    .trim()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/\s+/g, ' ')
+const cleanT = (s = '') => normT(s.replace(/\s*\(.*?\)\s*/g, ''))
+
+// Cruce con tu USB: ¿cuántos temas del Topic están en tu colección?
+// Sirve para pillar homónimos (mismo nombre, otro grupo).
+export function overlapScore(rssTitles, usbList) {
+  const set = new Set((usbList ?? []).map(cleanT))
+  const overlap = rssTitles.filter((t) => set.has(cleanT(t))).length
+  return { overlap, usbTotal: (usbList ?? []).length, rssTotal: rssTitles.length }
+}

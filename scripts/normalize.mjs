@@ -15,15 +15,27 @@ const artistOf = (fn) => {
   return s.includes(' - ') ? s.split(' - ')[0].trim() : s.split('-')[0].trim()
 }
 
+const titleOf = (fn) => {
+  const s = fn.replace(/\.mp3$/i, '')
+  if (s.includes(' - ')) return s.slice(s.lastIndexOf(' - ') + 3).trim()
+  return ''
+}
+
 const files = (await readdir(usb)).filter((f) => f.toLowerCase().endsWith('.mp3'))
 const counts = new Map()
 const variants = new Map()
+const titles = new Map()
 for (const f of files) {
   const a = artistOf(f)
   const n = norm(a)
   counts.set(n, (counts.get(n) ?? 0) + 1)
   if (!variants.has(n)) variants.set(n, new Map())
   variants.get(n).set(a, (variants.get(n).get(a) ?? 0) + 1)
+  const t = titleOf(f)
+  if (t) {
+    if (!titles.has(n)) titles.set(n, new Set())
+    titles.get(n).add(t)
+  }
 }
 
 const previous = new Map()
@@ -58,4 +70,9 @@ const names = artists.map((a) => a.name)
 await writeFile(join(root, 'data', 'formaciones.json'), JSON.stringify(names, null, 2))
 await writeFile(join(root, 'public', 'data', 'formaciones.json'), JSON.stringify(names, null, 2))
 await writeFile(join(root, 'data', 'formaciones.txt'), names.join('\n') + '\n')
+// Títulos por artista para el cruce anti-homónimos (api/artist.js).
+// No se pisa si ya existe y es más nuevo que el USB? Se regenera: es derivado.
+const usbTitles = {}
+for (const [n, set] of titles) usbTitles[n] = [...set].sort()
+await writeFile(join(root, 'data', 'usb-titles.json'), JSON.stringify(usbTitles, null, 2))
 console.log(`OK ${artists.length} formaciones desde ${files.length} mp3`)

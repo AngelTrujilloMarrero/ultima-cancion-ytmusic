@@ -17,7 +17,10 @@ function loadApi() {
   return apiPromise
 }
 
-// Barra fija: suena la cola en orden y pasa sola a la siguiente al terminar.
+// Nota: YouTube Music no ofrece reproductor integrable (sin /embed).
+// Esta barra es estilo música: carátula + controles, y suena el MISMO audio
+// oficial (mismo ID que en music.youtube.com/watch?v=...). El botón 🎵 lo
+// abre en YouTube Music para seguir allí.
 export default function QueuePlayer({ queue, index, onNext, onPrev, onSelect, onClose }) {
   const divRef = useRef(null)
   const playerRef = useRef(null)
@@ -31,8 +34,8 @@ export default function QueuePlayer({ queue, index, onNext, onPrev, onSelect, on
     loadApi().then((YT) => {
       if (dead || !divRef.current) return
       playerRef.current = new YT.Player(divRef.current, {
-        width: '208',
-        height: '117',
+        width: '4',
+        height: '4',
         videoId: queue[index]?.videoId,
         playerVars: { autoplay: 1, rel: 0 },
         events: {
@@ -74,13 +77,17 @@ export default function QueuePlayer({ queue, index, onNext, onPrev, onSelect, on
 
   return (
     <div className="fixed bottom-0 inset-x-0 z-20 border-t border-zinc-700 bg-zinc-900/95 backdrop-blur">
+      {/* audio-only: el iframe queda invisible pero sonando */}
+      <div ref={divRef} style={{ position: 'absolute', width: 2, height: 2, opacity: 0, pointerEvents: 'none' }} />
       <div className="max-w-5xl mx-auto px-3 py-2 flex items-center gap-3">
-        <div className="rounded-lg overflow-hidden shrink-0 w-28 sm:w-52">
-          <div ref={divRef} />
-        </div>
+        <img
+          src={track.thumb}
+          alt=""
+          className="w-14 h-14 rounded-lg object-cover shrink-0 shadow"
+        />
         <div className="flex-1 min-w-0 text-sm">
           <p className="text-[11px] text-emerald-400 font-semibold">
-            {index + 1}/{queue.length} · {track.publishedAt?.slice(0, 10)}
+            {index + 1}/{queue.length} · {track.publishedAt?.slice(0, 10)} · YouTube Music
           </p>
           <p className="font-bold truncate">{track.title}</p>
           <p className="text-zinc-400 truncate text-xs">{track.artist}</p>
@@ -100,7 +107,7 @@ export default function QueuePlayer({ queue, index, onNext, onPrev, onSelect, on
             {playing ? '⏸' : '▶'}
           </button>
           <button onClick={onNext} title="Siguiente" className="w-9 h-9 rounded-full bg-zinc-700 hover:bg-zinc-600">⏭</button>
-          <a title="Abrir en YouTube Music" target="_blank" rel="noreferrer" href={track.urlMusic} className="w-9 h-9 rounded-full bg-zinc-700 hover:bg-zinc-600 text-xs flex items-center justify-center">🎵</a>
+          <a title="Seguir en YouTube Music" target="_blank" rel="noreferrer" href={track.urlMusic} className="h-9 px-3 rounded-full bg-emerald-700 hover:bg-emerald-600 text-xs font-semibold flex items-center">🎵 YT Music</a>
           <button onClick={onClose} title="Cerrar reproductor" className="w-9 h-9 rounded-full text-zinc-400 hover:text-white">✕</button>
         </div>
       </div>

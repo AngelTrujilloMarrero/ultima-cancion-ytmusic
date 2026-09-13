@@ -4,8 +4,8 @@ Marc Anthony
 Wamampy
 Grupo Bomba
 Rafaga
-Tropin
 Tenerife
+Tropin
 Manny Manuel
 Nuevo Klan
 Sin Fronteras
@@ -113,7 +113,7 @@ Saoco
 ALEX MATOS
 Arguayo Band
 Bolero
-Eddy manuel
+Eddy Manuel
 Fernando Villalona
 Guanches
 Kaos
@@ -134,7 +134,7 @@ Chayanne
 Delbes
 España De Arafo
 Fortaleza
-Fuera de liga
+Fuera De Liga
 Generasión
 Gerson Galván
 Jeffrey
@@ -231,7 +231,7 @@ Willy Chirino
 You Salsa
 Amanecer Latino
 Americo
-Anae & Sabrosa
+ANAÉ & Sabrosa
 Andy
 Angelito Villalona
 Anthony La Makina
@@ -246,7 +246,7 @@ Caribe
 Caribe Band
 Casablanca
 CESAR FLORES
-Charlie Cruz
+CHARLIE CRUZ
 Chinguarime Band
 Choco Orta
 Cielo Torres
@@ -260,7 +260,7 @@ Dama
 David Kada
 Destellos De Luna
 Dinamicos
-Doble filo
+Doble Filo
 El Bonche
 El Equipito Del Merengue
 Farik Grippa
@@ -272,14 +272,14 @@ Grupo La Red
 Grupo Saoco
 GRUPO SWING
 Grupo Wao
-Hermanos silva
+Hermanos Silva
 Hijos de puerto rico
 JALAOR SHOW
 Jandy Feliz
 Joe Arroyo
 Jossie Esteban Y La Patrulla 15
 Juliana Oneal
-K
+K - Libre
 Kandela
 King Banda
 La Contra
@@ -297,7 +297,7 @@ NEW ACUARIO
 NG2
 Noche De Brujas
 Oro  Solido
-Orquesta del Sabor
+Orquesta Del Sabor
 Proyecto Uno
 Reynaldo Rey
 RitmoSon
@@ -309,7 +309,7 @@ Sexappeal
 Sintonia Show
 Son Sabor
 Sonora Carruseles
-st. Pedro
+St. Pedro
 Tejina
 Tito Rojas
 Tormenta Band
@@ -834,6 +834,7 @@ Tromboranga
 Tropicalisimo
 Tropicalisimo Apache
 Tropicana Band
+Tropin - Tú abandono
 Trulala
 Tueska
 Tumaparos
