@@ -24,48 +24,74 @@ const decode = (s = '') =>
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
 
+const stripTopic = (t) => t.replace(/- (topic|tema)$/i, '').trim()
+const isTopicTitle = (t) => /- (topic|tema)$/i.test(norm(t))
+
+async function fetchHtml(url, timeoutMs = 9000) {
+  const ctrl = new AbortController()
+  const t = setTimeout(() => ctrl.abort(), timeoutMs)
+  try {
+    const res = await fetch(url, { headers: { 'User-Agent': UA }, signal: ctrl.signal })
+    if (!res.ok) return null
+    return await res.text()
+  } catch {
+    return null
+  } finally {
+    clearTimeout(t)
+  }
+}
+
+function pickTopic(cands, target) {
+  // cands: [{text, id}] — 1) match exacto del nombre, 2) lo contiene
+  const freq = new Map()
+  for (const p of cands) freq.set(p.id + '|' + p.text, (freq.get(p.id + '|' + p.text) ?? 0) + 1)
+  const ranked = [...freq.entries()].sort((a, b) => b[1] - a[1])
+  const exact = ranked.find(([k]) => norm(stripTopic(k.split('|')[1])) === target)
+  if (exact) {
+    const [id, text] = exact[0].split('|')
+    return { channelId: id, channelTitle: text }
+  }
+  const loose = ranked.find(([k]) => norm(k.split('|')[1]).includes(target))
+  if (loose) {
+    const [id, text] = loose[0].split('|')
+    return { channelId: id, channelTitle: text }
+  }
+  return null
+}
+
 async function findTopicChannel(name) {
   const target = norm(name)
-  for (const q of [`${name} - Topic`, `${name} Topic`]) {
-    const ctrl = new AbortController()
-    const t = setTimeout(() => ctrl.abort(), 8000)
-    try {
-      const res = await fetch(
-        `https://www.youtube.com/results?search_query=${encodeURIComponent(q)}`,
-        { headers: { 'User-Agent': UA }, signal: ctrl.signal },
-      )
-      if (!res.ok) continue
-      const html = await res.text()
+  // A) pestaña "Canales": devuelve channelRenderer con el nombre visible
+  // (en español YouTube muestra "- Tema" en vez de "- Topic": es el mismo canal).
+  {
+    const html = await fetchHtml(
+      `https://www.youtube.com/results?search_query=${encodeURIComponent(name)}&sp=EgIQAg%253D%253D`,
+    )
+    if (html) {
       const pairs = [
-        ...html.matchAll(
-          /"text":"([^"]{2,60}?)","navigationEndpoint":\{"clickTrackingParams".*?"browseId":"(UC[^"]+)"/g,
-        ),
-      ].map((m) => ({ text: m[1], id: m[2] }))
-      const topics = pairs.filter((p) => norm(p.text).endsWith('- topic'))
-      if (!topics.length) continue
-      const freq = new Map()
-      for (const p of topics) freq.set(p.id + '|' + p.text, (freq.get(p.id + '|' + p.text) ?? 0) + 1)
-      // 1) match exacto: "<nombre> - Topic"
-      const exact = [...freq.entries()]
-        .filter(([k]) => norm(k.split('|')[1].replace(/- topic$/i, '').trim()) === target)
-        .sort((a, b) => b[1] - a[1])[0]
-      if (exact) {
-        const [id, text] = exact[0].split('|')
-        return { channelId: id, channelTitle: text }
-      }
-      // 2) contiene el nombre
-      const loose = [...freq.entries()]
-        .filter(([k]) => norm(k.split('|')[1]).includes(target))
-        .sort((a, b) => b[1] - a[1])[0]
-      if (loose) {
-        const [id, text] = loose[0].split('|')
-        return { channelId: id, channelTitle: text }
-      }
-    } catch {
-      // siguiente query
-    } finally {
-      clearTimeout(t)
+        ...html.matchAll(/"channelRenderer":\{"channelId":"(UC[^"]+)","title":\{"simpleText":"([^"]+)"/g),
+      ].map((m) => ({ id: m[1], text: m[2] }))
+      const hit = pickTopic(
+        pairs.filter((p) => isTopicTitle(p.text)),
+        target,
+      )
+      if (hit) return hit
     }
+  }
+  // B) fallback: dueños de los vídeos ("X - Topic / - Tema")
+  for (const q of [`${name} - Topic`, `${name} Topic`, `${name} - Tema`]) {
+    const html = await fetchHtml(`https://www.youtube.com/results?search_query=${encodeURIComponent(q)}`)
+    if (!html) continue
+    const pairs = [
+      ...html.matchAll(
+        /"text":"([^"]{2,60}?)","navigationEndpoint":\{"clickTrackingParams".*?"browseId":"(UC[^"]+)"/g,
+      ),
+    ].map((m) => ({ text: m[1], id: m[2] }))
+    const hit = pickTopic(
+      pairs.filter((p) => isTopicTitle(p.text)),
+      target,
+    )
+    if (hit) return hit
   }
   return null
 }
