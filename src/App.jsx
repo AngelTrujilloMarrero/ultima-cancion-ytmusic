@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import QueuePlayer from './QueuePlayer.jsx'
 
 const SEL_KEY = 'ytm-selected-v1'
 
@@ -37,6 +38,8 @@ export default function App() {
   const [playing, setPlaying] = useState(null)
   const [board, setBoard] = useState({}) // normalized -> respuesta /api/artist
   const [prog, setProg] = useState({ running: false, done: 0, total: 0 })
+  const [queue, setQueue] = useState([]) // [{videoId,title,artist,publishedAt,urlMusic,...}]
+  const [qi, setQi] = useState(0)
 
   useEffect(() => {
     fetch('/data/artists.json')
@@ -116,6 +119,12 @@ export default function App() {
     [artists, selected, board],
   )
 
+  function playAll() {
+    if (!ranked.length) return
+    setQueue(ranked.map(({ artist, data }) => ({ ...data.latest[0], artist: data.name, key: artist.normalized })))
+    setQi(0)
+  }
+
   return (
     <div className="min-h-screen">
       <header className="border-b border-zinc-800 bg-zinc-900/60 sticky top-0 backdrop-blur z-10">
@@ -136,11 +145,18 @@ export default function App() {
         </div>
       </header>
 
-      <main className="max-w-5xl mx-auto px-4 py-6 space-y-6">
+      <main className={`max-w-5xl mx-auto px-4 py-6 space-y-6 ${queue.length ? 'pb-40' : ''}`}>
         {selected.size > 0 && (
           <section className="rounded-2xl border border-emerald-900 bg-emerald-950/20 p-4">
             <div className="flex flex-wrap items-center gap-2 mb-3">
               <h2 className="font-semibold flex-1">Mi selección ({selected.size}) → de lo más reciente a lo más antiguo</h2>
+              <button
+                onClick={playAll}
+                disabled={prog.running || ranked.length === 0}
+                className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-sm font-semibold disabled:opacity-50"
+              >
+                ▶ Reproducir todo
+              </button>
               <button
                 onClick={() => syncBoard(false)}
                 disabled={prog.running}
@@ -167,8 +183,9 @@ export default function App() {
               <ol className="space-y-2">
                 {ranked.map(({ artist, data }, i) => {
                   const v = data.latest[0]
+                  const isCurrent = queue.length > 0 && queue[qi]?.videoId === v.videoId
                   return (
-                    <li key={artist.normalized} className="rounded-xl overflow-hidden border border-zinc-800 bg-zinc-900">
+                    <li key={artist.normalized} className={`rounded-xl overflow-hidden border bg-zinc-900 ${isCurrent ? 'border-emerald-500 ring-1 ring-emerald-500' : 'border-zinc-800'}`}>
                       <div className="flex gap-3 p-2">
                         <span className="w-8 text-right text-zinc-500 tabular-nums shrink-0 pt-1">{i + 1}</span>
                         <button onClick={() => setPlaying(playing === v.videoId ? null : v.videoId)} className="relative shrink-0">
@@ -286,6 +303,17 @@ export default function App() {
           )}
         </section>
       </main>
+
+      {queue.length > 0 && (
+        <QueuePlayer
+          queue={queue}
+          index={qi}
+          onNext={() => setQi((i) => (i + 1) % queue.length)}
+          onPrev={() => setQi((i) => (i - 1 + queue.length) % queue.length)}
+          onSelect={setQi}
+          onClose={() => setQueue([])}
+        />
+      )}
     </div>
   )
 }

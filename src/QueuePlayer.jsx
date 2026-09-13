@@ -1,0 +1,109 @@
+import { useEffect, useRef, useState } from 'react'
+
+let apiPromise = null
+function loadApi() {
+  if (apiPromise) return apiPromise
+  apiPromise = new Promise((resolve) => {
+    if (window.YT?.Player) return resolve(window.YT)
+    const prev = window.onYouTubeIframeAPIReady
+    window.onYouTubeIframeAPIReady = () => {
+      prev?.()
+      resolve(window.YT)
+    }
+    const s = document.createElement('script')
+    s.src = 'https://www.youtube.com/iframe_api'
+    document.body.appendChild(s)
+  })
+  return apiPromise
+}
+
+// Barra fija: suena la cola en orden y pasa sola a la siguiente al terminar.
+export default function QueuePlayer({ queue, index, onNext, onPrev, onSelect, onClose }) {
+  const divRef = useRef(null)
+  const playerRef = useRef(null)
+  const [playing, setPlaying] = useState(true)
+  const nextRef = useRef(onNext)
+  nextRef.current = onNext
+  const track = queue[index]
+
+  useEffect(() => {
+    let dead = false
+    loadApi().then((YT) => {
+      if (dead || !divRef.current) return
+      playerRef.current = new YT.Player(divRef.current, {
+        width: '208',
+        height: '117',
+        videoId: queue[index]?.videoId,
+        playerVars: { autoplay: 1, rel: 0 },
+        events: {
+          onReady: (e) => e.target.playVideo(),
+          onStateChange: (e) => {
+            if (e.data === YT.PlayerState.ENDED) nextRef.current()
+            else if (e.data === YT.PlayerState.PLAYING) setPlaying(true)
+            else if (e.data === YT.PlayerState.PAUSED) setPlaying(false)
+          },
+        },
+      })
+    })
+    return () => {
+      dead = true
+      playerRef.current?.destroy?.()
+      playerRef.current = null
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  useEffect(() => {
+    playerRef.current?.loadVideoById?.(track.videoId)
+    setPlaying(true)
+  }, [track.videoId]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  function toggle() {
+    const p = playerRef.current
+    if (!p?.getPlayerState) return
+    if (p.getPlayerState() === 1) {
+      p.pauseVideo()
+      setPlaying(false)
+    } else {
+      p.playVideo()
+      setPlaying(true)
+    }
+  }
+
+  if (!track) return null
+
+  return (
+    <div className="fixed bottom-0 inset-x-0 z-20 border-t border-zinc-700 bg-zinc-900/95 backdrop-blur">
+      <div className="max-w-5xl mx-auto px-3 py-2 flex items-center gap-3">
+        <div className="rounded-lg overflow-hidden shrink-0 w-28 sm:w-52">
+          <div ref={divRef} />
+        </div>
+        <div className="flex-1 min-w-0 text-sm">
+          <p className="text-[11px] text-emerald-400 font-semibold">
+            {index + 1}/{queue.length} · {track.publishedAt?.slice(0, 10)}
+          </p>
+          <p className="font-bold truncate">{track.title}</p>
+          <p className="text-zinc-400 truncate text-xs">{track.artist}</p>
+          <input
+            className="w-full mt-1 accent-emerald-500 h-1 cursor-pointer"
+            type="range"
+            min={0}
+            max={queue.length - 1}
+            value={index}
+            onChange={(e) => onSelect(Number(e.target.value))}
+            title="Saltar en la cola"
+          />
+        </div>
+        <div className="flex items-center gap-1 shrink-0">
+          <button onClick={onPrev} title="Anterior" className="w-9 h-9 rounded-full bg-zinc-700 hover:bg-zinc-600">⏮</button>
+          <button onClick={toggle} title={playing ? 'Pausar' : 'Seguir'} className="w-11 h-11 rounded-full bg-emerald-600 hover:bg-emerald-500 text-lg">
+            {playing ? '⏸' : '▶'}
+          </button>
+          <button onClick={onNext} title="Siguiente" className="w-9 h-9 rounded-full bg-zinc-700 hover:bg-zinc-600">⏭</button>
+          <a title="Abrir en YouTube Music" target="_blank" rel="noreferrer" href={track.urlMusic} className="w-9 h-9 rounded-full bg-zinc-700 hover:bg-zinc-600 text-xs flex items-center justify-center">🎵</a>
+          <button onClick={onClose} title="Cerrar reproductor" className="w-9 h-9 rounded-full text-zinc-400 hover:text-white">✕</button>
+        </div>
+      </div>
+    </div>
+  )
+}
