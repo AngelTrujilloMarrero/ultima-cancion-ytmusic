@@ -17,11 +17,11 @@ const artistOf = (fn) => {
 
 const titleOf = (fn) => {
   const s = fn.replace(/\.mp3$/i, '')
-  if (s.includes(' - ')) return s.slice(s.lastIndexOf(' - ') + 3).trim()
+  if (s.includes(' - ')) return s.slice(s.indexOf(' - ') + 3).trim()
   return ''
 }
 
-const files = (await readdir(usb)).filter((f) => f.toLowerCase().endsWith('.mp3'))
+const files = (await readdir(usb)).filter((f) => f.toLowerCase().endsWith('.mp3')).sort()
 const counts = new Map()
 const variants = new Map()
 const titles = new Map()

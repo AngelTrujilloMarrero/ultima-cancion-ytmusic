@@ -4,8 +4,8 @@ Marc Anthony
 Wamampy
 Grupo Bomba
 Rafaga
-Tenerife
 Tropin
+Tenerife
 Manny Manuel
 Nuevo Klan
 Sin Fronteras
@@ -279,7 +279,7 @@ Jandy Feliz
 Joe Arroyo
 Jossie Esteban Y La Patrulla 15
 Juliana Oneal
-K - Libre
+K
 Kandela
 King Banda
 La Contra
@@ -834,7 +834,6 @@ Tromboranga
 Tropicalisimo
 Tropicalisimo Apache
 Tropicana Band
-Tropin - Tú abandono
 Trulala
 Tueska
 Tumaparos

@@ -71,6 +71,17 @@
     ]
   },
   {
+    "name": "Tropin",
+    "normalized": "tropin",
+    "temas": 42,
+    "channelId": "UCL0sx7hli2BdL80y7BvedeA",
+    "status": "ok",
+    "variants": [
+      "Tropin",
+      "TROPIN"
+    ]
+  },
+  {
     "name": "Tenerife",
     "normalized": "tenerife",
     "temas": 41,
@@ -78,17 +89,6 @@
     "status": "ok",
     "variants": [
       "Tenerife"
-    ]
-  },
-  {
-    "name": "Tropin",
-    "normalized": "tropin",
-    "temas": 41,
-    "channelId": "UCL0sx7hli2BdL80y7BvedeA",
-    "status": "ok",
-    "variants": [
-      "Tropin",
-      "TROPIN"
     ]
   },
   {
@@ -2933,13 +2933,13 @@
     ]
   },
   {
-    "name": "K - Libre",
-    "normalized": "k - libre",
+    "name": "K",
+    "normalized": "k",
     "temas": 2,
     "channelId": null,
     "status": "pending",
     "variants": [
-      "K - Libre"
+      "K"
     ]
   },
   {
@@ -8487,16 +8487,6 @@
     "status": "pending",
     "variants": [
       "Tropicana Band"
-    ]
-  },
-  {
-    "name": "Tropin - Tú abandono",
-    "normalized": "tropin - tu abandono",
-    "temas": 1,
-    "channelId": null,
-    "status": "pending",
-    "variants": [
-      "Tropin - Tú abandono"
     ]
   },
   {
