@@ -1,6 +1,6 @@
 // Regenera data/artists.json + public/data + formaciones.* desde el USB.
 // Uso: USB_PATH=/Volumes/RED-SSD/MUSICA node scripts/normalize.mjs
-import { readdir, writeFile, mkdir } from 'node:fs/promises'
+import { readdir, writeFile, mkdir, readFile } from 'node:fs/promises'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -26,11 +26,28 @@ for (const f of files) {
   variants.get(n).set(a, (variants.get(n).get(a) ?? 0) + 1)
 }
 
+const previous = new Map()
+try {
+  const old = JSON.parse(await readFile(join(root, 'data', 'artists.json'), 'utf8'))
+  for (const a of old) previous.set(a.normalized, a)
+} catch {
+  // primera vez: sin previos
+}
+
 const artists = [...counts.entries()]
   .sort((a, b) => b[1] - a[1] || (a[0] < b[0] ? -1 : 1))
   .map(([n, c]) => {
     const v = [...variants.get(n).entries()].sort((a, b) => b[1] - a[1])
-    return { name: v[0][0], normalized: n, temas: c, channelId: null, status: 'pending', variants: v.map(([x]) => x) }
+    const prev = previous.get(n)
+    return {
+      name: v[0][0],
+      normalized: n,
+      temas: c,
+      channelId: prev?.channelId ?? null,
+      status: prev?.channelId ? prev.status ?? 'ok' : 'pending',
+      ...(prev?.channelOfficial ? { channelOfficial: prev.channelOfficial } : {}),
+      variants: v.map(([x]) => x),
+    }
   })
 
 await mkdir(join(root, 'data'), { recursive: true })
