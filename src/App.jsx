@@ -48,6 +48,7 @@ export default function App() {
   const [prog, setProg] = useState({ running: false, done: 0, total: 0 })
   const [queue, setQueue] = useState([])
   const [qi, setQi] = useState(0)
+  const [selected, setSelected] = useState(() => new Set())
 
   useEffect(() => {
     fetch('/data/artists.json')
@@ -128,6 +129,72 @@ export default function App() {
     setQi(0)
   }
 
+  function toggleSelected(key) {
+    setSelected((prev) => {
+      const next = new Set(prev)
+      if (next.has(key)) next.delete(key)
+      else next.add(key)
+      return next
+    })
+  }
+
+  // Seleccionados, ordenados por fecha de su último single (más nuevo → viejo).
+  const selectedArtists = useMemo(() => {
+    return artists
+      .filter((a) => selected.has(a.normalized))
+      .sort((x, y) => {
+        const dx = board[x.normalized]?.data?.latest?.[0]?.publishedAt
+        const dy = board[y.normalized]?.data?.latest?.[0]?.publishedAt
+        if (dx && dy) return new Date(dy) - new Date(dx)
+        if (dx) return -1
+        if (dy) return 1
+        return x.name.localeCompare(y.name)
+      })
+  }, [artists, selected, board])
+
+  async function syncSelected(force = false) {
+    const list = artists.filter((a) => selected.has(a.normalized))
+    const pending = force ? list : list.filter((a) => !board[a.normalized])
+    if (!pending.length) return
+    setProg({ running: true, done: 0, total: pending.length })
+    await pool(pending, 4, async (a) => {
+      try {
+        const data = await fetchOne(a)
+        setBoard((prev) => ({ ...prev, [a.normalized]: { data, at: Date.now() } }))
+      } catch {
+        setBoard((prev) => ({ ...prev, [a.normalized]: { data: { name: a.name, error: 'Fallo de red' }, at: Date.now() } }))
+      }
+      setProg((p) => ({ ...p, done: p.done + 1 }))
+    })
+    setProg((p) => ({ ...p, running: false }))
+  }
+
+  // Reproduce SOLO lo seleccionado, sin importar el alcance/ranking, y siempre
+  // del single más moderno al más antiguo.
+  async function playSelected() {
+    const list = artists.filter((a) => selected.has(a.normalized))
+    if (!list.length) return
+    const items = []
+    await pool(list, 4, async (a) => {
+      let data = board[a.normalized]?.data
+      if (!data?.latest?.length) {
+        try {
+          data = await fetchOne(a)
+          setBoard((prev) => ({ ...prev, [a.normalized]: { data, at: Date.now() } }))
+        } catch {
+          return
+        }
+      }
+      if (data?.latest?.length) items.push({ artist: a, data })
+    })
+    if (!items.length) return
+    const picked = items
+      .map(({ artist, data }) => ({ ...data.latest[0], artist: data.name, key: artist.normalized }))
+      .sort((x, y) => new Date(y.publishedAt) - new Date(x.publishedAt))
+    setQueue(picked)
+    setQi(0)
+  }
+
   return (
     <div className="min-h-screen">
       <header className="border-b border-zinc-800 bg-zinc-900/60 sticky top-0 backdrop-blur z-10">
@@ -148,6 +215,64 @@ export default function App() {
       </header>
 
       <main className={`max-w-5xl mx-auto px-4 py-6 space-y-6 ${queue.length ? 'pb-40' : ''}`}>
+        {selected.size > 0 && (
+          <section className="rounded-2xl border border-emerald-700 bg-emerald-950/30 p-4">
+            <div className="flex flex-wrap items-center gap-2 mb-2">
+              <h2 className="font-semibold flex-1">Mi selección ({selected.size})</h2>
+              <button
+                onClick={() => syncSelected(false)}
+                disabled={prog.running}
+                className="px-3 py-1.5 rounded-lg bg-zinc-700 hover:bg-zinc-600 text-sm disabled:opacity-50"
+              >
+                ↧ Traer singles
+              </button>
+              <button
+                onClick={playSelected}
+                className="px-3 py-1.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-sm font-bold"
+              >
+                ▶ Reproducir (más nuevo → más viejo)
+              </button>
+              <button
+                onClick={() => setSelected(new Set())}
+                className="px-3 py-1.5 rounded-lg bg-zinc-700 hover:bg-zinc-600 text-sm"
+              >
+                ✕ Quitar todo
+              </button>
+            </div>
+            <ul className="divide-y divide-emerald-900/60">
+              {selectedArtists.map((a) => {
+                const at = board[a.normalized]?.data?.latest?.[0]?.publishedAt
+                return (
+                  <li key={a.normalized} className="flex items-center gap-2 py-1.5 text-sm">
+                    <input
+                      type="checkbox"
+                      checked
+                      onChange={() => toggleSelected(a.normalized)}
+                      className="w-4 h-4 shrink-0 accent-emerald-500 cursor-pointer"
+                      title="Quitar de la selección"
+                    />
+                    <button
+                      onClick={() => syncSingle(a)}
+                      className="flex-1 truncate text-left font-medium hover:text-emerald-300"
+                      title="Ver sus 2 últimos singles"
+                    >
+                      {a.name}
+                    </button>
+                    {at && <span className="text-[11px] text-emerald-400 shrink-0 tabular-nums">{at.slice(0, 10)}</span>}
+                    <button
+                      onClick={() => toggleSelected(a.normalized)}
+                      title="Quitar de la selección"
+                      className="w-6 h-6 rounded-full shrink-0 text-zinc-400 hover:text-white hover:bg-zinc-700"
+                    >
+                      ✕
+                    </button>
+                  </li>
+                )
+              })}
+            </ul>
+          </section>
+        )}
+
         <section className="rounded-2xl border border-emerald-900 bg-emerald-950/20 p-4">
           <div className="flex flex-wrap items-center gap-2 mb-3">
             <h2 className="font-semibold flex-1">Chart por último single ({chart.length}/{artists.slice(0, scope).length})</h2>
@@ -186,6 +311,30 @@ export default function App() {
                 ▶ Reproducir
               </button>
             )}
+            {chart.length > 0 && (
+              <button
+                onClick={() => setSelected(new Set(chart.map(({ artist }) => artist.normalized)))}
+                className="px-3 py-1.5 rounded-lg bg-zinc-700 hover:bg-zinc-600 text-sm"
+              >
+                ☑ Seleccionar todo
+              </button>
+            )}
+            {selected.size > 0 && (
+              <button
+                onClick={() => setSelected(new Set())}
+                className="px-3 py-1.5 rounded-lg bg-zinc-700 hover:bg-zinc-600 text-sm"
+              >
+                ✕ Quitar selección ({selected.size})
+              </button>
+            )}
+            {selected.size > 0 && (
+              <button
+                onClick={playSelected}
+                className="px-3 py-1.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-sm font-bold"
+              >
+                ▶ Reproducir seleccionados ({selected.size})
+              </button>
+            )}
           </div>
           {prog.running && (
             <div className="mb-3">
@@ -203,9 +352,17 @@ export default function App() {
               {chart.map(({ artist, data, at }, i) => {
                 const v = data.latest[0]
                 const isCurrent = queue.length > 0 && queue[qi]?.videoId === v.videoId
+                const isSelected = selected.has(artist.normalized)
                 return (
-                  <li key={artist.normalized} className={`rounded-xl overflow-hidden border bg-zinc-900 ${isCurrent ? 'border-emerald-500 ring-1 ring-emerald-500' : 'border-zinc-800'}`}>
+                  <li key={artist.normalized} className={`rounded-xl overflow-hidden border bg-zinc-900 ${isCurrent ? 'border-emerald-500 ring-1 ring-emerald-500' : isSelected ? 'border-emerald-700' : 'border-zinc-800'}`}>
                     <div className="flex gap-3 p-2">
+                      <input
+                        type="checkbox"
+                        checked={isSelected}
+                        onChange={() => toggleSelected(artist.normalized)}
+                        className="mt-1 w-4 h-4 shrink-0 accent-emerald-500 cursor-pointer"
+                        title={isSelected ? 'Quitar de la selección' : 'Seleccionar este single'}
+                      />
                       <span className="w-8 text-right text-zinc-500 tabular-nums shrink-0 pt-1">{i + 1}</span>
                       <button onClick={() => setPlaying(playing === v.videoId ? null : v.videoId)} className="relative shrink-0">
                         <img src={v.thumb} alt="" className="w-28 aspect-video object-cover rounded-lg" loading="lazy" />
@@ -223,6 +380,15 @@ export default function App() {
                         </button>
                         <SongLinks v={v} />
                       </div>
+                      {isSelected && (
+                        <button
+                          onClick={() => toggleSelected(artist.normalized)}
+                          title="Quitar de la selección"
+                          className="self-start shrink-0 w-6 h-6 rounded-full text-zinc-400 hover:text-white hover:bg-zinc-700"
+                        >
+                          ✕
+                        </button>
+                      )}
                     </div>
                     {playing === v.videoId && (
                       <div className="aspect-video bg-black">
@@ -298,14 +464,21 @@ export default function App() {
           <h2 className="font-semibold mb-1">
             Formaciones ({loading ? '…' : filtered.length}) · por nº de canciones en tu USB
           </h2>
-          <p className="text-xs text-zinc-500 mb-3">Clic en el nombre para ver sus 2 últimos singles</p>
+          <p className="text-xs text-zinc-500 mb-3">Marca para añadir a tu selección · clic en el nombre para ver sus 2 últimos singles</p>
           {loading ? (
             <p className="text-sm text-zinc-400">Cargando…</p>
           ) : (
             <ol className="divide-y divide-zinc-800">
               {filtered.map((a, i) => (
-                <li key={a.normalized}>
-                  <button onClick={() => syncSingle(a)} className="w-full flex items-center gap-3 px-2 py-2 text-left text-sm rounded-lg hover:bg-zinc-800/60 min-w-0">
+                <li key={a.normalized} className="flex items-center gap-2">
+                  <input
+                    type="checkbox"
+                    checked={selected.has(a.normalized)}
+                    onChange={() => toggleSelected(a.normalized)}
+                    className="w-4 h-4 shrink-0 accent-emerald-500 cursor-pointer"
+                    title={selected.has(a.normalized) ? 'Quitar de la selección' : 'Añadir a la selección'}
+                  />
+                  <button onClick={() => syncSingle(a)} className="flex-1 flex items-center gap-3 px-2 py-2 text-left text-sm rounded-lg hover:bg-zinc-800/60 min-w-0">
                     <span className="w-10 text-right text-zinc-500 tabular-nums shrink-0">{i + 1}</span>
                     <span className="flex-1 truncate font-medium">{a.name}</span>
                     {board[a.normalized]?.data?.latest && (

@@ -30,8 +30,47 @@ const decode = (s = '') =>
 const stripTopic = (t) => t.replace(/- (topic|tema)$/i, '').trim()
 const isTopicTitle = (t) => /- (topic|tema)$/i.test(norm(t))
 
-// Variantes del nombre oficial: el Topic a veces añade el prefijo
-// ("Tropin" -> "Orquesta Tropin - Topic"). Solo prefijos de formación.
+// Artículos y prefijos de formación que el Topic añade (o quita) respecto al
+// nombre de tu USB: "Mermelada" -> "La Mermelada - Tema",
+// "Tropin" -> "Orquesta Tropin - Tema", "Olympia" -> "Sonora Olympia - Tema".
+const ARTICLES = ['la', 'el', 'los', 'las']
+const FORMS = [
+  'orquesta',
+  'orq',
+  'grupo',
+  'sonora',
+  'banda',
+  'conjunto',
+  'combo',
+  'marimba',
+  'mariachi',
+  'trio',
+  'dueto',
+  'duo',
+  'ensamble',
+  'agrupacion',
+  'internacional',
+]
+
+// Núcleo del nombre: sin "- Topic", sin artículos ni prefijos de formación.
+// Así "La Mermelada", "Orquesta Mermelada" y "Mermelada" son el mismo artista.
+function coreName(name) {
+  let s = norm(stripTopic(name)).replace(/^[.\s]+/, '')
+  let changed = true
+  while (changed && s) {
+    changed = false
+    for (const w of [...ARTICLES, ...FORMS]) {
+      const forms = [w + ' ', w + '. ']
+      const hit = forms.find((f) => s.startsWith(f))
+      if (hit) {
+        s = s.slice(hit.length).trim()
+        changed = true
+      }
+    }
+  }
+  return s
+}
+
 function nameVariants(name) {
   const base = norm(name)
   const out = [base]
@@ -41,19 +80,15 @@ function nameVariants(name) {
   return out
 }
 
-async function collectCandidates(name, variants) {
+async function collectCandidates(name) {
   const map = new Map()
   const add = (c) => {
     const cur = map.get(c.channelId)
     if (!cur) map.set(c.channelId, { ...c, freq: 1 })
-    else {
-      cur.freq += 1
-      if (c.matched && variants.indexOf(c.matched) < variants.indexOf(cur.matched)) {
-        cur.matched = c.matched
-        cur.channelTitle = c.channelTitle
-      }
-    }
+    else cur.freq += 1
   }
+  const target = coreName(name)
+  if (!target) return []
   // Búsqueda de canales vía InnerTube (JSON ligero, ~10x más rápido que scrapear).
   // En español YouTube muestra "- Tema" en vez de "- Topic": es el mismo canal.
   const queries = [name, `Orquesta ${name}`, `Grupo ${name}`]
@@ -66,20 +101,16 @@ async function collectCandidates(name, variants) {
     }
     for (const ch of chans) {
       if (!isTopicTitle(ch.title)) continue
-      const vi = variants.findIndex((v) => norm(stripTopic(ch.title)) === v)
-      if (vi !== -1) add({ channelId: ch.channelId, channelTitle: ch.title, matched: variants[vi] })
+      if (coreName(ch.title) !== target) continue
+      add({ channelId: ch.channelId, channelTitle: ch.title })
     }
     if (map.size) break // si ya hay candidatos exactos, no seguir
   }
-  return [...map.values()].sort(
-    (a, b) =>
-      variants.indexOf(a.matched) - variants.indexOf(b.matched) || b.freq - a.freq || (a.channelId < b.channelId ? -1 : 1),
-  )
+  return [...map.values()].sort((a, b) => b.freq - a.freq || (a.channelId < b.channelId ? -1 : 1))
 }
 
 async function findTopicChannel(name, usbList) {
-  const variants = nameVariants(name)
-  const cands = await collectCandidates(name, variants)
+  const cands = await collectCandidates(name)
   if (!cands.length) return null
   // Puntúa con tu USB: gana el candidato con más temas en tu colección.
   // Así se descarta al homónimo (mismo nombre, otro grupo).
@@ -87,7 +118,7 @@ async function findTopicChannel(name, usbList) {
   for (const c of cands.slice(0, 4)) {
     const rss = await fetchChannelRSS(c.channelId)
     if (!rss.ok || !rss.feedTitle || !isTopicTitle(rss.feedTitle)) continue
-    if (norm(stripTopic(rss.feedTitle)) !== c.matched) continue
+    if (coreName(rss.feedTitle) !== coreName(name)) continue
     const s = overlapScore(
       rss.videos.map((v) => v.title),
       usbList,
@@ -133,9 +164,14 @@ export default async function handler(req, res) {
     rss = await fetchChannelRSS(channelId)
     if (!rss.ok) return res.status(502).json({ error: `RSS falló: ${rss.reason}` })
     // Verificación oficial: el feed debe ser "<Artista> - Topic/Tema" exacto
-    // (o su variante con prefijo de formación). Si no, es de terceros y se rechaza.
+    // o compartir el mismo núcleo (tolerando artículos/prefijos de formación).
+    // Si no, es de terceros y se rechaza.
     const allowed = new Set(nameVariants(displayName))
-    if (!rss.feedTitle || !isTopicTitle(rss.feedTitle) || !allowed.has(norm(stripTopic(rss.feedTitle)))) {
+    const okTitle =
+      rss.feedTitle &&
+      isTopicTitle(rss.feedTitle) &&
+      (allowed.has(norm(stripTopic(rss.feedTitle))) || coreName(rss.feedTitle) === coreName(displayName))
+    if (!okTitle) {
       return res.status(404).json({
         name: displayName,
         temas: entry?.temas ?? 0,

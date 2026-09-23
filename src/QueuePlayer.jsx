@@ -25,6 +25,8 @@ export default function QueuePlayer({ queue, index, onNext, onPrev, onSelect, on
   const divRef = useRef(null)
   const playerRef = useRef(null)
   const [playing, setPlaying] = useState(true)
+  const [warn, setWarn] = useState('')
+  const stallRef = useRef(0)
   const nextRef = useRef(onNext)
   nextRef.current = onNext
   const track = queue[index]
@@ -37,14 +39,29 @@ export default function QueuePlayer({ queue, index, onNext, onPrev, onSelect, on
         width: '4',
         height: '4',
         videoId: queue[index]?.videoId,
-        playerVars: { autoplay: 1, rel: 0 },
+        playerVars: {
+          autoplay: 1,
+          rel: 0,
+          playsinline: 1,
+          enablejsapi: 1,
+          origin: window.location.origin,
+        },
         events: {
           onReady: (e) => e.target.playVideo(),
           onStateChange: (e) => {
             if (e.data === YT.PlayerState.ENDED) nextRef.current()
-            else if (e.data === YT.PlayerState.PLAYING) setPlaying(true)
-            else if (e.data === YT.PlayerState.PAUSED) setPlaying(false)
+            else if (e.data === YT.PlayerState.PLAYING) {
+              setPlaying(true)
+              setWarn('')
+              stallRef.current = 0
+            } else if (e.data === YT.PlayerState.PAUSED) setPlaying(false)
           },
+          onError: (e) =>
+            setWarn(
+              e.data === 101 || e.data === 150
+                ? 'El autor no permite reproducir este single fuera de YouTube Music.'
+                : `YouTube devolvió un error al cargar el audio (código ${e.data}).`,
+            ),
         },
       })
     })
@@ -57,9 +74,27 @@ export default function QueuePlayer({ queue, index, onNext, onPrev, onSelect, on
   }, [])
 
   useEffect(() => {
+    setWarn('')
+    stallRef.current = 0
     playerRef.current?.loadVideoById?.(track.videoId)
     setPlaying(true)
   }, [track.videoId]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Si el audio se queda cargando (bloqueadores que cortan log_event de YouTube,
+  // códecs ausentes en Chromium de Linux…), avisa en vez de quedarse en silencio.
+  useEffect(() => {
+    const t = setInterval(() => {
+      const p = playerRef.current
+      if (!p?.getPlayerState) return
+      if (p.getPlayerState() === 3) {
+        stallRef.current += 1
+        if (stallRef.current >= 4) setWarn('El audio no arranca. Suele ser un bloqueador (uBlock/Brave/AdGuard) cortando YouTube: desactívalo para este sitio, o abre en YouTube Music.')
+      } else {
+        stallRef.current = 0
+      }
+    }, 2500)
+    return () => clearInterval(t)
+  }, [])
 
   function toggle() {
     const p = playerRef.current
@@ -111,6 +146,16 @@ export default function QueuePlayer({ queue, index, onNext, onPrev, onSelect, on
           <button onClick={onClose} title="Cerrar reproductor" className="w-9 h-9 rounded-full text-zinc-400 hover:text-white">✕</button>
         </div>
       </div>
+      {warn && (
+        <div className="max-w-5xl mx-auto px-3 pb-2">
+          <p className="text-xs rounded-lg bg-amber-500/15 border border-amber-600/40 text-amber-200 px-3 py-2">
+            {warn}{' '}
+            <a className="underline font-semibold" target="_blank" rel="noreferrer" href={track.urlMusic}>
+              Abrir en YouTube Music
+            </a>
+          </p>
+        </div>
+      )}
     </div>
   )
 }
